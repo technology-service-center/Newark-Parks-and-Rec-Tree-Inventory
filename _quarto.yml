@@ -1,0 +1,37 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "template"
+
+  sidebar:
+    style: "docked"
+    search: true
+    collapse-level: 1
+    contents:
+      - href: index.qmd
+        text: Motivation
+
+      - href: keyFindings.qmd
+        text: Key Findings
+
+      - href: detailedFindings.qmd
+        text: Detailed Findings
+
+      - href: method.qmd
+        text: Method
+
+      - href: summary.qmd
+        text: Summary
+
+      - href: appendix.qmd
+        text: Appendix
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true

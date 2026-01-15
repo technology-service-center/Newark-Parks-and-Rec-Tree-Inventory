@@ -1,0 +1,83 @@
+---
+title: "Project Title"
+---
+
+*Author, Technology Service Center, University of Delaware*
+
+20XX-XX-XX
+
+## Motivation for this Work 
+
+Insert a paragraph of the motivation of this work. 
+
+
+## This is a subtitle 
+
+This is text. 
+
+[Hyperlink to an externel website](https://quarto.org/)
+
+[Hyperlink to another section](keyFindings.html#key-finding-1) 
+
+A table is below:
+
+| Item              | In Stock | Price |
+| :---------------- | :------: | ----: |
+| Python Hat        |   True   | 23.99 |
+| SQL Hat           |   True   | 23.99 |
+| Codecademy Tee    |  False   | 19.99 |
+| Codecademy Hoodie |  False   | 42.99 |
+
+This is an image: 
+
+![Figure 1: Cat image](/assets/cat.png)
+
+Interactive plot is below: 
+
+```{python}
+#| echo: false
+import plotly.express as px
+
+# Example dataset
+df = px.data.iris()
+
+# Make interactive plot
+fig = px.scatter(df, x="sepal_width", y="sepal_length",
+                 color="species",
+                 title="Interactive Plotly Scatter")
+
+fig
+```
+
+
+This is a map:
+
+<iframe
+  src="https://www.google.com/maps/d/embed?mid=1L1EOKHYYIpvG8KEbe4iMEppFlZ598jA&ehbc=2E312F"
+  width="640"
+  height="480"
+  style="border:0;"
+  loading="lazy"
+  referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+
+Reading from a public Google Sheet (code and display the data): 
+```{python}
+import pandas as pd
+
+sheet_id = "1jcZAtyEZ_5Q7ruPaUYxErM_a4UP9dP9PwbnsRnVl0hE"
+url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv"
+
+df = pd.read_csv(url)
+df.head()
+```
+
+This is code snippet that is NOT runned: 
+
+```python
+def isOdd(n):
+  if n%2 == 0: 
+    return False
+  return True
+```
+

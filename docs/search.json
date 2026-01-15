@@ -1,0 +1,62 @@
+[
+  {
+    "objectID": "keyFindings.html",
+    "href": "keyFindings.html",
+    "title": "Key Findings",
+    "section": "",
+    "text": "This is text about the first key finding.\n\n\n\nFigure 2: Image of a grey cat",
+    "crumbs": [
+      "Key Findings"
+    ]
+  },
+  {
+    "objectID": "keyFindings.html#key-finding-1",
+    "href": "keyFindings.html#key-finding-1",
+    "title": "Key Findings",
+    "section": "",
+    "text": "This is text about the first key finding.\n\n\n\nFigure 2: Image of a grey cat",
+    "crumbs": [
+      "Key Findings"
+    ]
+  },
+  {
+    "objectID": "keyFindings.html#key-finding-2",
+    "href": "keyFindings.html#key-finding-2",
+    "title": "Key Findings",
+    "section": "Key Finding 2",
+    "text": "Key Finding 2\nThis is text about the second key finding.\n\n\n\nFigure 3: Bunch of kittens",
+    "crumbs": [
+      "Key Findings"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Project Title",
+    "section": "",
+    "text": "Author, Technology Service Center, University of Delaware\n20XX-XX-XX",
+    "crumbs": [
+      "Motivation"
+    ]
+  },
+  {
+    "objectID": "index.html#motivation-for-this-work",
+    "href": "index.html#motivation-for-this-work",
+    "title": "Project Title",
+    "section": "Motivation for this Work",
+    "text": "Motivation for this Work\nInsert a paragraph of the motivation of this work.",
+    "crumbs": [
+      "Motivation"
+    ]
+  },
+  {
+    "objectID": "index.html#this-is-a-subtitle",
+    "href": "index.html#this-is-a-subtitle",
+    "title": "Project Title",
+    "section": "This is a subtitle",
+    "text": "This is a subtitle\nThis is text.\nHyperlink to an externel website\nHyperlink to another section\nA table is below:\n\n\n\nItem\nIn Stock\nPrice\n\n\n\n\nPython Hat\nTrue\n23.99\n\n\nSQL Hat\nTrue\n23.99\n\n\nCodecademy Tee\nFalse\n19.99\n\n\nCodecademy Hoodie\nFalse\n42.99\n\n\n\nThis is an image:\n\n\n\nFigure 1: Cat image\n\n\nInteractive plot is below:\n\n\n                            \n                                            \n\n\nThis is a map:\n\n\nReading from a public Google Sheet (code and display the data):\n\nimport pandas as pd\n\nsheet_id = \"1jcZAtyEZ_5Q7ruPaUYxErM_a4UP9dP9PwbnsRnVl0hE\"\nurl = f\"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv\"\n\ndf = pd.read_csv(url)\ndf.head()\n\n\n\n\n\n\n\n\nFood\nCost\n\n\n\n\n0\nApple\n1.99\n\n\n1\nPineapple\n3.99\n\n\n2\nChicken\n4.99\n\n\n3\nNoodles\n2.99\n\n\n\n\n\n\n\nThis is code snippet that is NOT runned:\ndef isOdd(n):\n  if n%2 == 0: \n    return False\n  return True",
+    "crumbs": [
+      "Motivation"
+    ]
+  }
+]
