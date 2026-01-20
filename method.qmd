@@ -4,7 +4,7 @@ title: "Method"
 
 ## Procedure and Materials 
 
-Data collection was conducted between December 12, 2025 — January 12, 2026, using the EpicCollect5 app. The following information was recorded for each tree:
+Data collection was conducted between December 12, 2025 — January 12, 2026, using the [EpicCollect5](https://five.epicollect.net/project/newark-parks-and-recreation-tree-inventory/data) app. The following information was recorded for each tree:
 
 - **Surveyor Name**: Individual(s) who collected the data.
 - **Location**: GPS coordinates (latitude and longitude) for mapping (Figure 10A, Figure [2](inventoryInsights.html#tree-density-map))
