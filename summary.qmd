@@ -1,3 +1,24 @@
 ---
 title: "Summary"
 ---
+
+- Inventory primarily is made up of large mature trees (72.15%). Majority of the inventory consist of good condition trees (81.61%).
+- Large mature trees are most heavily concentrated in Kell Park, whereas newly planted trees are predominantly located in JH-P.
+- Kell Park contains the highest number of multi-branch trees among all surveyed sites.
+- JH-W has the highest number of poor-condition trees relative to other locations.
+- Collectively, trails have more poor-condition trees than parks.
+- Common issues observed among poor-condition trees include visible rot and structural damage.
+
+## Limitations 
+
+<div style="text-align: center;">
+  <img src="/assets/challengesWordCloud.png" width="750">
+</div>
+
+**Figure 11**: Word Cloud Showing the Most Common Challenges Faced during Data Collection
+
+Some inventoried trees were difficult to access safely (e.g., due to fences, thorns, dense vegetation, or wet/soft ground), which may have reduced measurement precision and required occasional estimation. Future surverys could mitigate this limitation through standardized estimation protocols or repeated measurements. 
+
+## Future Directions 
+
+Using the inventoried data, future work could investigate computer vision-based workflow to assist screening and reduce field workload in subsequent inventories.
