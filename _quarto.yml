@@ -16,8 +16,8 @@ website:
       - href: keyFindings.qmd
         text: Key Findings
 
-      - href: detailedFindings.qmd
-        text: Detailed Findings
+      - href: inventoryInsights.qmd
+        text: Inventory Insights
 
       - href: method.qmd
         text: Method

@@ -1,0 +1,343 @@
+---
+title: "Inventory Insights"
+---
+
+## Tree Measurements 
+
+### Tree Density Map
+```{python}
+#| echo: false
+import warnings
+warnings.filterwarnings("ignore", category=DeprecationWarning)
+warnings.filterwarnings("ignore", category=FutureWarning)
+
+import plotly.express as px
+import pandas as pd
+
+trees = pd.read_csv("data/processedTreeData.csv")
+
+# Map center
+center_lat = trees["Latitude"].mean()
+center_lon = trees["Longitude"].mean()
+
+fig = px.density_mapbox(
+    trees,
+    lat="Latitude",
+    lon="Longitude",
+    radius=10,
+    center=dict(
+        lat=trees["Latitude"].mean(),
+        lon=trees["Longitude"].mean()
+    ),
+    zoom=13.5,
+    mapbox_style="carto-positron"
+)
+
+fig.update_layout(
+    coloraxis_colorbar=dict(
+        title="Tree Count (Relative Density)"
+    )
+)
+
+fig.show()
+
+```
+<br/>
+**Figure 2**: Tree Density Map (Darker Areas Indicate Higher Number of Trees)
+
+### Tree Height, DBH, and Average Spread Distribution
+```{python}
+#| echo: false
+import plotly.graph_objects as go
+from plotly.subplots import make_subplots
+
+# Metrics to plot
+metrics = [
+    ("Tree Height", "Tree Height"),
+    ("DBH", "DBH"),
+    ("Average Spread", "Average Spread")
+]
+
+tree_types = ["Large mature tree", "Young tree", "Newly planted tree"]
+
+# Custom color map by type of significant trees
+type_colors = {
+    "Newly planted tree": "#D7CCC8",   # soft beige/light brown
+    "Young tree": "#81C784",           # medium green
+    "Large mature tree": "#388E3C"     # forest green
+}
+
+# Create subplots
+fig = make_subplots(
+    rows=1,
+    cols=3,
+    subplot_titles=[m[0] for m in metrics]
+)
+
+# Add initial traces (first tree type)
+initial_type = tree_types[0]
+
+for col, (_, column_name) in enumerate(metrics, start=1):
+    fig.add_trace(
+        go.Histogram(
+            x=trees.loc[
+                trees["Type of Significant Trees"] == initial_type,
+                column_name
+            ],
+            nbinsx=15,
+            marker_color=type_colors[initial_type],
+            showlegend=False
+        ),
+        row=1,
+        col=col
+    )
+
+# Dropdown buttons
+buttons = []
+
+for ttype in tree_types:
+    buttons.append(
+        dict(
+            label=ttype,
+            method="update",
+            args=[
+                {
+                    "x": [
+                        trees.loc[
+                            trees["Type of Significant Trees"] == ttype,
+                            col_name
+                        ]
+                        for _, col_name in metrics
+                    ],
+                    "marker.color": [type_colors[ttype]] * len(metrics)
+                }
+            ]
+        )
+    )
+
+# Layout updates
+fig.update_layout(
+    updatemenus=[
+        dict(
+            buttons=buttons,
+            direction="down",
+            showactive=True,
+            x=0.5,
+            y=1.2,          # moved higher
+            xanchor="center",
+            yanchor="top"
+        )
+    ],
+    bargap=0.2,
+    height=450
+)
+
+# Axis labels
+fig.update_xaxes(title_text="Value")
+fig.update_yaxes(title_text="Count")
+
+fig
+
+```
+<br/>
+**Figure 3**: Histogram of Tree Height, DBH, Average Spread for Each Type of Signficiant Trees. Toggle to switch between each type of trees. 
+
+### Large Mature Trees Concentrate at Kells Park, While Newly Planted Trees Are Predominantly in JH-P
+<br/>
+```{python}
+#| echo: false
+
+counts_bar = (
+    trees.groupby(["Site", "Type of Significant Trees"])
+         .size()
+         .reset_index(name="Count")
+)
+
+# Order sites by total number of trees (descending)
+site_order = (
+    counts_bar.groupby("Site")["Count"]
+              .sum()
+              .sort_values(ascending=False)
+              .index
+              .tolist()
+)
+
+# ORDERING of type of significant tree & site location
+# Define the desired order for tree types
+tree_order = ["Large mature tree", "Young tree", "Newly planted tree"]
+
+# PREPARING the pie chart data
+counts_pie = trees["Type of Significant Trees"].value_counts().reindex(tree_order, fill_value=0)
+total_trees = counts_pie.sum()
+
+# Creating the subplots
+fig = make_subplots(
+    rows=1,
+    cols=2,
+    column_widths=[0.4, 0.6],
+    horizontal_spacing=0.18,  # Increased to prevent squishing
+    specs=[[{"type": "domain"}, {"type": "bar"}]],
+    subplot_titles=("A. Overall Type of Signficiant Trees", "B. Type of Signficiant Trees by Site")
+)
+
+# After creating the subplots
+for ann in fig['layout']['annotations']:
+    # Only adjust subplot titles (not main title)
+    ann['y'] += 0.02  # move up
+
+# Add pie chart with no legend
+fig.add_trace(
+    go.Pie(
+        labels=counts_pie.index,
+        values=counts_pie.values,
+        hole=0.45,
+        marker_colors=[type_colors[t] for t in counts_pie.index],
+        textinfo="percent",
+        texttemplate="%{percent:.2%}",   # <-- format with 2 decimals
+        textposition="inside",
+        hovertemplate="%{label}: %{value} trees (%{percent})<extra></extra>",
+        showlegend=False
+    ),
+    row=1,
+    col=1
+)
+
+# Add stacked bar chart
+for tree_type in tree_order:  # ensures correct stack order
+    df = counts_bar[counts_bar["Type of Significant Trees"] == tree_type]
+    fig.add_trace(
+        go.Bar(
+            x=df["Count"],
+            y=df["Site"],
+            name=tree_type,
+            orientation="h",
+            marker_color=type_colors[tree_type],
+            text=df["Count"],
+            textposition="inside",
+            insidetextanchor="middle"
+        ),
+        row=1,
+        col=2
+    )
+
+
+# Pie annotation
+pie_domain = fig.data[0].domain  # first trace is the pie
+
+x_center = sum(pie_domain.x) / 2
+y_center = sum(pie_domain.y) / 2
+
+fig.add_annotation(
+    text=f"<b>{total_trees}</b><br>Trees",
+    x=(x_center-0.03),
+    y=y_center,
+    xref="paper",
+    yref="paper",
+    showarrow=False,
+    font_size=20
+)
+
+
+
+fig.update_layout(
+    barmode="stack",
+    xaxis_title="Count",
+    yaxis_title="Site Location",
+    yaxis=dict(
+        categoryorder="array",
+        categoryarray=site_order[::-1]  # <-- reverse the order here
+    ),
+    legend_traceorder="normal", # Proper legend order
+    legend=dict(
+        orientation="h",
+        yanchor="top",
+        y=-0.1,
+        xanchor="right",
+        x=1
+    ),
+    height=600
+)
+
+fig.show()
+
+
+```
+<br/>
+**Figure 3**: Type of Signficiant Trees Overall and by Site Location 
+
+Overall, the majority of the inventoried trees are large and mature (72.15%), as illustrated by Figure 3A. This indicates that the trail and parks are dominated by established mature trees rather than recent plantings.
+
+As shown in Figure 3B, Kell Park contains the highest number of significant trees (30), followed closely by JH-W (29), while Lewis Park and Philips Park each have 21 significant trees. Together, park spaces account for nearly half of all inventoried trees (45.57%).
+
+Figure 3B further shows that Kell Park has the greatest concentration of large mature trees (25), making it the site with the greatest number of high-value trees for ongoing monitoring and protection. Young trees were recorded only in Philips Park and JH-P, with JH-P also having the highest number of newly planted trees, highlighting these sites as priorities for establishment and long-term survivability.
+
+### Kell Park Contains the Highest Number of Multi-Branch Trees
+```{python}
+#| echo: false
+counts = (
+    trees.groupby(["Site", "Multi-branch?"])
+         .size()
+         .reset_index(name="Count")
+)
+
+diverge_colors = {
+    "No": "#388E3C",     # forest green
+    "Yes": "#EF9A9A"
+}
+fig = px.bar(
+    counts,
+    x="Count",
+    y="Site",
+    color="Multi-branch?",
+    color_discrete_map=diverge_colors, # <-- color mapping
+    orientation="h",
+    barmode="stack",
+    category_orders={
+        "Site": site_order                         # sets y-axis order
+    }
+)
+
+
+# Put labels INSIDE every bar segment
+fig.update_traces(
+    texttemplate="%{x}",   # show the actual count
+    textposition="inside",
+    insidetextanchor="middle"
+)
+
+
+fig.update_layout(
+    xaxis_title="Count",
+    yaxis_title="Site Location",
+    legend_title="Multi-branch?",
+    height=600
+)
+
+fig.show()
+```
+<br/>
+**Figure 4**: Overall Number of Multi-branch Trees by Site
+
+<br/>
+
+| Site | Large mature tree | Young tree | Newly planted tree |
+|------|-------------------|------------|--------------------|
+| JH-W | 4 | 0 | 0 |
+| JH-P | 2 | 0 | 2 |
+| JH-A | 0 | 0 | 0 |
+| PHIL | 1 | 2 | 1 |
+| LEW  | 6 | 0 | 0 |
+| KELL | 8 | 0 | 1 |
+
+<br/>
+**Table 1**: Count of multi-branch trees by site and significant tree type, excluding sites with no inventoried multi-branch trees.
+
+Multi-branch trees provide greater canopy coverage, as multiple branches contribute to foliage and shade. Among the inventoried multi-branch trees, some may be codominant stems, where two or more large stems grow from the same point, forming a narrow “V”-shaped crotch. These stems can be structurally weaker as the tree matures and are most effectively managed through pruning while the trees are young (Mitchell, 2017).
+
+As shown in Figure 4, Kell Park contains the highest number of multi-branch trees (9). Of these, eight are classified as large mature trees (Table 1), suggesting that this site would benefit from focused monitoring over time.
+
+In addition, multi-branch young and newly planted trees were identified in JH-P, Philips Park, and Kell Park, where early pruning may help guide branch development and reduce future maintenance needs.
+
+### (TO BE ADDED SOON)
+
+## Tree Conditions 
