@@ -7,20 +7,20 @@ title: "Method"
 Data collection was conducted between December 12, 2025 — January 12, 2026, using the EpicCollect5 app. The following information was recorded for each tree:
 
 - **Surveyor Name**: Individual(s) who collected the data.
-- **Location**: GPS coordinates (latitude and longitude) for mapping (Figure 8A, Figure 2)
-- **Site Name and Tree ID**: Assigned to track individual trees across sites (Figure 8B)
-- **Diameter at Breast Height (DBH)**: Measured 4.4 ft above ground using a diameter tape; circumference was converted to diameter in inches (Figure 8C)
-- **Tree Height**: Measured with a tangent height gauge and measuring wheel (Figure 8D)
-- **X2 Spread Measurement**: Two perpendicular measurements across the widest points of the crown, measured with a measuring wheel (Figure 8E)
-- **Condition**: Visually rated as Good, Fair, or Poor. (Figure 8F, Table 2)
-- **Photo**: Taken for documentation. (Figure 8G)
-- **Notes**: Additional observations or unusual features recorded as needed. (Figure 8H)
+- **Location**: GPS coordinates (latitude and longitude) for mapping (Figure 10A, Figure [2](inventoryInsights.html#tree-density-map))
+- **Site Name and Tree ID**: Assigned to track individual trees across sites (Figure 10B)
+- **Diameter at Breast Height (DBH)**: Measured 4.4 ft above ground using a diameter tape; circumference was converted to diameter in inches (Figure 10C)
+- **Tree Height**: Measured with a tangent height gauge and measuring wheel (Figure 10D)
+- **X2 Spread Measurement**: Two perpendicular measurements across the widest points of the crown, measured with a measuring wheel (Figure 10E)
+- **Condition**: Visually rated as Good, Fair, or Poor. (Figure 10F, Table 2)
+- **Photo**: Taken for documentation. (Figure 10G)
+- **Notes**: Additional observations or unusual features recorded as needed. (Figure 10H)
 
 <div style="text-align: center;">
   <img src="/assets/EpicCollect5.png" width="600">
 </div>
 
-**Figure 8**: Screenshots of EpicCollect5 questionaries
+**Figure 10**: Screenshots of EpicCollect5 questionaries
 
 <br/>
 
