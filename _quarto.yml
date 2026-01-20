@@ -13,9 +13,6 @@ website:
       - href: index.qmd
         text: Motivation
 
-      - href: keyFindings.qmd
-        text: Key Findings
-
       - href: inventoryInsights.qmd
         text: Inventory Insights
 
