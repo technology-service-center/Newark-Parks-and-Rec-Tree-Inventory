@@ -492,9 +492,9 @@ When toggling on only poor-condition trees in Figure [8](inventoryInsights.html#
 
 ### Visual Rotting is the Most Commonly Noted Characteristics of Poor-Condition Trees
 
-```{python}
-
-```
+<div style="text-align: center;">
+  <img src="/assets/poorConditionWordCloud.png" width="750">
+</div>
 
 **Figure 9**: Word Cloud Showing the Most Commonly Noted Characteristics of Poor-Condition Trees
 

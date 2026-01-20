@@ -1,3 +1,63 @@
 ---
 title: "Appendix"
 ---
+## Raw Data 
+- [EpicCollect5: Dashboard](https://five.epicollect.net/project/newark-parks-and-recreation-tree-inventory/data)
+- [Google Spreadsheet: Raw Data Exported from EpicCollect5](https://docs.google.com/spreadsheets/d/1CrADExohsLWq7vGZhaonv0nHoEUQfKkVnnjnETOM3Os/edit?usp=sharing)
+
+## Diameter at Breast Height (DBH) Summary Statistics 
+
+```{python}
+#| echo: false
+
+import pandas as pd 
+trees = pd.read_csv("data/processedTreeData.csv")
+
+table_trees = trees.drop(columns=["Latitude", "Longitude", "Tree ID", "Multi-branch?", "Notes", "Tree Condition"])
+value_cols = ["DBH", "Tree Height", "Average Spread"]
+
+summary = (
+    trees
+    .groupby(["Type of Significant Trees", "Site"])[value_cols[0]]
+    .describe()
+)
+
+summary
+
+```
+
+**Table 3**: Diameter at Breast Height (DBH) Summary Statistics 
+
+## Tree Height Summary Statistics 
+
+```{python}
+#| echo: false
+
+summary = (
+    trees
+    .groupby(["Type of Significant Trees", "Site"])[value_cols[1]]
+    .describe()
+)
+
+summary
+
+```
+
+**Table 4**: Tree Height Summary Statistics 
+
+## Average Spread Summary Statistics 
+
+```{python}
+#| echo: false
+
+summary = (
+    trees
+    .groupby(["Type of Significant Trees", "Site"])[value_cols[2]]
+    .describe()
+)
+
+summary
+
+```
+
+**Table 5**: Average Spread Summary Statistics 
