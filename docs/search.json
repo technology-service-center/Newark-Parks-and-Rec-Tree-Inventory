@@ -1,62 +1,182 @@
 [
   {
-    "objectID": "keyFindings.html",
-    "href": "keyFindings.html",
-    "title": "Key Findings",
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "Summary",
     "section": "",
-    "text": "This is text about the first key finding.\n\n\n\nFigure 2: Image of a grey cat",
+    "text": "Inventory primarily is made up of large mature trees (72.15%). Majority of the inventory consist of good condition trees (81.61%).\nLarge mature trees are most heavily concentrated in Kell Park, whereas newly planted trees are predominantly located in JH-P.\nKell Park contains the highest number of multi-branch trees among all surveyed sites.\nJH-W has the highest number of poor-condition trees relative to other locations.\nCollectively, trails have more poor-condition trees than parks.\nCommon issues observed among poor-condition trees include visible rot and structural damage.",
     "crumbs": [
-      "Key Findings"
+      "Summary"
     ]
   },
   {
-    "objectID": "keyFindings.html#key-finding-1",
-    "href": "keyFindings.html#key-finding-1",
-    "title": "Key Findings",
-    "section": "",
-    "text": "This is text about the first key finding.\n\n\n\nFigure 2: Image of a grey cat",
+    "objectID": "summary.html#limitations",
+    "href": "summary.html#limitations",
+    "title": "Summary",
+    "section": "Limitations",
+    "text": "Limitations\n\n\n\nFigure 11: Word Cloud Showing the Most Common Challenges Faced during Data Collection\nSome inventoried trees were difficult to access safely (e.g., due to fences, thorns, dense vegetation, or wet/soft ground), which may have reduced measurement precision and required occasional estimation. Future surverys could mitigate this limitation through standardized estimation protocols or repeated measurements.",
     "crumbs": [
-      "Key Findings"
+      "Summary"
     ]
   },
   {
-    "objectID": "keyFindings.html#key-finding-2",
-    "href": "keyFindings.html#key-finding-2",
-    "title": "Key Findings",
-    "section": "Key Finding 2",
-    "text": "Key Finding 2\nThis is text about the second key finding.\n\n\n\nFigure 3: Bunch of kittens",
+    "objectID": "summary.html#future-directions",
+    "href": "summary.html#future-directions",
+    "title": "Summary",
+    "section": "Future Directions",
+    "text": "Future Directions\nUsing the inventoried data, future work could investigate computer vision-based workflow to assist screening and reduce field workload in subsequent inventories.",
     "crumbs": [
-      "Key Findings"
+      "Summary"
+    ]
+  },
+  {
+    "objectID": "inventoryInsights.html",
+    "href": "inventoryInsights.html",
+    "title": "Inventory Insights",
+    "section": "",
+    "text": "Figure 2: Tree Density Map (Lighter Areas Indicate Higher Number of Trees)\n\n\n\n\n\n                            \n                                            \n\n\n Figure 3: Histogram of Tree Height, DBH, Average Spread for Each Type of Signficiant Trees. Toggle to switch between each type of trees.\n\n\n\n\n\n\n                            \n                                            \n\n\n Figure 4: Type of Signficiant Trees Overall and by Site Location\nOverall, the majority of the inventoried trees are large and mature (72.15%), as illustrated by Figure 4A. This indicates that the trail and parks are dominated by established mature trees rather than recent plantings.\nAs shown in Figure 4B, Kell Park contains the highest number of significant trees (30), followed closely by JH-W (29), while Lewis Park and Philips Park each have 21 significant trees. Together, park spaces account for nearly half of all inventoried trees (45.57%).\nFigure 4B further shows that Kell Park has the greatest concentration of large mature trees (25), making it the site with the greatest number of high-value trees for ongoing monitoring and protection. Young trees were recorded only in Philips Park and JH-P, with JH-P also having the highest number of newly planted trees, highlighting these sites as priorities for establishment and long-term survivability.\n\n\n\n\n\n                            \n                                            \n\n\n Figure 5: Overall Number of Multi-branch Trees by Site\n\n\n\n\nSite\nLarge mature tree\nYoung tree\nNewly planted tree\n\n\n\n\nJH-W\n4\n0\n0\n\n\nJH-P\n2\n0\n2\n\n\nJH-A\n0\n0\n0\n\n\nPHIL\n1\n2\n1\n\n\nLEW\n6\n0\n0\n\n\nKELL\n8\n0\n1\n\n\n\n Table 1: Count of multi-branch trees by site and significant tree type, excluding sites with no inventoried multi-branch trees.\nMulti-branch trees provide greater canopy coverage, as multiple branches contribute to foliage and shade. Among the inventoried multi-branch trees, some may be codominant stems, where two or more large stems grow from the same point, forming a narrow “V”-shaped crotch. These stems can be structurally weaker as the tree matures and are most effectively managed through pruning while the trees are young (Mitchell 2017).\nAs shown in Figure 5, Kell Park contains the highest number of multi-branch trees (9). Of these, eight are classified as large mature trees (Table 1), suggesting that this site would benefit from focused monitoring over time.\nIn addition, multi-branch young and newly planted trees were identified in JH-P, Philips Park, and Kell Park, where early pruning may help guide branch development and reduce future maintenance needs.\n\n\n\n\n\n                            \n                                            \n\n\n Figure 6: Tree Spread 1 vs Spread 2 by Site. Hover each point to see more information.\nA large difference between orthogonal spread measurements indicates a highly irregular, asymmetrical canopy. This suggests the tree is not growing evenly and may be crowded by neighboring trees.",
+    "crumbs": [
+      "Inventory Insights"
+    ]
+  },
+  {
+    "objectID": "inventoryInsights.html#tree-measurements",
+    "href": "inventoryInsights.html#tree-measurements",
+    "title": "Inventory Insights",
+    "section": "",
+    "text": "Figure 2: Tree Density Map (Lighter Areas Indicate Higher Number of Trees)\n\n\n\n\n\n                            \n                                            \n\n\n Figure 3: Histogram of Tree Height, DBH, Average Spread for Each Type of Signficiant Trees. Toggle to switch between each type of trees.\n\n\n\n\n\n\n                            \n                                            \n\n\n Figure 4: Type of Signficiant Trees Overall and by Site Location\nOverall, the majority of the inventoried trees are large and mature (72.15%), as illustrated by Figure 4A. This indicates that the trail and parks are dominated by established mature trees rather than recent plantings.\nAs shown in Figure 4B, Kell Park contains the highest number of significant trees (30), followed closely by JH-W (29), while Lewis Park and Philips Park each have 21 significant trees. Together, park spaces account for nearly half of all inventoried trees (45.57%).\nFigure 4B further shows that Kell Park has the greatest concentration of large mature trees (25), making it the site with the greatest number of high-value trees for ongoing monitoring and protection. Young trees were recorded only in Philips Park and JH-P, with JH-P also having the highest number of newly planted trees, highlighting these sites as priorities for establishment and long-term survivability.\n\n\n\n\n\n                            \n                                            \n\n\n Figure 5: Overall Number of Multi-branch Trees by Site\n\n\n\n\nSite\nLarge mature tree\nYoung tree\nNewly planted tree\n\n\n\n\nJH-W\n4\n0\n0\n\n\nJH-P\n2\n0\n2\n\n\nJH-A\n0\n0\n0\n\n\nPHIL\n1\n2\n1\n\n\nLEW\n6\n0\n0\n\n\nKELL\n8\n0\n1\n\n\n\n Table 1: Count of multi-branch trees by site and significant tree type, excluding sites with no inventoried multi-branch trees.\nMulti-branch trees provide greater canopy coverage, as multiple branches contribute to foliage and shade. Among the inventoried multi-branch trees, some may be codominant stems, where two or more large stems grow from the same point, forming a narrow “V”-shaped crotch. These stems can be structurally weaker as the tree matures and are most effectively managed through pruning while the trees are young (Mitchell 2017).\nAs shown in Figure 5, Kell Park contains the highest number of multi-branch trees (9). Of these, eight are classified as large mature trees (Table 1), suggesting that this site would benefit from focused monitoring over time.\nIn addition, multi-branch young and newly planted trees were identified in JH-P, Philips Park, and Kell Park, where early pruning may help guide branch development and reduce future maintenance needs.\n\n\n\n\n\n                            \n                                            \n\n\n Figure 6: Tree Spread 1 vs Spread 2 by Site. Hover each point to see more information.\nA large difference between orthogonal spread measurements indicates a highly irregular, asymmetrical canopy. This suggests the tree is not growing evenly and may be crowded by neighboring trees.",
+    "crumbs": [
+      "Inventory Insights"
+    ]
+  },
+  {
+    "objectID": "inventoryInsights.html#tree-conditions",
+    "href": "inventoryInsights.html#tree-conditions",
+    "title": "Inventory Insights",
+    "section": "Tree Conditions",
+    "text": "Tree Conditions\n\nPoor-Condition Trees Are All Large and Mature\n\n\n                            \n                                            \n\n\n\nFigure 7: Tree Condition Breakdown by Type of Significant Tree\n\n\nPoor-Condition Trees are Concentrated in JH-W\n\n\n                            \n                                            \n\n\nFigure 8: Condition of Trees by Site\nAcross all inventoried trees, the majority (81.65%) were rated in good condition, with smaller proportions classified as fair (8.86%) or poor (9.49%).\nTree condition was not evenly distributed across site locations. Notably, JH-W had the highest number of poor-condition trees (10), which stands out relative to most other locations.\nWhen toggling on only poor-condition trees in Figure 8, trail locations (JH-A, JH-L, JH-UD, and JH-W) collectively accounted for a substantially higher number of poor-condition trees (13) compared to park locations (LEW and PHIL), which together contained only two. This finding suggests that trees along trails may be more vulnerable to stressors than those in park settings.\n\n\nVisual Rotting is the Most Commonly Noted Characteristics of Poor-Condition Trees\n\n\n\nFigure 9: Word Cloud Showing the Most Commonly Noted Characteristics of Poor-Condition Trees",
+    "crumbs": [
+      "Inventory Insights"
+    ]
+  },
+  {
+    "objectID": "inventoryInsights.html#references",
+    "href": "inventoryInsights.html#references",
+    "title": "Inventory Insights",
+    "section": "References",
+    "text": "References\nMitchell, Ralph E. “Codominant Stems – Potential Future Tree Failures.” UF/IFAS Extension Charlotte County, 18 May 2017, blogs.ifas.ufl.edu/charlotteco/2017/05/18/codominant-stems-potential-future-tree-failures/.",
+    "crumbs": [
+      "Inventory Insights"
+    ]
+  },
+  {
+    "objectID": "appendix.html",
+    "href": "appendix.html",
+    "title": "Appendix",
+    "section": "",
+    "text": "EpicCollect5: Dashboard\nGoogle Spreadsheet: Raw Data Exported from EpicCollect5",
+    "crumbs": [
+      "Appendix"
+    ]
+  },
+  {
+    "objectID": "appendix.html#raw-data",
+    "href": "appendix.html#raw-data",
+    "title": "Appendix",
+    "section": "",
+    "text": "EpicCollect5: Dashboard\nGoogle Spreadsheet: Raw Data Exported from EpicCollect5",
+    "crumbs": [
+      "Appendix"
+    ]
+  },
+  {
+    "objectID": "appendix.html#diameter-at-breast-height-dbh-summary-statistics",
+    "href": "appendix.html#diameter-at-breast-height-dbh-summary-statistics",
+    "title": "Appendix",
+    "section": "Diameter at Breast Height (DBH) Summary Statistics",
+    "text": "Diameter at Breast Height (DBH) Summary Statistics\n\n\n\n\n\n\n\n\n\n\ncount\nmean\nstd\nmin\n25%\n50%\n75%\nmax\n\n\nType of Significant Trees\nSite\n\n\n\n\n\n\n\n\n\n\n\n\nLarge mature tree\nJH-A\n13.0\n31.280769\n9.250327\n22.19\n24.2000\n28.450\n39.0900\n51.00\n\n\nJH-E\n3.0\n25.300000\n7.884142\n20.19\n20.7600\n21.330\n27.8550\n34.38\n\n\nJH-K\n8.0\n24.233750\n2.985421\n20.35\n22.8775\n23.180\n25.3450\n29.87\n\n\nJH-L\n5.0\n30.402000\n9.937679\n20.07\n24.6300\n27.000\n35.0000\n45.31\n\n\nJH-R\n4.0\n24.995000\n4.454679\n20.15\n21.7475\n25.410\n28.6575\n29.01\n\n\nJH-UD\n6.0\n26.516667\n7.336243\n20.95\n21.1850\n23.690\n29.0525\n39.58\n\n\nJH-W\n20.0\n29.655000\n7.182689\n20.00\n25.3750\n29.250\n31.8750\n51.00\n\n\nKELL\n25.0\n29.563600\n7.842869\n20.48\n23.8400\n26.500\n36.3600\n42.90\n\n\nLEW\n21.0\n28.308571\n5.716684\n20.00\n24.7000\n26.300\n31.1000\n41.81\n\n\nPHIL\n9.0\n23.983333\n3.908324\n20.50\n22.3500\n22.450\n23.7000\n32.85\n\n\nNewly planted tree\nJH-P\n14.0\n0.900714\n0.128749\n0.78\n0.8300\n0.860\n0.9175\n1.29\n\n\nJH-W\n9.0\n0.211111\n0.145297\n0.10\n0.1000\n0.200\n0.2000\n0.50\n\n\nKELL\n5.0\n0.902000\n0.170353\n0.64\n0.8200\n0.990\n1.0200\n1.04\n\n\nPHIL\n8.0\n0.963750\n0.263706\n0.71\n0.8125\n0.925\n0.9825\n1.57\n\n\nYoung tree\nJH-P\n4.0\n1.737500\n0.247032\n1.39\n1.6600\n1.800\n1.8775\n1.96\n\n\nPHIL\n4.0\n2.947500\n1.036834\n1.60\n2.4250\n3.125\n3.6475\n3.94\n\n\n\n\n\n\n\nTable 3: Diameter at Breast Height (DBH) Summary Statistics",
+    "crumbs": [
+      "Appendix"
+    ]
+  },
+  {
+    "objectID": "appendix.html#tree-height-summary-statistics",
+    "href": "appendix.html#tree-height-summary-statistics",
+    "title": "Appendix",
+    "section": "Tree Height Summary Statistics",
+    "text": "Tree Height Summary Statistics\n\n\n\n\n\n\n\n\n\n\ncount\nmean\nstd\nmin\n25%\n50%\n75%\nmax\n\n\nType of Significant Trees\nSite\n\n\n\n\n\n\n\n\n\n\n\n\nLarge mature tree\nJH-A\n13.0\n65.307692\n11.491915\n53.0\n55.00\n63.0\n77.00\n83.0\n\n\nJH-E\n3.0\n59.666667\n5.507571\n56.0\n56.50\n57.0\n61.50\n66.0\n\n\nJH-K\n8.0\n72.000000\n5.707138\n62.0\n68.50\n73.0\n76.25\n79.0\n\n\nJH-L\n5.0\n65.200000\n13.442470\n45.0\n58.00\n72.0\n74.00\n77.0\n\n\nJH-R\n4.0\n54.250000\n4.573474\n49.0\n52.00\n54.0\n56.25\n60.0\n\n\nJH-UD\n6.0\n74.500000\n10.368221\n65.0\n66.75\n70.5\n83.25\n88.0\n\n\nJH-W\n20.0\n64.585000\n18.875974\n28.0\n53.50\n62.1\n80.00\n108.0\n\n\nKELL\n25.0\n68.520000\n20.166226\n33.0\n57.00\n66.0\n80.00\n120.0\n\n\nLEW\n21.0\n59.000000\n16.263456\n27.0\n47.00\n61.0\n74.00\n83.0\n\n\nPHIL\n9.0\n96.666667\n19.627786\n70.0\n86.00\n98.0\n101.00\n138.0\n\n\nNewly planted tree\nJH-P\n14.0\n10.000000\n1.240347\n9.0\n9.00\n10.0\n10.00\n13.0\n\n\nJH-W\n9.0\n5.800000\n1.208305\n4.5\n5.00\n5.5\n6.20\n8.0\n\n\nKELL\n5.0\n6.900000\n1.746425\n4.5\n6.00\n7.0\n8.00\n9.0\n\n\nPHIL\n8.0\n10.950000\n3.280679\n5.0\n10.65\n12.0\n13.00\n14.0\n\n\nYoung tree\nJH-P\n4.0\n6.750000\n2.753785\n4.0\n4.75\n6.5\n8.50\n10.0\n\n\nPHIL\n4.0\n24.750000\n13.301002\n12.0\n15.00\n23.0\n32.75\n41.0\n\n\n\n\n\n\n\nTable 4: Tree Height Summary Statistics",
+    "crumbs": [
+      "Appendix"
+    ]
+  },
+  {
+    "objectID": "appendix.html#average-spread-summary-statistics",
+    "href": "appendix.html#average-spread-summary-statistics",
+    "title": "Appendix",
+    "section": "Average Spread Summary Statistics",
+    "text": "Average Spread Summary Statistics\n\n\n\n\n\n\n\n\n\n\ncount\nmean\nstd\nmin\n25%\n50%\n75%\nmax\n\n\nType of Significant Trees\nSite\n\n\n\n\n\n\n\n\n\n\n\n\nLarge mature tree\nJH-A\n13.0\n40.653846\n8.327626\n31.00\n35.000\n38.00\n44.0000\n62.00\n\n\nJH-E\n3.0\n47.500000\n3.968627\n44.50\n45.250\n46.00\n49.0000\n52.00\n\n\nJH-K\n8.0\n43.375000\n9.387492\n31.50\n34.625\n45.50\n50.0000\n56.00\n\n\nJH-L\n5.0\n45.400000\n13.258959\n28.00\n38.000\n44.00\n58.0000\n59.00\n\n\nJH-R\n4.0\n47.750000\n10.835897\n32.00\n45.500\n51.25\n53.5000\n56.50\n\n\nJH-UD\n6.0\n36.000000\n15.398052\n10.00\n30.125\n40.75\n43.1250\n54.00\n\n\nJH-W\n20.0\n44.707500\n17.252706\n7.50\n35.375\n46.75\n50.1625\n96.00\n\n\nKELL\n25.0\n49.140000\n16.025709\n17.50\n42.000\n47.00\n56.5000\n78.50\n\n\nLEW\n21.0\n43.571429\n12.951144\n17.00\n34.000\n42.00\n50.0000\n71.00\n\n\nPHIL\n9.0\n38.055556\n8.486918\n27.00\n32.000\n35.00\n45.0000\n50.00\n\n\nNewly planted tree\nJH-P\n14.0\n5.035714\n0.664029\n4.00\n4.500\n5.00\n5.5000\n6.00\n\n\nJH-W\n9.0\n2.275000\n1.367594\n0.45\n1.500\n2.10\n2.7500\n5.25\n\n\nKELL\n5.0\n3.300000\n0.758288\n2.50\n3.000\n3.00\n3.5000\n4.50\n\n\nPHIL\n8.0\n3.312500\n1.251784\n1.00\n2.750\n3.75\n4.1250\n4.50\n\n\nYoung tree\nJH-P\n4.0\n8.125000\n1.030776\n7.00\n7.750\n8.00\n8.3750\n9.50\n\n\nPHIL\n4.0\n6.875000\n0.250000\n6.50\n6.875\n7.00\n7.0000\n7.00\n\n\n\n\n\n\n\nTable 5: Average Spread Summary Statistics",
+    "crumbs": [
+      "Appendix"
     ]
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Project Title",
+    "title": "Tree Health across the James F. Hall Trail and Parks, Newark, DE",
     "section": "",
-    "text": "Author, Technology Service Center, University of Delaware\n20XX-XX-XX",
+    "text": "Matt Saponaro, Winnie Li, and Ikechukwu Ogbonnia\nTechnology Service Center, University of Delaware\n2026-01-20",
     "crumbs": [
       "Motivation"
     ]
   },
   {
-    "objectID": "index.html#motivation-for-this-work",
-    "href": "index.html#motivation-for-this-work",
-    "title": "Project Title",
-    "section": "Motivation for this Work",
-    "text": "Motivation for this Work\nInsert a paragraph of the motivation of this work.",
+    "objectID": "index.html#motivation",
+    "href": "index.html#motivation",
+    "title": "Tree Health across the James F. Hall Trail and Parks, Newark, DE",
+    "section": "Motivation",
+    "text": "Motivation\nThe purpose of this inventory is to identify, measure, and document significant Trees across James F. Hall Trail and three local parks (Phillips, Lewis, and Kells). The collected data will support planning, maintenance, ecological assessments, and long-term urban forestry initiatives.",
     "crumbs": [
       "Motivation"
     ]
   },
   {
-    "objectID": "index.html#this-is-a-subtitle",
-    "href": "index.html#this-is-a-subtitle",
-    "title": "Project Title",
-    "section": "This is a subtitle",
-    "text": "This is a subtitle\nThis is text.\nHyperlink to an externel website\nHyperlink to another section\nA table is below:\n\n\n\nItem\nIn Stock\nPrice\n\n\n\n\nPython Hat\nTrue\n23.99\n\n\nSQL Hat\nTrue\n23.99\n\n\nCodecademy Tee\nFalse\n19.99\n\n\nCodecademy Hoodie\nFalse\n42.99\n\n\n\nThis is an image:\n\n\n\nFigure 1: Cat image\n\n\nInteractive plot is below:\n\n\n                            \n                                            \n\n\nThis is a map:\n\n\nReading from a public Google Sheet (code and display the data):\n\nimport pandas as pd\n\nsheet_id = \"1jcZAtyEZ_5Q7ruPaUYxErM_a4UP9dP9PwbnsRnVl0hE\"\nurl = f\"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv\"\n\ndf = pd.read_csv(url)\ndf.head()\n\n\n\n\n\n\n\n\nFood\nCost\n\n\n\n\n0\nApple\n1.99\n\n\n1\nPineapple\n3.99\n\n\n2\nChicken\n4.99\n\n\n3\nNoodles\n2.99\n\n\n\n\n\n\n\nThis is code snippet that is NOT runned:\ndef isOdd(n):\n  if n%2 == 0: \n    return False\n  return True",
+    "objectID": "index.html#overview",
+    "href": "index.html#overview",
+    "title": "Tree Health across the James F. Hall Trail and Parks, Newark, DE",
+    "section": "Overview",
+    "text": "Overview\nIn total, 158 significant trees were inventoried. Of these, 114 are large mature trees (72.15%), 8 are young trees (5.06%), and 36 are newly planted (22.78%). See Figure 4 for more details. In this project, “significant trees” were defined as follows:\n\nLarge mature trees: Any trees with a Diameter at Breast height (DBH) ≥ 20 inches\nYoung tree: Young, intentionally planted trees that have reached a stage of growth where supplemental support is no longer present\nNewly planted trees: Young, intentionally planted trees with supplemental support (e.g., wooden stakes or protective cages)",
     "crumbs": [
       "Motivation"
+    ]
+  },
+  {
+    "objectID": "index.html#inventoried-locations",
+    "href": "index.html#inventoried-locations",
+    "title": "Tree Health across the James F. Hall Trail and Parks, Newark, DE",
+    "section": "Inventoried Locations",
+    "text": "Inventoried Locations\nWe collected the data on James F. Hall Trail, a widely used trail that runs through three local parks: Phillips, Lewis, and Kells. The inventory included significant trees located within a 15-foot buffer of the paved trail or within a 15-foot fall distance of park amenities. To maintain an organized approach, the trail was divided into 8 smaller sections (JH-W, JH-P, JH-A, JH-L, JH-K, JH-R, JH-UD, and JH-E). Including the three individual park sites, the study encompassed a total of 11 inventory locations.\n\n\n Figure 1. Map showing inventoried tree locations along the James F. Hall Trail and surrounding parks.",
+    "crumbs": [
+      "Motivation"
+    ]
+  },
+  {
+    "objectID": "method.html",
+    "href": "method.html",
+    "title": "Method",
+    "section": "",
+    "text": "Data collection was conducted between December 12, 2025 — January 12, 2026, using the EpicCollect5 app. The following information was recorded for each tree:\n\nSurveyor Name: Individual(s) who collected the data.\nLocation: GPS coordinates (latitude and longitude) for mapping (Figure 10A, Figure 2)\nSite Name and Tree ID: Assigned to track individual trees across sites (Figure 10B)\nDiameter at Breast Height (DBH): Measured 4.4 ft above ground using a diameter tape; circumference was converted to diameter in inches (Figure 10C)\nTree Height: Measured with a tangent height gauge and measuring wheel (Figure 10D)\nX2 Spread Measurement: Two perpendicular measurements across the widest points of the crown, measured with a measuring wheel (Figure 10E)\nCondition: Visually rated as Good, Fair, or Poor. (Figure 10F, Table 2)\nPhoto: Taken for documentation. (Figure 10G)\nNotes: Additional observations or unusual features recorded as needed. (Figure 10H)\n\n\n\n\nFigure 10: Screenshots of EpicCollect5 questionaries\n\n\n\n\n\n\n\n\nCondition\nDescription\n\n\n\n\nGood\nHealthy overall appearance with no major damage; branches generally pointing upward\n\n\nFair\nMinor damage is present, such as small holes, minor bark issues, leaking sap, nearby thorny vegetation that may compete for resources, or partial wrapping by fuzzy roots\n\n\nPoor\nSignificant damage or decay present, including mushroom, fungi, or mold growth; hollowed trunk or branches; or the entire tree leaning noticeably in one direction\n\n\n\n Table 2: Visual indicators used to assess tree condition",
+    "crumbs": [
+      "Method"
+    ]
+  },
+  {
+    "objectID": "method.html#procedure-and-materials",
+    "href": "method.html#procedure-and-materials",
+    "title": "Method",
+    "section": "",
+    "text": "Data collection was conducted between December 12, 2025 — January 12, 2026, using the EpicCollect5 app. The following information was recorded for each tree:\n\nSurveyor Name: Individual(s) who collected the data.\nLocation: GPS coordinates (latitude and longitude) for mapping (Figure 10A, Figure 2)\nSite Name and Tree ID: Assigned to track individual trees across sites (Figure 10B)\nDiameter at Breast Height (DBH): Measured 4.4 ft above ground using a diameter tape; circumference was converted to diameter in inches (Figure 10C)\nTree Height: Measured with a tangent height gauge and measuring wheel (Figure 10D)\nX2 Spread Measurement: Two perpendicular measurements across the widest points of the crown, measured with a measuring wheel (Figure 10E)\nCondition: Visually rated as Good, Fair, or Poor. (Figure 10F, Table 2)\nPhoto: Taken for documentation. (Figure 10G)\nNotes: Additional observations or unusual features recorded as needed. (Figure 10H)\n\n\n\n\nFigure 10: Screenshots of EpicCollect5 questionaries\n\n\n\n\n\n\n\n\nCondition\nDescription\n\n\n\n\nGood\nHealthy overall appearance with no major damage; branches generally pointing upward\n\n\nFair\nMinor damage is present, such as small holes, minor bark issues, leaking sap, nearby thorny vegetation that may compete for resources, or partial wrapping by fuzzy roots\n\n\nPoor\nSignificant damage or decay present, including mushroom, fungi, or mold growth; hollowed trunk or branches; or the entire tree leaning noticeably in one direction\n\n\n\n Table 2: Visual indicators used to assess tree condition",
+    "crumbs": [
+      "Method"
     ]
   }
 ]
