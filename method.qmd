@@ -1,3 +1,37 @@
 ---
 title: "Method"
 ---
+
+## Procedure and Materials 
+
+Data collection was conducted between December 12, 2025 — January 12, 2026, using the EpicCollect5 app. The following information was recorded for each tree:
+
+- **Surveyor Name**: Individual(s) who collected the data.
+- **Location**: GPS coordinates (latitude and longitude) for mapping (Figure 8A, Figure 2)
+- **Site Name and Tree ID**: Assigned to track individual trees across sites (Figure 8B)
+- **Diameter at Breast Height (DBH)**: Measured 4.4 ft above ground using a diameter tape; circumference was converted to diameter in inches (Figure 8C)
+- **Tree Height**: Measured with a tangent height gauge and measuring wheel (Figure 8D)
+- **X2 Spread Measurement**: Two perpendicular measurements across the widest points of the crown, measured with a measuring wheel (Figure 8E)
+- **Condition**: Visually rated as Good, Fair, or Poor. (Figure 8F, Table 2)
+- **Photo**: Taken for documentation. (Figure 8G)
+- **Notes**: Additional observations or unusual features recorded as needed. (Figure 8H)
+
+<div style="text-align: center;">
+  <img src="/assets/EpicCollect5.png" width="600">
+</div>
+
+**Figure 8**: Screenshots of EpicCollect5 questionaries
+
+<br/>
+
+| Condition | Description |
+|-----------|-------------|
+| Good      | Healthy overall appearance with no major damage; branches generally pointing upward |
+| Fair      | Minor damage is present, such as small holes, minor bark issues, leaking sap, nearby thorny vegetation that may compete for resources, or partial wrapping by fuzzy roots |
+| Poor      | Significant damage or decay present, including mushroom, fungi, or mold growth; hollowed trunk or branches; or the entire tree leaning noticeably in one direction |
+
+<br/>
+**Table 2**: Visual indicators used to assess tree condition
+
+<br/>
+
