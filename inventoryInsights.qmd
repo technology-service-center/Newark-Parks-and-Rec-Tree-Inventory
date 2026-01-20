@@ -43,7 +43,7 @@ fig.show()
 
 ```
 <br/>
-**Figure 2**: Tree Density Map (Darker Areas Indicate Higher Number of Trees)
+**Figure 2**: Tree Density Map (Lighter Areas Indicate Higher Number of Trees)
 
 ### Tree Height, DBH, and Average Spread Distribution
 ```{python}
@@ -338,6 +338,75 @@ As shown in Figure 4, Kell Park contains the highest number of multi-branch tree
 
 In addition, multi-branch young and newly planted trees were identified in JH-P, Philips Park, and Kell Park, where early pruning may help guide branch development and reduce future maintenance needs.
 
-### (TO BE ADDED SOON)
+### Orthogonal Spread Measurement
+
+```{python}
+#| echo: false
+import numpy as np
+import plotly.express as px
+import plotly.graph_objects as go
+
+colors = px.colors.qualitative.Plotly + px.colors.qualitative.Pastel
+
+# Build customdata for hover
+customdata = trees[["Site", "Tree ID", "Spread 1", "Spread 2"]]
+
+# Scatter plot
+fig = px.scatter(
+    trees,
+    x="Spread 1",
+    y="Spread 2",
+    color="Site",                  # categorical coloring
+    color_discrete_sequence=colors,
+    custom_data=customdata
+)
+
+# Update hover template to show Site-TreeID + Spread 1/2
+fig.update_traces(
+    hovertemplate=(
+        "<b>%{customdata[0]}-%{customdata[1]:03}</b><br>" +
+        "Spread 1: %{customdata[2]}<br>" +
+        "Spread 2: %{customdata[3]}<br>" +
+        "<extra></extra>"
+    )
+)
+
+# Add y = x line
+x_min = trees[["Spread 1", "Spread 2"]].min().min()
+x_max = trees[["Spread 1", "Spread 2"]].max().max()
+buffer = (x_max - x_min) * 0.05
+x_line = np.linspace(x_min - buffer, x_max + buffer, 200)
+
+fig.add_trace(
+    go.Scatter(
+        x=x_line,
+        y=x_line,
+        mode="lines",
+        name="y = x",
+        line=dict(dash="dash", color="black")
+    )
+)
+
+# Axis labels and legend
+fig.update_layout(
+    xaxis_title="Spread 1",
+    yaxis_title="Spread 2",
+    legend=dict(
+        orientation="v",
+        yanchor="top",
+        y=1,
+        xanchor="left",
+        x=1.02,          # outside the plot
+        title_text="Site"
+    ),
+    margin=dict(l=60, r=120, t=80, b=60)  # expand right margin
+)
+
+fig.show()
+```
+<br/>
+**Figure 5**: Tree Spread 1 vs Spread 2 by Site. Hover each point to see more information.
+
+A large difference between orthogonal spread measurements indicates a highly irregular, asymmetrical canopy. This suggests the tree is not growing evenly and may be crowded by neighboring trees.
 
 ## Tree Conditions 
