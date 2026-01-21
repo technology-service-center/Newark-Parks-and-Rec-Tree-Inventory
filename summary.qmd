@@ -5,7 +5,7 @@ format: html
 
 ## Key Findings
 
-The 2026 inventory of the James F. Hall Trail and associated parks reveals a predominantly healthy, mature urban forest, though specific zones require immediate attention.
+The 2025 inventory of the James F. Hall Trail and associated parks reveals a predominantly healthy, mature urban forest, though specific zones require immediate attention.
 
 ::: {.callout-important}
 ### Critical Insight
