@@ -2,9 +2,11 @@
 title: "Inventory Insights"
 ---
 
-## Tree Measurements 
+The tree inventory reveals distinct patterns in tree age and distribution across the study area. Large mature trees are primarily concentrated within Kells Park, indicating a long-established canopy in that location. In contrast, newly planted trees are most common in JH-P, reflecting recent restoration or expansion efforts. The following figures summarize key insights into tree density, size, and condition, highlighting both the spatial distribution of significant trees and the health trends across different sites.
 
-### Tree Density Map
+## Tree Density
+
+
 ```{python}
 #| echo: false
 import warnings
@@ -43,9 +45,9 @@ fig.show()
 
 ```
 <br/>
-**Figure 2**: Tree Density Map (Lighter Areas Indicate Higher Number of Trees)
+**Figure 2**: Tree density map (Lighter areas indicate higher number of trees).
 
-### Tree Height, DBH, and Average Spread Distribution
+## Tree Height, DBH, and Average Spread Distribution
 ```{python}
 #| echo: false
 import plotly.graph_objects as go
@@ -140,9 +142,9 @@ fig
 
 ```
 <br/>
-**Figure 3**: Histogram of Tree Height, DBH, Average Spread for Each Type of Signficiant Trees. Toggle to switch between each type of trees. 
+**Figure 3**: Histogram of tree height, DBH, average spread for each type of signficiant trees. Toggle to switch between each type of trees. 
 
-### Large Mature Trees Concentrate at Kells Park, While Newly Planted Trees Are Predominantly in JH-P
+## Tree Type Distribution Across Sites
 <br/>
 ```{python}
 #| echo: false
@@ -263,7 +265,7 @@ fig.show()
 
 ```
 <br/>
-**Figure 4**: Type of Signficiant Trees Overall and by Site Location 
+**Figure 4**: Type of signficiant trees overall and by site location. 
 
 Overall, the majority of the inventoried trees are large and mature (72.15%), as illustrated by Figure [4A](inventoryInsights.html#large-mature-trees-concentrate-at-kells-park-while-newly-planted-trees-are-predominantly-in-jh-p). This indicates that the trail and parks are dominated by established mature trees rather than recent plantings.
 
@@ -271,7 +273,7 @@ As shown in Figure [4B](inventoryInsights.html#large-mature-trees-concentrate-at
 
 Figure [4B](inventoryInsights.html#large-mature-trees-concentrate-at-kells-park-while-newly-planted-trees-are-predominantly-in-jh-p) further shows that Kell Park has the greatest concentration of large mature trees (25), making it the site with the greatest number of high-value trees for ongoing monitoring and protection. Young trees were recorded only in Philips Park and JH-P, with JH-P also having the highest number of newly planted trees, highlighting these sites as priorities for establishment and long-term survivability.
 
-### Kell Park Contains the Highest Number of Multi-Branch Trees
+## Multi-Branch Trees Across Sites
 ```{python}
 #| echo: false
 counts = (
@@ -316,7 +318,7 @@ fig.update_layout(
 fig.show()
 ```
 <br/>
-**Figure 5**: Overall Number of Multi-branch Trees by Site
+**Figure 5**: Overall number of multi-branch trees by site.
 
 <br/>
 
@@ -334,11 +336,11 @@ fig.show()
 
 Multi-branch trees provide greater canopy coverage, as multiple branches contribute to foliage and shade. Among the inventoried multi-branch trees, some may be codominant stems, where two or more large stems grow from the same point, forming a narrow “V”-shaped crotch. These stems can be structurally weaker as the tree matures and are most effectively managed through pruning while the trees are young ([Mitchell 2017](inventoryInsights.html#references)).
 
-As shown in Figure [5](inventoryInsights.html#kell-park-contains-the-highest-number-of-multi-branch-trees), Kell Park contains the highest number of multi-branch trees (9). Of these, eight are classified as large mature trees (Table [1](inventoryInsights.html#kell-park-contains-the-highest-number-of-multi-branch-trees)), suggesting that this site would benefit from focused monitoring over time.
+As shown in Figure [5](inventoryInsights.html#kell-park-contains-the-highest-number-of-multi-branch-trees), Kells Park contains the highest number of multi-branch trees (9). Of these, eight are classified as large mature trees (Table [1](inventoryInsights.html#kell-park-contains-the-highest-number-of-multi-branch-trees)), suggesting that this site would benefit from focused monitoring over time.
 
-In addition, multi-branch young and newly planted trees were identified in JH-P, Philips Park, and Kell Park, where early pruning may help guide branch development and reduce future maintenance needs.
+In addition, multi-branch young and newly planted trees were identified in JH-P, Philips Park, and Kells Park, where early pruning may help guide branch development and reduce future maintenance needs.
 
-### Orthogonal Spread Measurement
+## Orthogonal Spread Measurements
 
 ```{python}
 #| echo: false
@@ -405,14 +407,11 @@ fig.update_layout(
 fig.show()
 ```
 <br/>
-**Figure 6**: Tree Spread 1 vs Spread 2 by Site. Hover each point to see more information.
+**Figure 6**: Spread was measured in two perpendicular directions. This graph shows the first spread measurement against the second spread measurement for each site. Hover each point to see more information.
 
 A large difference between orthogonal spread measurements indicates a highly irregular, asymmetrical canopy. This suggests the tree is not growing evenly and may be crowded by neighboring trees.
 
 ## Tree Conditions 
-
-### Poor-Condition Trees Are All Large and Mature
-
 
 ```{python}
 #| echo: false
@@ -451,10 +450,7 @@ fig9.show()
 ```
 <br/>
 
-**Figure 7**: Tree Condition Breakdown by Type of Significant Tree
-
-### Poor-Condition Trees are Concentrated in JH-W
-
+**Figure 7**: Tree condition breakdown by type of significant tree. Poor condition trees are all large and mature.
 
 ```{python}
 #| echo: false
@@ -482,7 +478,7 @@ fig11 = px.bar(
 fig11.show()
 ```
 
-**Figure 8**: Condition of Trees by Site
+**Figure 8**: Condition of trees by site.
 
 Across all inventoried trees, the majority (81.65%) were rated in good condition, with smaller proportions classified as fair (8.86%) or poor (9.49%). 
 
@@ -490,13 +486,11 @@ Tree condition was not evenly distributed across site locations. Notably, JH-W h
 
 When toggling on only poor-condition trees in Figure [8](inventoryInsights.html#poor-condition-trees-are-concentrated-in-jh-w), trail locations (JH-A, JH-L, JH-UD, and JH-W) collectively accounted for a substantially higher number of poor-condition trees (13) compared to park locations (LEW and PHIL), which together contained only two. This finding suggests that trees along trails may be more vulnerable to stressors than those in park settings.
 
-### Visual Rotting is the Most Commonly Noted Characteristics of Poor-Condition Trees
-
 <div style="text-align: center;">
   <img src="/assets/poorConditionWordCloud.png" width="750">
 </div>
 
-**Figure 9**: Word Cloud Showing the Most Commonly Noted Characteristics of Poor-Condition Trees
+**Figure 9**: Word cloud showing the most commonly noted characteristics of poor-condition trees. Visual rotting is the most commonly noted characteristics of poor-condition trees.
 
 ## References 
 Mitchell, Ralph E. “Codominant Stems – Potential Future Tree Failures.” UF/IFAS Extension Charlotte County, 18 May 2017, blogs.ifas.ufl.edu/charlotteco/2017/05/18/codominant-stems-potential-future-tree-failures/.

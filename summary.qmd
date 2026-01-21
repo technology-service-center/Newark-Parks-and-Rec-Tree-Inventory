@@ -1,24 +1,48 @@
 ---
-title: "Summary"
+title: "Executive Summary"
+format: html
 ---
 
-- Inventory primarily is made up of large mature trees (72.15%). Majority of the inventory consist of good condition trees (81.61%).
-- Large mature trees are most heavily concentrated in Kell Park, whereas newly planted trees are predominantly located in JH-P.
-- Kell Park contains the highest number of multi-branch trees among all surveyed sites.
-- JH-W has the highest number of poor-condition trees relative to other locations.
-- Collectively, trails have more poor-condition trees than parks.
-- Common issues observed among poor-condition trees include visible rot and structural damage.
+## Key Findings
 
-## Limitations 
+The 2026 inventory of the James F. Hall Trail and associated parks reveals a predominantly healthy, mature urban forest, though specific zones require immediate attention.
 
-<div style="text-align: center;">
-  <img src="/assets/challengesWordCloud.png" width="750">
-</div>
+::: {.callout-important}
+### Critical Insight
+**JH-W (Trail Section)** represents the highest priority for risk management due to the concentration of poor-condition trees, while **Kells Park** requires long-term structural monitoring due to the size and multi-branch nature of its population.
+:::
 
-**Figure 11**: Word Cloud Showing the Most Common Challenges Faced during Data Collection
+### 1. Tree Demographics
+* **Maturity:** The population is heavily skewed toward large mature trees (**72.15%**), providing significant canopy cover but requiring risk management for aging wood.
+* **Regeneration:** Recent planting efforts are evident, with **22.8%** of the inventory consisting of newly planted trees, primarily clustered in **JH-P**.
 
-Some inventoried trees were difficult to access safely (e.g., due to fences, thorns, dense vegetation, or wet/soft ground), which may have reduced measurement precision and required occasional estimation. Future surverys could mitigate this limitation through standardized estimation protocols or repeated measurements. 
+### 2. Health & Condition
+* **Overall Health:** The majority of the trees is in **Good Condition (81.6%)**.
+* **Vulnerability:** Trail-side trees show higher rates of decline compared to park trees.
+* **Pathology:** The primary indicators of decline are visible rot and structural damage, rather than pest infestation, though some mushrooms are present.
 
-## Future Directions 
+---
 
-Using the inventoried data, future work could investigate computer vision-based workflow to assist screening and reduce field workload in subsequent inventories.
+## Maintenance Recommendations
+
+Based on the inventory data, the following maintenance actions are recommended:
+
+| Priority | Location | Issue | Recommended Action |
+| :--- | :--- | :--- | :--- |
+| **High** | **JH-W** | Concentration of "Poor" condition trees | Conduct individual risk assessments (Level 2) to determine removal or mitigation needs. |
+| **Medium** | **Kell Park** | High volume of large, multi-branch trees | Schedule structural pruning to reduce failure risk over park amenities. |
+| **Low** | **JH-P** | High density of newly planted trees | Ensure watering schedule and check stakes/ties for girdling risk in 12-24 months. |
+
+---
+
+## Future Directions
+
+### Technological Integration
+We propose developing a **computer vision–based workflow** to assist in future tree screenings. By training models on images of visible rot and structural defects collected during this inventory, we can:
+1.  Automate preliminary condition assessments.
+2.  Reduce field workload for certified arborists.
+3.  Create a "triage" system to prioritize trees for manual inspection.
+
+### Recommended Long-Term Monitoring
+* **Cycle:** Repeat this inventory every 3-5 years to track growth rates and condition changes.
+* **GIS Integration:** Integrate these findings into the Newark city GIS layer to coordinate trail maintenance (paving/salting) with root zone protection.

@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Tree Health across the James F. Hall Trail and Parks"
+  title: "Significant Tree Inventory for Newark Parks and Recreation (December 2025)"
 
   sidebar:
     style: "docked"
@@ -13,11 +13,11 @@ website:
       - href: index.qmd
         text: Motivation
 
-      - href: inventoryInsights.qmd
-        text: Inventory Insights
-
       - href: method.qmd
         text: Method
+        
+      - href: inventoryInsights.qmd
+        text: Inventory Insights
 
       - href: summary.qmd
         text: Summary

@@ -1,36 +1,55 @@
 ---
-title: "Tree Health across the James F. Hall Trail and Parks, Newark, DE"
+title: "Significant Tree Inventory for Newark Parks and Recreation (December 2025)"
+subtitle: "An Inventory of Tree Resources in Phillips, Lewis, and Kells Park and Along the James F. Hall Trail Corridor"
+author:
+  - name: Winnie Li
+  - name: Ikechukwu Ogbonnia
+  - name: Matthew Saponaro
+    degrees: PhD
+prepared-for:
+  - name: City of Newark Parks & Recreation
+    location: Newark, Delaware
+affiliation:
+  - name: Technology Service Center, University of Delaware
+    url: https://www.sites.udel.edu/technology-service-center
+date: January 20, 2026
+version: "1.0"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+execute:
+  echo: false
 ---
 
-Matt Saponaro, Winnie Li, and Ikechukwu Ogbonnia
+**Prepared by**  
+Technology Service Center, University of Delaware  
 
-*Technology Service Center, University of Delaware*
+**Prepared for**  
+City of Newark Parks & Recreation  
+Newark, Delaware
 
-2026-01-20
+## Contact Information
+For questions regarding this report, please contact Matthew Saponaro, Ph.D., Director of the [Technology Service Center](https://www.sites.udel.edu/technology-service-center) at University of Delaware
 
 ## Motivation
 
-The purpose of this inventory is to identify, measure, and document significant Trees across [James F. Hall Trail](https://delawaregreenways.org/trail/james-f-hall-trail/) and three local parks (Phillips, Lewis, and Kells). The collected data will support planning, maintenance, ecological assessments, and long-term urban forestry initiatives.
+The purpose of this inventory is to identify, measure, and document significant trees across the [James F. Hall Trail](https://delawaregreenways.org/trail/james-f-hall-trail/) and three local parks (Phillips, Lewis, and Kells). The collected data will support planning, maintenance, ecological assessments, and long-term urban forestry initiatives.
 
 ## Overview
-In total, 158 significant trees were inventoried. Of these, 114 are large mature trees (72.15%), 8 are young trees (5.06%), and 36 are newly planted (22.78%). See Figure [4](inventoryInsights.html#large-mature-trees-concentrate-at-kells-park-while-newly-planted-trees-are-predominantly-in-jh-p) for more details. In this project, “significant trees” were defined as follows: 
 
-- **Large mature trees**: Any trees with a Diameter at Breast height (DBH) ≥ 20 inches 
-- **Young tree**: Young, intentionally planted trees that have reached a stage of growth where supplemental support is no longer present 
-- **Newly planted trees**: Young, intentionally planted trees with supplemental support (e.g., wooden stakes or protective cages) 
+In total, 158 significant trees were inventoried. Of these, 114 are large mature trees (72.15%), 8 are young trees (5.06%), and 36 are newly planted (22.78%). See figure [4](inventoryInsights.html#large-mature-trees-concentrate-at-kells-park-while-newly-planted-trees-are-predominantly-in-jh-p) for more details. In this project, “significant trees” were defined as follows:
+
+-   **Large mature trees**: Any trees with a Diameter at Breast height (DBH) ≥ 20 inches
+-   **Young tree**: Young, intentionally planted trees that have reached a stage of growth where supplemental support is no longer present
+-   **Newly planted trees**: Young, intentionally planted trees with supplemental support (e.g., wooden stakes or protective cages)
 
 ## Inventoried Locations
-We collected the data on James F. Hall Trail, a widely used trail that runs through three local parks: Phillips, Lewis, and Kells. The inventory included significant trees located within a 15-foot buffer of the paved trail or within a 15-foot fall distance of park amenities. To maintain an organized approach, the trail was divided into 8 smaller sections (JH-W, JH-P, JH-A, JH-L, JH-K, JH-R, JH-UD, and JH-E). Including the three individual park sites, the study encompassed a total of 11 inventory locations. 
 
-<iframe
-  src="https://www.google.com/maps/d/embed?mid=1L1EOKHYYIpvG8KEbe4iMEppFlZ598jA&ehbc=2E312F"
-  width="640"
-  height="480"
-  style="border:0; display: block; margin: 0 auto;"
-  loading="lazy"
-  referrerpolicy="no-referrer-when-downgrade">
+We collected the data on James F. Hall Trail, a widely used trail that runs through three local parks: Phillips, Lewis, and Kells. The inventory included significant trees located within a 15-foot buffer of the paved trail or within a 15-foot fall distance of park amenities. To maintain an organized approach, the trail was divided into 8 smaller sections (JH-W, JH-P, JH-A, JH-L, JH-K, JH-R, JH-UD, and JH-E). Including the three individual park sites (PHIL, LEW, KELL), the study encompassed a total of 11 inventory locations.
+
+<iframe src="https://www.google.com/maps/d/embed?mid=1L1EOKHYYIpvG8KEbe4iMEppFlZ598jA&amp;ehbc=2E312F" width="640" height="480" style="border:0; display: block; margin: 0 auto;" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+
 </iframe>
 
-<br/>
-**Figure 1.** Map showing inventoried tree locations along the James F. Hall Trail and surrounding parks.
-
+<br/> **Figure 1.** Map showing inventoried tree locations along the James F. Hall Trail and surrounding parks.
