@@ -15,9 +15,9 @@ website:
 
       - href: method.qmd
         text: Method
-        
+
       - href: inventoryInsights.qmd
-        text: Inventory Insights
+        text: Insights
 
       - href: summary.qmd
         text: Summary
