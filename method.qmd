@@ -7,7 +7,7 @@ title: "Method"
 Data for the 2025 Significant Tree Inventory project were collected using the **EpicCollect5** mobile app. Field surveyors recorded the following information for each tree during inventory:
 
 - **Surveyor Name:** Individual(s) who collected the data.  
-- **Location:** GPS coordinates (latitude and longitude) for mapping and spatial analysis (Figure 10A; Figure [2](inventoryInsights.html#tree-density-map)).  
+- **Location:** GPS coordinates (latitude and longitude) for mapping and spatial analysis (Figure 10A; Figure [2](inventoryInsights.html#tree-density)).  
 - **Site Name & Tree ID:** Unique identifiers assigned to each tree to enable tracking across sites (Figure 10B).  
 - **Diameter at Breast Height (DBH):** Measured 4 ft 4 in above ground using a diameter tape. Circumference was recorded in inches (Figure 10C).  
 - **Tree Height:** Measured using a tangent height gauge and measuring wheel (Figure 10D).  
@@ -41,12 +41,14 @@ Tree condition was assessed visually using the following criteria:
 ## Training and Quality Control
 
 Field surveyors received standardized training on data collection procedures prior to inventory. Training included:
+
 - Proper use of the EpicCollect5 app and consistent entry of metadata.
 - Correct measurement techniques for DBH, height, and crown spread.
 - Standardized criteria for condition ratings (Good, Fair, Poor).
 - Practice measurements conducted on sample trees to calibrate methods and reduce inter-rater variability.
 
 Each surveyor was provided with a standard equipment kit, which included:
+
 - Measuring wheel
 - Diameter tape
 - Tangent height gauge

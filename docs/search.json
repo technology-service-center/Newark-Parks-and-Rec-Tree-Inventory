@@ -36,7 +36,7 @@
     "section": "",
     "text": "The tree inventory reveals distinct patterns in tree age and distribution across the study area. Large mature trees are primarily concentrated within Kells Park, indicating a long-established canopy in that location. In contrast, newly planted trees are most common in JH-P, reflecting recent restoration or expansion efforts. The following figures summarize key insights into tree density, size, and condition, highlighting both the spatial distribution of significant trees and the health trends across different sites.",
     "crumbs": [
-      "Inventory Insights"
+      "Insights"
     ]
   },
   {
@@ -56,7 +56,7 @@
     "section": "Tree Conditions",
     "text": "Tree Conditions\n\n\n                            \n                                            \n\n\n\nFigure 7: Tree condition breakdown by type of significant tree. Poor condition trees are all large and mature.\n\n\n                            \n                                            \n\n\nFigure 8: Condition of trees by site.\nAcross all inventoried trees, the majority (81.65%) were rated in good condition, with smaller proportions classified as fair (8.86%) or poor (9.49%).\nTree condition was not evenly distributed across site locations. Notably, JH-W had the highest number of poor-condition trees (10), which stands out relative to most other locations.\nWhen toggling on only poor-condition trees in Figure 8, trail locations (JH-A, JH-L, JH-UD, and JH-W) collectively accounted for a substantially higher number of poor-condition trees (13) compared to park locations (LEW and PHIL), which together contained only two. This finding suggests that trees along trails may be more vulnerable to stressors than those in park settings.\n\n\n\nFigure 9: Word cloud showing the most commonly noted characteristics of poor-condition trees. Visual rotting is the most commonly noted characteristics of poor-condition trees.",
     "crumbs": [
-      "Inventory Insights"
+      "Insights"
     ]
   },
   {
@@ -66,7 +66,7 @@
     "section": "References",
     "text": "References\nMitchell, Ralph E. “Codominant Stems – Potential Future Tree Failures.” UF/IFAS Extension Charlotte County, 18 May 2017, blogs.ifas.ufl.edu/charlotteco/2017/05/18/codominant-stems-potential-future-tree-failures/.",
     "crumbs": [
-      "Inventory Insights"
+      "Insights"
     ]
   },
   {
@@ -206,7 +206,7 @@
     "section": "Tree Density",
     "text": "Tree Density\n\n\n                            \n                                            \n\n\n Figure 2: Tree density map (Lighter areas indicate higher number of trees).",
     "crumbs": [
-      "Inventory Insights"
+      "Insights"
     ]
   },
   {
@@ -216,7 +216,7 @@
     "section": "Tree Height, DBH, and Average Spread Distribution",
     "text": "Tree Height, DBH, and Average Spread Distribution\n\n\n                            \n                                            \n\n\n Figure 3: Histogram of tree height, DBH, average spread for each type of signficiant trees. Toggle to switch between each type of trees.",
     "crumbs": [
-      "Inventory Insights"
+      "Insights"
     ]
   },
   {
@@ -226,7 +226,7 @@
     "section": "Tree Type Distribution Across Sites",
     "text": "Tree Type Distribution Across Sites\n\n\n\n                            \n                                            \n\n\n Figure 4: Type of signficiant trees overall and by site location.\nOverall, the majority of the inventoried trees are large and mature (72.15%), as illustrated by Figure 4A. This indicates that the trail and parks are dominated by established mature trees rather than recent plantings.\nAs shown in Figure 4B, Kell Park contains the highest number of significant trees (30), followed closely by JH-W (29), while Lewis Park and Philips Park each have 21 significant trees. Together, park spaces account for nearly half of all inventoried trees (45.57%).\nFigure 4B further shows that Kell Park has the greatest concentration of large mature trees (25), making it the site with the greatest number of high-value trees for ongoing monitoring and protection. Young trees were recorded only in Philips Park and JH-P, with JH-P also having the highest number of newly planted trees, highlighting these sites as priorities for establishment and long-term survivability.",
     "crumbs": [
-      "Inventory Insights"
+      "Insights"
     ]
   },
   {
@@ -246,7 +246,7 @@
     "section": "Multi-Branch Trees Across Sites",
     "text": "Multi-Branch Trees Across Sites\n\n\n                            \n                                            \n\n\n Figure 5: Overall number of multi-branch trees by site.\n\n\n\n\nSite\nLarge mature tree\nYoung tree\nNewly planted tree\n\n\n\n\nJH-W\n4\n0\n0\n\n\nJH-P\n2\n0\n2\n\n\nJH-A\n0\n0\n0\n\n\nPHIL\n1\n2\n1\n\n\nLEW\n6\n0\n0\n\n\nKELL\n8\n0\n1\n\n\n\n Table 1: Count of multi-branch trees by site and significant tree type, excluding sites with no inventoried multi-branch trees.\nMulti-branch trees provide greater canopy coverage, as multiple branches contribute to foliage and shade. Among the inventoried multi-branch trees, some may be codominant stems, where two or more large stems grow from the same point, forming a narrow “V”-shaped crotch. These stems can be structurally weaker as the tree matures and are most effectively managed through pruning while the trees are young (Mitchell 2017).\nAs shown in Figure 5, Kells Park contains the highest number of multi-branch trees (9). Of these, eight are classified as large mature trees (Table 1), suggesting that this site would benefit from focused monitoring over time.\nIn addition, multi-branch young and newly planted trees were identified in JH-P, Philips Park, and Kells Park, where early pruning may help guide branch development and reduce future maintenance needs.",
     "crumbs": [
-      "Inventory Insights"
+      "Insights"
     ]
   },
   {
@@ -256,7 +256,7 @@
     "section": "Orthogonal Spread Measurements",
     "text": "Orthogonal Spread Measurements\n\n\n                            \n                                            \n\n\n Figure 6: Spread was measured in two perpendicular directions. This graph shows the first spread measurement against the second spread measurement for each site. Hover each point to see more information.\nA large difference between orthogonal spread measurements indicates a highly irregular, asymmetrical canopy. This suggests the tree is not growing evenly and may be crowded by neighboring trees.",
     "crumbs": [
-      "Inventory Insights"
+      "Insights"
     ]
   },
   {
@@ -284,7 +284,7 @@
     "href": "method.html#training-and-quality-control",
     "title": "Method",
     "section": "Training and Quality Control",
-    "text": "Training and Quality Control\nField surveyors received standardized training on data collection procedures prior to inventory. Training included: - Proper use of the EpicCollect5 app and consistent entry of metadata. - Correct measurement techniques for DBH, height, and crown spread. - Standardized criteria for condition ratings (Good, Fair, Poor). - Practice measurements conducted on sample trees to calibrate methods and reduce inter-rater variability.\nEach surveyor was provided with a standard equipment kit, which included: - Measuring wheel - Diameter tape - Tangent height gauge - GPS-enabled smartphone with EpicCollect5 installed and camera - Hammer - Tree tag\nTo ensure data quality, the following checks were implemented: - Periodic spot checks of tree measurements and photos. - Verification of GPS accuracy by comparing recorded coordinates to known site landmarks. - Removal of duplicate entries and correction of obvious data entry errors during data cleaning.",
+    "text": "Training and Quality Control\nField surveyors received standardized training on data collection procedures prior to inventory. Training included:\n\nProper use of the EpicCollect5 app and consistent entry of metadata.\nCorrect measurement techniques for DBH, height, and crown spread.\nStandardized criteria for condition ratings (Good, Fair, Poor).\nPractice measurements conducted on sample trees to calibrate methods and reduce inter-rater variability.\n\nEach surveyor was provided with a standard equipment kit, which included:\n\nMeasuring wheel\nDiameter tape\nTangent height gauge\nGPS-enabled smartphone with EpicCollect5 installed and camera\nHammer\nTree tag\n\nTo ensure data quality, the following checks were implemented: - Periodic spot checks of tree measurements and photos. - Verification of GPS accuracy by comparing recorded coordinates to known site landmarks. - Removal of duplicate entries and correction of obvious data entry errors during data cleaning.",
     "crumbs": [
       "Method"
     ]
@@ -294,7 +294,7 @@
     "href": "method.html#limitations-and-threats-to-validity",
     "title": "Method",
     "section": "Limitations and Threats to Validity",
-    "text": "Limitations and Threats to Validity\nAlthough the inventory followed standardized procedures, several limitations may affect the validity of results:\n\nMeasurement error: Height and spread measurements may vary due to instrument limitations, uneven terrain, and observer judgment.\nGPS accuracy: GPS readings can be affected by canopy cover, weather conditions, and nearby structures, which may introduce spatial error.\nSubjective condition ratings: Visual assessment of tree condition is inherently subjective and may vary between surveyors.\nSeasonal constraints: Conducting the study in December (with snow cover and no leaves) may have reduced the ability to observe certain tree features, such as canopy density and foliage-related stress indicators.\nIncomplete coverage: Not all trees in each site may have been recorded, especially in dense or inaccessible areas.\nTemporal factors: Tree condition may change over time; the inventory represents conditions only at the time of measurement.\n\nThese limitations should be considered when interpreting patterns in tree health, density, and distribution.",
+    "text": "Limitations and Threats to Validity\nAlthough the inventory followed standardized procedures, several limitations may affect the validity of results:\n\nMeasurement error: Height and spread measurements may vary due to instrument limitations, uneven terrain, and observer judgment.\nGPS accuracy: GPS readings can be affected by canopy cover, weather conditions, and nearby structures, which may introduce spatial error.\nSubjective condition ratings: Visual assessment of tree condition is inherently subjective and may vary between surveyors.\nSeasonal constraints: Conducting the study in December (with snow cover and no leaves) may have reduced the ability to observe certain tree features, such as canopy density and foliage-related stress indicators.\nIncomplete coverage: Not all trees in each site may have been recorded, especially in dense or inaccessible areas.\nInaccessible areas: Some inventoried trees were difficult to access safely (e.g., due to fences, thorns, dense vegetation, or wet/soft ground), which may have reduced measurement precision and required occasional estimation.\nTemporal factors: Tree condition may change over time; the inventory represents conditions only at the time of measurement.\n\nThese limitations should be considered when interpreting patterns in tree health, density, and distribution.",
     "crumbs": [
       "Method"
     ]

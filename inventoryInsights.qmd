@@ -267,11 +267,11 @@ fig.show()
 <br/>
 **Figure 4**: Type of signficiant trees overall and by site location. 
 
-Overall, the majority of the inventoried trees are large and mature (72.15%), as illustrated by Figure [4A](inventoryInsights.html#large-mature-trees-concentrate-at-kells-park-while-newly-planted-trees-are-predominantly-in-jh-p). This indicates that the trail and parks are dominated by established mature trees rather than recent plantings.
+Overall, the majority of the inventoried trees are large and mature (72.15%), as illustrated by Figure [4A](inventoryInsights.html#tree-type-distribution-across-sites). This indicates that the trail and parks are dominated by established mature trees rather than recent plantings.
 
-As shown in Figure [4B](inventoryInsights.html#large-mature-trees-concentrate-at-kells-park-while-newly-planted-trees-are-predominantly-in-jh-p), Kell Park contains the highest number of significant trees (30), followed closely by JH-W (29), while Lewis Park and Philips Park each have 21 significant trees. Together, park spaces account for nearly half of all inventoried trees (45.57%).
+As shown in Figure [4B](inventoryInsights.html#tree-type-distribution-across-sites), Kell Park contains the highest number of significant trees (30), followed closely by JH-W (29), while Lewis Park and Philips Park each have 21 significant trees. Together, park spaces account for nearly half of all inventoried trees (45.57%).
 
-Figure [4B](inventoryInsights.html#large-mature-trees-concentrate-at-kells-park-while-newly-planted-trees-are-predominantly-in-jh-p) further shows that Kell Park has the greatest concentration of large mature trees (25), making it the site with the greatest number of high-value trees for ongoing monitoring and protection. Young trees were recorded only in Philips Park and JH-P, with JH-P also having the highest number of newly planted trees, highlighting these sites as priorities for establishment and long-term survivability.
+Figure [4B](inventoryInsights.html#tree-type-distribution-across-sites) further shows that Kell Park has the greatest concentration of large mature trees (25), making it the site with the greatest number of high-value trees for ongoing monitoring and protection. Young trees were recorded only in Philips Park and JH-P, with JH-P also having the highest number of newly planted trees, highlighting these sites as priorities for establishment and long-term survivability.
 
 ## Multi-Branch Trees Across Sites
 ```{python}
@@ -336,7 +336,7 @@ fig.show()
 
 Multi-branch trees provide greater canopy coverage, as multiple branches contribute to foliage and shade. Among the inventoried multi-branch trees, some may be codominant stems, where two or more large stems grow from the same point, forming a narrow “V”-shaped crotch. These stems can be structurally weaker as the tree matures and are most effectively managed through pruning while the trees are young ([Mitchell 2017](inventoryInsights.html#references)).
 
-As shown in Figure [5](inventoryInsights.html#kell-park-contains-the-highest-number-of-multi-branch-trees), Kells Park contains the highest number of multi-branch trees (9). Of these, eight are classified as large mature trees (Table [1](inventoryInsights.html#kell-park-contains-the-highest-number-of-multi-branch-trees)), suggesting that this site would benefit from focused monitoring over time.
+As shown in Figure [5](inventoryInsights.html#multi-branch-trees-across-sites), Kells Park contains the highest number of multi-branch trees (9). Of these, eight are classified as large mature trees (Table [1](inventoryInsights.html#multi-branch-trees-across-sites)), suggesting that this site would benefit from focused monitoring over time.
 
 In addition, multi-branch young and newly planted trees were identified in JH-P, Philips Park, and Kells Park, where early pruning may help guide branch development and reduce future maintenance needs.
 
@@ -484,7 +484,7 @@ Across all inventoried trees, the majority (81.65%) were rated in good condition
 
 Tree condition was not evenly distributed across site locations. Notably, JH-W had the highest number of poor-condition trees (10), which stands out relative to most other locations.
 
-When toggling on only poor-condition trees in Figure [8](inventoryInsights.html#poor-condition-trees-are-concentrated-in-jh-w), trail locations (JH-A, JH-L, JH-UD, and JH-W) collectively accounted for a substantially higher number of poor-condition trees (13) compared to park locations (LEW and PHIL), which together contained only two. This finding suggests that trees along trails may be more vulnerable to stressors than those in park settings.
+When toggling on only poor-condition trees in Figure [8](inventoryInsights.html#tree-conditions), trail locations (JH-A, JH-L, JH-UD, and JH-W) collectively accounted for a substantially higher number of poor-condition trees (13) compared to park locations (LEW and PHIL), which together contained only two. This finding suggests that trees along trails may be more vulnerable to stressors than those in park settings.
 
 <div style="text-align: center;">
   <img src="/assets/poorConditionWordCloud.png" width="750">
