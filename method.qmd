@@ -22,6 +22,23 @@ Data for the 2025 Significant Tree Inventory project were collected using the **
 
 **Figure 10**: Screenshots of EpicCollect5 survey questions.
 
+--- 
+
+## Measurement of Multi-branch Trees
+
+Some trees encountered during the survey exhibited a multi-branch structure, meaning that the main trunk split into two or more major branches at or near breast height (approximately 4.5 feet above ground level). These branches function as co-dominant stems rather than a single central trunk, which makes standard diameter and spread measurements less straightforward.
+
+To ensure consistency, multi-branch trees were measured using the same spread methodology applied to single-trunk trees, with careful attention to capturing the full canopy extent. Specifically, the canopy spread was measured in two perpendicular directions:
+
+- First, the horizontal distance was measured between the outermost tips of the canopy from the leftmost branch tip to the rightmost branch tip, using the outermost visible branch extensions regardless of which trunk they originated from.
+- Second, a perpendicular measurement was taken from the furthest branch tip in the front of the tree to the furthest branch tip behind the tree.
+
+These two measurements capture the full canopy width across both major axes, ensuring that all major branches contributing to the canopy are included.
+
+For trees with multiple co-dominant trunks, measurements were taken based on the overall tree structure rather than individual branches. The goal was to represent the total canopy size and spatial footprint of the tree as a single ecological unit.
+
+This method ensures consistency across all trees and allows fair comparison between single-trunk and multi-branch trees.
+
 ---
 
 ## Condition Rating Criteria
