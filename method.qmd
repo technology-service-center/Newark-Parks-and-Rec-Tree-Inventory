@@ -57,9 +57,11 @@ Each surveyor was provided with a standard equipment kit, which included:
 - Tree tag
 
 To ensure data quality, the following checks were implemented:
+
 - Periodic spot checks of tree measurements and photos.
 - Verification of GPS accuracy by comparing recorded coordinates to known site landmarks.
 - Removal of duplicate entries and correction of obvious data entry errors during data cleaning.
+
 
 ---
 
