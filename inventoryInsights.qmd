@@ -77,7 +77,7 @@ fig
 
 ```
 <br/>
-**Figure 2**: Tree inventory map. Each point is an inventoried tree with its size relative to its DBH. 
+**Figure 3.** Tree inventory map. Each point is an inventoried tree with its size relative to its DBH. 
 
 ## Tree Density
 
@@ -117,7 +117,7 @@ fig.show()
 
 ```
 <br/>
-**Figure 2**: Tree density map (Lighter areas indicate higher number of trees).
+**Figure 4.** Tree density map (Lighter areas indicate higher number of trees).
 
 ## Tree Height, DBH, and Average Spread Distribution
 ```{python}
@@ -214,7 +214,7 @@ fig
 
 ```
 <br/>
-**Figure 3**: Histogram of tree height, DBH, average spread for each type of signficiant trees. Toggle to switch between each type of trees. 
+**Figure 5.** Histogram of tree height, DBH, average spread for each type of signficiant trees. Toggle to switch between each type of trees. 
 
 ## Tree Type Distribution Across Sites
 <br/>
@@ -337,13 +337,13 @@ fig.show()
 
 ```
 <br/>
-**Figure 4**: Type of signficiant trees overall and by site location. 
+**Figure 6.** Type of signficiant trees overall and by site location. 
 
-Overall, the majority of the inventoried trees are large and mature (72.15%), as illustrated by Figure [4A](inventoryInsights.html#tree-type-distribution-across-sites). This indicates that the trail and parks are dominated by established mature trees rather than recent plantings.
+Overall, the majority of the inventoried trees are large and mature (72.15%), as illustrated by Figure [6A](inventoryInsights.html#tree-type-distribution-across-sites). This indicates that the trail and parks are dominated by established mature trees rather than recent plantings.
 
-As shown in Figure [4B](inventoryInsights.html#tree-type-distribution-across-sites), Kell Park contains the highest number of significant trees (30), followed closely by JH-W (29), while Lewis Park and Philips Park each have 21 significant trees. Together, park spaces account for nearly half of all inventoried trees (45.57%).
+As shown in Figure [6B](inventoryInsights.html#tree-type-distribution-across-sites), Kell Park contains the highest number of significant trees (30), followed closely by JH-W (29), while Lewis Park and Philips Park each have 21 significant trees. Together, park spaces account for nearly half of all inventoried trees (45.57%).
 
-Figure [4B](inventoryInsights.html#tree-type-distribution-across-sites) further shows that Kell Park has the greatest concentration of large mature trees (25), making it the site with the greatest number of high-value trees for ongoing monitoring and protection. Young trees were recorded only in Philips Park and JH-P, with JH-P also having the highest number of newly planted trees, highlighting these sites as priorities for establishment and long-term survivability.
+Figure [6B](inventoryInsights.html#tree-type-distribution-across-sites) further shows that Kell Park has the greatest concentration of large mature trees (25), making it the site with the greatest number of high-value trees for ongoing monitoring and protection. Young trees were recorded only in Philips Park and JH-P, with JH-P also having the highest number of newly planted trees, highlighting these sites as priorities for establishment and long-term survivability.
 
 ## Multi-Branch Trees Across Sites
 ```{python}
@@ -390,7 +390,7 @@ fig.update_layout(
 fig.show()
 ```
 <br/>
-**Figure 5**: Overall number of multi-branch trees by site.
+**Figure 7.** Overall number of multi-branch trees by site.
 
 <br/>
 
@@ -405,11 +405,11 @@ fig.show()
 
 <br/>
 
-**Table 1**: Count of multi-branch trees by site and significant tree type, excluding sites with no inventoried multi-branch trees.
+**Table 2.** Count of multi-branch trees by site and significant tree type, excluding sites with no inventoried multi-branch trees.
 
 Multi-branch trees provide greater canopy coverage, as multiple branches contribute to foliage and shade. Among the inventoried multi-branch trees, some may be codominant stems, where two or more large stems grow from the same point, forming a narrow “V”-shaped crotch. These stems can be structurally weaker as the tree matures and are most effectively managed through pruning while the trees are young ([Mitchell 2017](inventoryInsights.html#references)).
 
-As shown in Figure [5](inventoryInsights.html#multi-branch-trees-across-sites), Kells Park contains the highest number of multi-branch trees (9). Of these, eight are classified as large mature trees (Table [1](inventoryInsights.html#multi-branch-trees-across-sites)), suggesting that this site would benefit from focused monitoring over time.
+As shown in Figure [7](inventoryInsights.html#multi-branch-trees-across-sites), Kells Park contains the highest number of multi-branch trees (9). Of these, eight are classified as large mature trees (Table [2](inventoryInsights.html#multi-branch-trees-across-sites)), suggesting that this site would benefit from focused monitoring over time.
 
 In addition, multi-branch young and newly planted trees were identified in JH-P, Philips Park, and Kells Park, where early pruning may help guide branch development and reduce future maintenance needs.
 
@@ -480,7 +480,7 @@ fig.update_layout(
 fig.show()
 ```
 <br/>
-**Figure 6**: Spread was measured in two perpendicular directions. This graph shows the first spread measurement against the second spread measurement for each site. Hover each point to see more information.
+**Figure 8.** Spread was measured in two perpendicular directions. This graph shows the first spread measurement against the second spread measurement for each site. Hover each point to see more information.
 
 A large difference between orthogonal spread measurements indicates a highly irregular, asymmetrical canopy. This suggests the tree is not growing evenly and may be crowded by neighboring trees.
 
@@ -523,7 +523,7 @@ fig9.show()
 ```
 <br/>
 
-**Figure 7**: Tree condition breakdown by type of significant tree. Poor condition trees are all large and mature.
+**Figure 9.** Tree condition breakdown by type of significant tree. Poor condition trees are all large and mature.
 
 ```{python}
 #| echo: false
@@ -551,19 +551,19 @@ fig11 = px.bar(
 fig11.show()
 ```
 
-**Figure 8**: Condition of trees by site.
+**Figure 10.** Condition of trees by site.
 
 Across all inventoried trees, the majority (81.65%) were rated in good condition, with smaller proportions classified as fair (8.86%) or poor (9.49%). 
 
 Tree condition was not evenly distributed across site locations. Notably, JH-W had the highest number of poor-condition trees (10), which stands out relative to most other locations.
 
-When toggling on only poor-condition trees in Figure [8](inventoryInsights.html#tree-conditions), trail locations (JH-A, JH-L, JH-UD, and JH-W) collectively accounted for a substantially higher number of poor-condition trees (13) compared to park locations (LEW and PHIL), which together contained only two. This finding suggests that trees along trails may be more vulnerable to stressors than those in park settings.
+When toggling on only poor-condition trees in Figure [10](inventoryInsights.html#tree-conditions), trail locations (JH-A, JH-L, JH-UD, and JH-W) collectively accounted for a substantially higher number of poor-condition trees (13) compared to park locations (LEW and PHIL), which together contained only two. This finding suggests that trees along trails may be more vulnerable to stressors than those in park settings.
 
 <div style="text-align: center;">
   <img src="/assets/poorConditionWordCloud.png" width="750">
 </div>
 
-**Figure 9**: Word cloud showing the most commonly noted characteristics of poor-condition trees. Visual rotting is the most commonly noted characteristics of poor-condition trees.
+**Figure 11.** Word cloud showing the most commonly noted characteristics of poor-condition trees. Visual rotting is the most commonly noted characteristics of poor-condition trees.
 
 ## References 
 Mitchell, Ralph E. “Codominant Stems – Potential Future Tree Failures.” UF/IFAS Extension Charlotte County, 18 May 2017, blogs.ifas.ufl.edu/charlotteco/2017/05/18/codominant-stems-potential-future-tree-failures/.

@@ -10,11 +10,21 @@
     ]
   },
   {
-    "objectID": "summary.html#limitations",
-    "href": "summary.html#limitations",
-    "title": "Summary",
-    "section": "Limitations",
-    "text": "Limitations\n\n\n\nFigure 11: Word Cloud Showing the Most Common Challenges Faced during Data Collection\nSome inventoried trees were difficult to access safely (e.g., due to fences, thorns, dense vegetation, or wet/soft ground), which may have reduced measurement precision and required occasional estimation. Future surverys could mitigate this limitation through standardized estimation protocols or repeated measurements.",
+    "objectID": "summary.html#key-findings",
+    "href": "summary.html#key-findings",
+    "title": "Executive Summary",
+    "section": "",
+    "text": "The 2025 inventory of the James F. Hall Trail and associated parks reveals a predominantly healthy, mature urban forest, though specific zones require immediate attention.\n\n\n\n\n\n\nImportantCritical Insight\n\n\n\nJH-W (Trail Section) represents the highest priority for risk management due to the concentration of poor-condition trees, while Kells Park requires long-term structural monitoring due to the size and multi-branch nature of its population.\n\n\n\n\n\nMaturity: The population is heavily skewed toward large mature trees (72.15%), providing significant canopy cover but requiring risk management for aging wood.\nRegeneration: Recent planting efforts are evident, with 22.8% of the inventory consisting of newly planted trees, primarily clustered in JH-P.\n\n\n\n\n\nOverall Health: The majority of the trees is in Good Condition (81.6%).\nVulnerability: Trail-side trees show higher rates of decline compared to park trees.\nPathology: The primary indicators of decline are visible rot and structural damage, rather than pest infestation, though some mushrooms are present.",
+    "crumbs": [
+      "Summary"
+    ]
+  },
+  {
+    "objectID": "summary.html#maintenance-recommendations",
+    "href": "summary.html#maintenance-recommendations",
+    "title": "Executive Summary",
+    "section": "Maintenance Recommendations",
+    "text": "Maintenance Recommendations\nBased on the inventory data, the following maintenance actions are recommended:\n\n\n\n\n\n\n\n\n\nPriority\nLocation\nIssue\nRecommended Action\n\n\n\n\nHigh\nJH-W\nConcentration of “Poor” condition trees\nConduct individual risk assessments (Level 2) to determine removal or mitigation needs.\n\n\nMedium\nKell Park\nHigh volume of large, multi-branch trees\nSchedule structural pruning to reduce failure risk over park amenities.\n\n\nLow\nJH-P\nHigh density of newly planted trees\nEnsure watering schedule and check stakes/ties for girdling risk in 12-24 months.",
     "crumbs": [
       "Summary"
     ]
@@ -40,13 +50,63 @@
     ]
   },
   {
-    "objectID": "inventoryInsights.html#tree-measurements",
-    "href": "inventoryInsights.html#tree-measurements",
+    "objectID": "inventoryInsights.html#tree-inventory-map",
+    "href": "inventoryInsights.html#tree-inventory-map",
     "title": "Inventory Insights",
-    "section": "",
-    "text": "Figure 2: Tree Density Map (Lighter Areas Indicate Higher Number of Trees)\n\n\n\n\n\n                            \n                                            \n\n\n Figure 3: Histogram of Tree Height, DBH, Average Spread for Each Type of Signficiant Trees. Toggle to switch between each type of trees.\n\n\n\n\n\n\n                            \n                                            \n\n\n Figure 4: Type of Signficiant Trees Overall and by Site Location\nOverall, the majority of the inventoried trees are large and mature (72.15%), as illustrated by Figure 4A. This indicates that the trail and parks are dominated by established mature trees rather than recent plantings.\nAs shown in Figure 4B, Kell Park contains the highest number of significant trees (30), followed closely by JH-W (29), while Lewis Park and Philips Park each have 21 significant trees. Together, park spaces account for nearly half of all inventoried trees (45.57%).\nFigure 4B further shows that Kell Park has the greatest concentration of large mature trees (25), making it the site with the greatest number of high-value trees for ongoing monitoring and protection. Young trees were recorded only in Philips Park and JH-P, with JH-P also having the highest number of newly planted trees, highlighting these sites as priorities for establishment and long-term survivability.\n\n\n\n\n\n                            \n                                            \n\n\n Figure 5: Overall Number of Multi-branch Trees by Site\n\n\n\n\nSite\nLarge mature tree\nYoung tree\nNewly planted tree\n\n\n\n\nJH-W\n4\n0\n0\n\n\nJH-P\n2\n0\n2\n\n\nJH-A\n0\n0\n0\n\n\nPHIL\n1\n2\n1\n\n\nLEW\n6\n0\n0\n\n\nKELL\n8\n0\n1\n\n\n\n Table 1: Count of multi-branch trees by site and significant tree type, excluding sites with no inventoried multi-branch trees.\nMulti-branch trees provide greater canopy coverage, as multiple branches contribute to foliage and shade. Among the inventoried multi-branch trees, some may be codominant stems, where two or more large stems grow from the same point, forming a narrow “V”-shaped crotch. These stems can be structurally weaker as the tree matures and are most effectively managed through pruning while the trees are young (Mitchell 2017).\nAs shown in Figure 5, Kell Park contains the highest number of multi-branch trees (9). Of these, eight are classified as large mature trees (Table 1), suggesting that this site would benefit from focused monitoring over time.\nIn addition, multi-branch young and newly planted trees were identified in JH-P, Philips Park, and Kell Park, where early pruning may help guide branch development and reduce future maintenance needs.\n\n\n\n\n\n                            \n                                            \n\n\n Figure 6: Tree Spread 1 vs Spread 2 by Site. Hover each point to see more information.\nA large difference between orthogonal spread measurements indicates a highly irregular, asymmetrical canopy. This suggests the tree is not growing evenly and may be crowded by neighboring trees.",
+    "section": "Tree Inventory Map",
+    "text": "Tree Inventory Map\n\n\n                            \n                                            \n\n\n Figure 3. Tree inventory map. Each point is an inventoried tree with its size relative to its DBH.",
     "crumbs": [
-      "Inventory Insights"
+      "Insights"
+    ]
+  },
+  {
+    "objectID": "inventoryInsights.html#tree-density",
+    "href": "inventoryInsights.html#tree-density",
+    "title": "Inventory Insights",
+    "section": "Tree Density",
+    "text": "Tree Density\n\n\n                            \n                                            \n\n\n Figure 4. Tree density map (Lighter areas indicate higher number of trees).",
+    "crumbs": [
+      "Insights"
+    ]
+  },
+  {
+    "objectID": "inventoryInsights.html#tree-height-dbh-and-average-spread-distribution",
+    "href": "inventoryInsights.html#tree-height-dbh-and-average-spread-distribution",
+    "title": "Inventory Insights",
+    "section": "Tree Height, DBH, and Average Spread Distribution",
+    "text": "Tree Height, DBH, and Average Spread Distribution\n\n\n                            \n                                            \n\n\n Figure 5. Histogram of tree height, DBH, average spread for each type of signficiant trees. Toggle to switch between each type of trees.",
+    "crumbs": [
+      "Insights"
+    ]
+  },
+  {
+    "objectID": "inventoryInsights.html#tree-type-distribution-across-sites",
+    "href": "inventoryInsights.html#tree-type-distribution-across-sites",
+    "title": "Inventory Insights",
+    "section": "Tree Type Distribution Across Sites",
+    "text": "Tree Type Distribution Across Sites\n\n\n\n                            \n                                            \n\n\n Figure 6. Type of signficiant trees overall and by site location.\nOverall, the majority of the inventoried trees are large and mature (72.15%), as illustrated by Figure 6A. This indicates that the trail and parks are dominated by established mature trees rather than recent plantings.\nAs shown in Figure 6B, Kell Park contains the highest number of significant trees (30), followed closely by JH-W (29), while Lewis Park and Philips Park each have 21 significant trees. Together, park spaces account for nearly half of all inventoried trees (45.57%).\nFigure 6B further shows that Kell Park has the greatest concentration of large mature trees (25), making it the site with the greatest number of high-value trees for ongoing monitoring and protection. Young trees were recorded only in Philips Park and JH-P, with JH-P also having the highest number of newly planted trees, highlighting these sites as priorities for establishment and long-term survivability.",
+    "crumbs": [
+      "Insights"
+    ]
+  },
+  {
+    "objectID": "inventoryInsights.html#multi-branch-trees-across-sites",
+    "href": "inventoryInsights.html#multi-branch-trees-across-sites",
+    "title": "Inventory Insights",
+    "section": "Multi-Branch Trees Across Sites",
+    "text": "Multi-Branch Trees Across Sites\n\n\n                            \n                                            \n\n\n Figure 7. Overall number of multi-branch trees by site.\n\n\n\n\nSite\nLarge mature tree\nYoung tree\nNewly planted tree\n\n\n\n\nJH-W\n4\n0\n0\n\n\nJH-P\n2\n0\n2\n\n\nJH-A\n0\n0\n0\n\n\nPHIL\n1\n2\n1\n\n\nLEW\n6\n0\n0\n\n\nKELL\n8\n0\n1\n\n\n\n\nTable 2. Count of multi-branch trees by site and significant tree type, excluding sites with no inventoried multi-branch trees.\nMulti-branch trees provide greater canopy coverage, as multiple branches contribute to foliage and shade. Among the inventoried multi-branch trees, some may be codominant stems, where two or more large stems grow from the same point, forming a narrow “V”-shaped crotch. These stems can be structurally weaker as the tree matures and are most effectively managed through pruning while the trees are young (Mitchell 2017).\nAs shown in Figure 7, Kells Park contains the highest number of multi-branch trees (9). Of these, eight are classified as large mature trees (Table 2), suggesting that this site would benefit from focused monitoring over time.\nIn addition, multi-branch young and newly planted trees were identified in JH-P, Philips Park, and Kells Park, where early pruning may help guide branch development and reduce future maintenance needs.",
+    "crumbs": [
+      "Insights"
+    ]
+  },
+  {
+    "objectID": "inventoryInsights.html#orthogonal-spread-measurements",
+    "href": "inventoryInsights.html#orthogonal-spread-measurements",
+    "title": "Inventory Insights",
+    "section": "Orthogonal Spread Measurements",
+    "text": "Orthogonal Spread Measurements\n\n\n                            \n                                            \n\n\n Figure 8. Spread was measured in two perpendicular directions. This graph shows the first spread measurement against the second spread measurement for each site. Hover each point to see more information.\nA large difference between orthogonal spread measurements indicates a highly irregular, asymmetrical canopy. This suggests the tree is not growing evenly and may be crowded by neighboring trees.",
+    "crumbs": [
+      "Insights"
     ]
   },
   {
@@ -54,7 +114,7 @@
     "href": "inventoryInsights.html#tree-conditions",
     "title": "Inventory Insights",
     "section": "Tree Conditions",
-    "text": "Tree Conditions\n\n\n                            \n                                            \n\n\n\nFigure 7: Tree condition breakdown by type of significant tree. Poor condition trees are all large and mature.\n\n\n                            \n                                            \n\n\nFigure 8: Condition of trees by site.\nAcross all inventoried trees, the majority (81.65%) were rated in good condition, with smaller proportions classified as fair (8.86%) or poor (9.49%).\nTree condition was not evenly distributed across site locations. Notably, JH-W had the highest number of poor-condition trees (10), which stands out relative to most other locations.\nWhen toggling on only poor-condition trees in Figure 8, trail locations (JH-A, JH-L, JH-UD, and JH-W) collectively accounted for a substantially higher number of poor-condition trees (13) compared to park locations (LEW and PHIL), which together contained only two. This finding suggests that trees along trails may be more vulnerable to stressors than those in park settings.\n\n\n\nFigure 9: Word cloud showing the most commonly noted characteristics of poor-condition trees. Visual rotting is the most commonly noted characteristics of poor-condition trees.",
+    "text": "Tree Conditions\n\n\n                            \n                                            \n\n\n\nFigure 9. Tree condition breakdown by type of significant tree. Poor condition trees are all large and mature.\n\n\n                            \n                                            \n\n\nFigure 10. Condition of trees by site.\nAcross all inventoried trees, the majority (81.65%) were rated in good condition, with smaller proportions classified as fair (8.86%) or poor (9.49%).\nTree condition was not evenly distributed across site locations. Notably, JH-W had the highest number of poor-condition trees (10), which stands out relative to most other locations.\nWhen toggling on only poor-condition trees in Figure 10, trail locations (JH-A, JH-L, JH-UD, and JH-W) collectively accounted for a substantially higher number of poor-condition trees (13) compared to park locations (LEW and PHIL), which together contained only two. This finding suggests that trees along trails may be more vulnerable to stressors than those in park settings.\n\n\n\nFigure 11. Word cloud showing the most commonly noted characteristics of poor-condition trees. Visual rotting is the most commonly noted characteristics of poor-condition trees.",
     "crumbs": [
       "Insights"
     ]
@@ -130,6 +190,16 @@
     ]
   },
   {
+    "objectID": "index.html#contact-information",
+    "href": "index.html#contact-information",
+    "title": "Significant Tree Inventory for Newark Parks and Recreation (December 2025)",
+    "section": "Contact Information",
+    "text": "Contact Information\nFor questions regarding this report, please contact Matthew Saponaro, Ph.D., Director of the Technology Service Center at University of Delaware",
+    "crumbs": [
+      "Motivation"
+    ]
+  },
+  {
     "objectID": "index.html#motivation",
     "href": "index.html#motivation",
     "title": "Significant Tree Inventory for Newark Parks and Recreation (December 2025)",
@@ -144,7 +214,7 @@
     "href": "index.html#overview",
     "title": "Significant Tree Inventory for Newark Parks and Recreation (December 2025)",
     "section": "Overview",
-    "text": "Overview\nIn total, 158 significant trees were inventoried. Of these, 114 are large mature trees (72.15%), 8 are young trees (5.06%), and 36 are newly planted (22.78%). See figure 4 for more details. In this project, “significant trees” were defined as follows:\n\nLarge mature trees: Any trees with a Diameter at Breast height (DBH) ≥ 20 inches\nYoung tree: Young, intentionally planted trees that have reached a stage of growth where supplemental support is no longer present\nNewly planted trees: Young, intentionally planted trees with supplemental support (e.g., wooden stakes or protective cages)",
+    "text": "Overview\nIn total, 158 significant trees were inventoried. Of these, 114 are large mature trees (72.15%), 8 are young trees (5.06%), and 36 are newly planted (22.78%). See figure 6 for more details. In this project, “significant trees” were defined as follows:\n\nLarge mature trees: Any trees with a Diameter at Breast height (DBH) ≥ 20 inches\nYoung tree: Young, intentionally planted trees that have reached a stage of growth where supplemental support is no longer present\nNewly planted trees: Young, intentionally planted trees with supplemental support (e.g., wooden stakes or protective cages)",
     "crumbs": [
       "Motivation"
     ]
@@ -164,107 +234,7 @@
     "href": "method.html",
     "title": "Method",
     "section": "",
-    "text": "Data for the 2025 Significant Tree Inventory project were collected using the EpicCollect5 mobile app. Field surveyors recorded the following information for each tree during inventory:\n\nSurveyor Name: Individual(s) who collected the data.\n\nLocation: GPS coordinates (latitude and longitude) for mapping and spatial analysis (Figure 10A; Figure 2).\n\nSite Name & Tree ID: Unique identifiers assigned to each tree to enable tracking across sites (Figure 10B).\n\nDiameter at Breast Height (DBH): Measured 4 ft 4 in above ground using a diameter tape. Circumference was recorded in inches (Figure 10C).\n\nTree Height: Measured using a tangent height gauge and measuring wheel (Figure 10D).\n\nTwo-Point Crown Spread: Two perpendicular measurements across the widest points of the canopy, recorded with a measuring wheel (Figure 10E).\n\nCondition: Visual rating of tree health as Good, Fair, or Poor (Figure 10F; Table 2).\n\nPhoto Documentation: A photograph of each tree was taken for verification and record-keeping (Figure 10G).\n\nNotes: Additional observations and any unusual features were recorded as needed (Figure 10H).\n\n\n\n\nFigure 10: Screenshots of EpicCollect5 survey questions.",
-    "crumbs": [
-      "Method"
-    ]
-  },
-  {
-    "objectID": "method.html#procedure-and-materials",
-    "href": "method.html#procedure-and-materials",
-    "title": "Method",
-    "section": "",
-    "text": "Data collection was conducted for the 2025 Significant Tree Inventory project, using the EpicCollect5 app. The following information was recorded for each tree:\n\nSurveyor Name: Individual(s) who collected the data.\nLocation: GPS coordinates (latitude and longitude) for mapping (Figure 10A, Figure 2).\nSite Name and Tree ID: Assigned to track individual trees across sites (Figure 10B)\nDiameter at Breast Height (DBH): Measured 4 ft 4 in above ground using a diameter tape; circumference was measured in inches (Figure 10C).\nTree Height: Measured with a tangent height gauge and measuring wheel (Figure 10D)\nX2 Spread Measurement: Two perpendicular measurements across the widest points of the crown, measured with a measuring wheel (Figure 10E).\nCondition: Visually rated as Good, Fair, or Poor. (Figure 10F, Table 2)\nPhoto: Taken for documentation. (Figure 10G)\nNotes: Additional observations or unusual features recorded as needed. (Figure 10H)\n\n\n\n\nFigure 10: Screenshots of EpicCollect5 questionaries",
-    "crumbs": [
-      "Method"
-    ]
-  },
-  {
-    "objectID": "index.html#contact-information",
-    "href": "index.html#contact-information",
-    "title": "Significant Tree Inventory for Newark Parks and Recreation (December 2025)",
-    "section": "Contact Information",
-    "text": "Contact Information\nFor questions regarding this report, please contact Matthew Saponaro, Ph.D., Director of the Technology Service Center at University of Delaware",
-    "crumbs": [
-      "Motivation"
-    ]
-  },
-  {
-    "objectID": "inventoryInsights.html#tree-density-map",
-    "href": "inventoryInsights.html#tree-density-map",
-    "title": "Inventory Insights",
-    "section": "Tree Density Map",
-    "text": "Tree Density Map\n\n\n                            \n                                            \n\n\n Figure 2: Tree Density Map (Lighter Areas Indicate Higher Number of Trees)\n\nTree Height, DBH, and Average Spread Distribution\n\n\n                            \n                                            \n\n\n Figure 3: Histogram of Tree Height, DBH, Average Spread for Each Type of Signficiant Trees. Toggle to switch between each type of trees.\n\n\nLarge Mature Trees Concentrate at Kells Park, While Newly Planted Trees Are Predominantly in JH-P\n\n\n\n                            \n                                            \n\n\n Figure 4: Type of Signficiant Trees Overall and by Site Location\nOverall, the majority of the inventoried trees are large and mature (72.15%), as illustrated by Figure 4A. This indicates that the trail and parks are dominated by established mature trees rather than recent plantings.\nAs shown in Figure 4B, Kell Park contains the highest number of significant trees (30), followed closely by JH-W (29), while Lewis Park and Philips Park each have 21 significant trees. Together, park spaces account for nearly half of all inventoried trees (45.57%).\nFigure 4B further shows that Kell Park has the greatest concentration of large mature trees (25), making it the site with the greatest number of high-value trees for ongoing monitoring and protection. Young trees were recorded only in Philips Park and JH-P, with JH-P also having the highest number of newly planted trees, highlighting these sites as priorities for establishment and long-term survivability.\n\n\nKell Park Contains the Highest Number of Multi-Branch Trees\n\n\n                            \n                                            \n\n\n Figure 5: Overall Number of Multi-branch Trees by Site\n\n\n\n\nSite\nLarge mature tree\nYoung tree\nNewly planted tree\n\n\n\n\nJH-W\n4\n0\n0\n\n\nJH-P\n2\n0\n2\n\n\nJH-A\n0\n0\n0\n\n\nPHIL\n1\n2\n1\n\n\nLEW\n6\n0\n0\n\n\nKELL\n8\n0\n1\n\n\n\n Table 1: Count of multi-branch trees by site and significant tree type, excluding sites with no inventoried multi-branch trees.\nMulti-branch trees provide greater canopy coverage, as multiple branches contribute to foliage and shade. Among the inventoried multi-branch trees, some may be codominant stems, where two or more large stems grow from the same point, forming a narrow “V”-shaped crotch. These stems can be structurally weaker as the tree matures and are most effectively managed through pruning while the trees are young (Mitchell 2017).\nAs shown in Figure 5, Kell Park contains the highest number of multi-branch trees (9). Of these, eight are classified as large mature trees (Table 1), suggesting that this site would benefit from focused monitoring over time.\nIn addition, multi-branch young and newly planted trees were identified in JH-P, Philips Park, and Kell Park, where early pruning may help guide branch development and reduce future maintenance needs.\n\n\nOrthogonal Spread Measurement\n\n\n                            \n                                            \n\n\n Figure 6: Tree Spread 1 vs Spread 2 by Site. Hover each point to see more information.\nA large difference between orthogonal spread measurements indicates a highly irregular, asymmetrical canopy. This suggests the tree is not growing evenly and may be crowded by neighboring trees.",
-    "crumbs": [
-      "Inventory Insights"
-    ]
-  },
-  {
-    "objectID": "inventoryInsights.html#tree-density",
-    "href": "inventoryInsights.html#tree-density",
-    "title": "Inventory Insights",
-    "section": "Tree Density",
-    "text": "Tree Density\n\n\n                            \n                                            \n\n\n Figure 2: Tree density map (Lighter areas indicate higher number of trees).",
-    "crumbs": [
-      "Insights"
-    ]
-  },
-  {
-    "objectID": "inventoryInsights.html#tree-height-dbh-and-average-spread-distribution",
-    "href": "inventoryInsights.html#tree-height-dbh-and-average-spread-distribution",
-    "title": "Inventory Insights",
-    "section": "Tree Height, DBH, and Average Spread Distribution",
-    "text": "Tree Height, DBH, and Average Spread Distribution\n\n\n                            \n                                            \n\n\n Figure 3: Histogram of tree height, DBH, average spread for each type of signficiant trees. Toggle to switch between each type of trees.",
-    "crumbs": [
-      "Insights"
-    ]
-  },
-  {
-    "objectID": "inventoryInsights.html#tree-type-distribution-across-sites",
-    "href": "inventoryInsights.html#tree-type-distribution-across-sites",
-    "title": "Inventory Insights",
-    "section": "Tree Type Distribution Across Sites",
-    "text": "Tree Type Distribution Across Sites\n\n\n\n                            \n                                            \n\n\n Figure 4: Type of signficiant trees overall and by site location.\nOverall, the majority of the inventoried trees are large and mature (72.15%), as illustrated by Figure 4A. This indicates that the trail and parks are dominated by established mature trees rather than recent plantings.\nAs shown in Figure 4B, Kell Park contains the highest number of significant trees (30), followed closely by JH-W (29), while Lewis Park and Philips Park each have 21 significant trees. Together, park spaces account for nearly half of all inventoried trees (45.57%).\nFigure 4B further shows that Kell Park has the greatest concentration of large mature trees (25), making it the site with the greatest number of high-value trees for ongoing monitoring and protection. Young trees were recorded only in Philips Park and JH-P, with JH-P also having the highest number of newly planted trees, highlighting these sites as priorities for establishment and long-term survivability.",
-    "crumbs": [
-      "Insights"
-    ]
-  },
-  {
-    "objectID": "inventoryInsights.html#multi-branch-trees-by-site-locations",
-    "href": "inventoryInsights.html#multi-branch-trees-by-site-locations",
-    "title": "Inventory Insights",
-    "section": "Multi-Branch Trees by Site Locations",
-    "text": "Multi-Branch Trees by Site Locations\n\n\n                            \n                                            \n\n\n Figure 5: Overall Number of Multi-branch Trees by Site\n\n\n\n\nSite\nLarge mature tree\nYoung tree\nNewly planted tree\n\n\n\n\nJH-W\n4\n0\n0\n\n\nJH-P\n2\n0\n2\n\n\nJH-A\n0\n0\n0\n\n\nPHIL\n1\n2\n1\n\n\nLEW\n6\n0\n0\n\n\nKELL\n8\n0\n1\n\n\n\n Table 1: Count of multi-branch trees by site and significant tree type, excluding sites with no inventoried multi-branch trees.\nMulti-branch trees provide greater canopy coverage, as multiple branches contribute to foliage and shade. Among the inventoried multi-branch trees, some may be codominant stems, where two or more large stems grow from the same point, forming a narrow “V”-shaped crotch. These stems can be structurally weaker as the tree matures and are most effectively managed through pruning while the trees are young (Mitchell 2017).\nAs shown in Figure 5, Kell Park contains the highest number of multi-branch trees (9). Of these, eight are classified as large mature trees (Table 1), suggesting that this site would benefit from focused monitoring over time.\nIn addition, multi-branch young and newly planted trees were identified in JH-P, Philips Park, and Kell Park, where early pruning may help guide branch development and reduce future maintenance needs.\n\nOrthogonal Spread Measurement\n\n\n                            \n                                            \n\n\n Figure 6: Tree Spread 1 vs Spread 2 by Site. Hover each point to see more information.\nA large difference between orthogonal spread measurements indicates a highly irregular, asymmetrical canopy. This suggests the tree is not growing evenly and may be crowded by neighboring trees.",
-    "crumbs": [
-      "Inventory Insights"
-    ]
-  },
-  {
-    "objectID": "inventoryInsights.html#multi-branch-trees-across-sites",
-    "href": "inventoryInsights.html#multi-branch-trees-across-sites",
-    "title": "Inventory Insights",
-    "section": "Multi-Branch Trees Across Sites",
-    "text": "Multi-Branch Trees Across Sites\n\n\n                            \n                                            \n\n\n Figure 5: Overall number of multi-branch trees by site.\n\n\n\n\nSite\nLarge mature tree\nYoung tree\nNewly planted tree\n\n\n\n\nJH-W\n4\n0\n0\n\n\nJH-P\n2\n0\n2\n\n\nJH-A\n0\n0\n0\n\n\nPHIL\n1\n2\n1\n\n\nLEW\n6\n0\n0\n\n\nKELL\n8\n0\n1\n\n\n\n\nTable 1: Count of multi-branch trees by site and significant tree type, excluding sites with no inventoried multi-branch trees.\nMulti-branch trees provide greater canopy coverage, as multiple branches contribute to foliage and shade. Among the inventoried multi-branch trees, some may be codominant stems, where two or more large stems grow from the same point, forming a narrow “V”-shaped crotch. These stems can be structurally weaker as the tree matures and are most effectively managed through pruning while the trees are young (Mitchell 2017).\nAs shown in Figure 5, Kells Park contains the highest number of multi-branch trees (9). Of these, eight are classified as large mature trees (Table 1), suggesting that this site would benefit from focused monitoring over time.\nIn addition, multi-branch young and newly planted trees were identified in JH-P, Philips Park, and Kells Park, where early pruning may help guide branch development and reduce future maintenance needs.",
-    "crumbs": [
-      "Insights"
-    ]
-  },
-  {
-    "objectID": "inventoryInsights.html#orthogonal-spread-measurements",
-    "href": "inventoryInsights.html#orthogonal-spread-measurements",
-    "title": "Inventory Insights",
-    "section": "Orthogonal Spread Measurements",
-    "text": "Orthogonal Spread Measurements\n\n\n                            \n                                            \n\n\n Figure 6: Spread was measured in two perpendicular directions. This graph shows the first spread measurement against the second spread measurement for each site. Hover each point to see more information.\nA large difference between orthogonal spread measurements indicates a highly irregular, asymmetrical canopy. This suggests the tree is not growing evenly and may be crowded by neighboring trees.",
-    "crumbs": [
-      "Insights"
-    ]
-  },
-  {
-    "objectID": "method.html#condition-rating-criteria",
-    "href": "method.html#condition-rating-criteria",
-    "title": "Method",
-    "section": "Condition Rating Criteria",
-    "text": "Condition Rating Criteria\nTree condition was assessed visually using the following criteria:\n\n\n\n\n\n\n\nCondition\nDescription\n\n\n\n\nGood\nHealthy appearance with no major damage; branches generally upright.\n\n\nFair\nMinor damage present (e.g., small holes, minor bark issues, leaking sap, or competing vegetation).\n\n\nPoor\nSignificant damage or decay, including fungal growth, hollowed trunk or branches, or noticeable leaning.\n\n\n\nTable 2: Visual indicators used to assess tree condition.",
+    "text": "Data for the 2025 Significant Tree Inventory project were collected using the EpicCollect5 mobile app. Field surveyors recorded the following information for each tree during inventory:\n\nSurveyor Name: Individual(s) who collected the data.\n\nLocation: GPS coordinates (latitude and longitude) for mapping and spatial analysis (Figure 2A; Figure 4).\n\nSite Name & Tree ID: Unique identifiers assigned to each tree to enable tracking across sites (Figure 2B).\n\nDiameter at Breast Height (DBH): Measured 4 ft 4 in above ground using a diameter tape. Circumference was recorded in inches (Figure 2C).\n\nTree Height: Measured using a tangent height gauge and measuring wheel (Figure 2D).\n\nTwo-Point Crown Spread: Two perpendicular measurements across the widest points of the canopy, recorded with a measuring wheel (Figure 2E).\n\nCondition: Visual rating of tree health as Good, Fair, or Poor (Figure 2F; Table 1).\n\nPhoto Documentation: A photograph of each tree was taken for verification and record-keeping (Figure 2G).\n\nNotes: Additional observations and any unusual features were recorded as needed (Figure 2H).\n\n\n\n\nFigure 2. Screenshots of EpicCollect5 survey questions.",
     "crumbs": [
       "Method"
     ]
@@ -274,7 +244,27 @@
     "href": "method.html#data-collection-tools-and-procedure",
     "title": "Method",
     "section": "",
-    "text": "Data for the 2025 Significant Tree Inventory project were collected using the EpicCollect5 mobile app. Field surveyors recorded the following information for each tree during inventory:\n\nSurveyor Name: Individual(s) who collected the data.\n\nLocation: GPS coordinates (latitude and longitude) for mapping and spatial analysis (Figure 10A; Figure 2).\n\nSite Name & Tree ID: Unique identifiers assigned to each tree to enable tracking across sites (Figure 10B).\n\nDiameter at Breast Height (DBH): Measured 4 ft 4 in above ground using a diameter tape. Circumference was recorded in inches (Figure 10C).\n\nTree Height: Measured using a tangent height gauge and measuring wheel (Figure 10D).\n\nTwo-Point Crown Spread: Two perpendicular measurements across the widest points of the canopy, recorded with a measuring wheel (Figure 10E).\n\nCondition: Visual rating of tree health as Good, Fair, or Poor (Figure 10F; Table 2).\n\nPhoto Documentation: A photograph of each tree was taken for verification and record-keeping (Figure 10G).\n\nNotes: Additional observations and any unusual features were recorded as needed (Figure 10H).\n\n\n\n\nFigure 10: Screenshots of EpicCollect5 survey questions.",
+    "text": "Data for the 2025 Significant Tree Inventory project were collected using the EpicCollect5 mobile app. Field surveyors recorded the following information for each tree during inventory:\n\nSurveyor Name: Individual(s) who collected the data.\n\nLocation: GPS coordinates (latitude and longitude) for mapping and spatial analysis (Figure 2A; Figure 4).\n\nSite Name & Tree ID: Unique identifiers assigned to each tree to enable tracking across sites (Figure 2B).\n\nDiameter at Breast Height (DBH): Measured 4 ft 4 in above ground using a diameter tape. Circumference was recorded in inches (Figure 2C).\n\nTree Height: Measured using a tangent height gauge and measuring wheel (Figure 2D).\n\nTwo-Point Crown Spread: Two perpendicular measurements across the widest points of the canopy, recorded with a measuring wheel (Figure 2E).\n\nCondition: Visual rating of tree health as Good, Fair, or Poor (Figure 2F; Table 1).\n\nPhoto Documentation: A photograph of each tree was taken for verification and record-keeping (Figure 2G).\n\nNotes: Additional observations and any unusual features were recorded as needed (Figure 2H).\n\n\n\n\nFigure 2. Screenshots of EpicCollect5 survey questions.",
+    "crumbs": [
+      "Method"
+    ]
+  },
+  {
+    "objectID": "method.html#measurement-of-multi-branch-trees",
+    "href": "method.html#measurement-of-multi-branch-trees",
+    "title": "Method",
+    "section": "Measurement of Multi-branch Trees",
+    "text": "Measurement of Multi-branch Trees\nSome trees encountered during the survey exhibited a multi-branch structure, meaning that the main trunk split into two or more major branches at or near breast height (approximately 4.5 feet above ground level). These branches function as co-dominant stems rather than a single central trunk, which makes standard diameter and spread measurements less straightforward.\nTo ensure consistency, multi-branch trees were measured using the same spread methodology applied to single-trunk trees, with careful attention to capturing the full canopy extent. Specifically, the canopy spread was measured in two perpendicular directions:\n\nFirst, the horizontal distance was measured between the outermost tips of the canopy from the leftmost branch tip to the rightmost branch tip, using the outermost visible branch extensions regardless of which trunk they originated from.\nSecond, a perpendicular measurement was taken from the furthest branch tip in the front of the tree to the furthest branch tip behind the tree.\n\nThese two measurements capture the full canopy width across both major axes, ensuring that all major branches contributing to the canopy are included.\nFor trees with multiple co-dominant trunks, measurements were taken based on the overall tree structure rather than individual branches. The goal was to represent the total canopy size and spatial footprint of the tree as a single ecological unit.\nThis method ensures consistency across all trees and allows fair comparison between single-trunk and multi-branch trees.",
+    "crumbs": [
+      "Method"
+    ]
+  },
+  {
+    "objectID": "method.html#condition-rating-criteria",
+    "href": "method.html#condition-rating-criteria",
+    "title": "Method",
+    "section": "Condition Rating Criteria",
+    "text": "Condition Rating Criteria\nTree condition was assessed visually using the following criteria:\n\n\n\n\n\n\n\nCondition\nDescription\n\n\n\n\nGood\nHealthy appearance with no major damage; branches generally upright.\n\n\nFair\nMinor damage present (e.g., small holes, minor bark issues, leaking sap, or competing vegetation).\n\n\nPoor\nSignificant damage or decay, including fungal growth, hollowed trunk or branches, or noticeable leaning.\n\n\n\nTable 1. Visual indicators used to assess tree condition.",
     "crumbs": [
       "Method"
     ]
@@ -290,16 +280,6 @@
     ]
   },
   {
-    "objectID": "method.html#limitations-and-threats-to-validity",
-    "href": "method.html#limitations-and-threats-to-validity",
-    "title": "Method",
-    "section": "Limitations and Threats to Validity",
-    "text": "Limitations and Threats to Validity\nAlthough the inventory followed standardized procedures, several limitations may affect the validity of results:\n\nMeasurement error: Height and spread measurements may vary due to instrument limitations, uneven terrain, and observer judgment.\nGPS accuracy: GPS readings can be affected by canopy cover, weather conditions, and nearby structures, which may introduce spatial error.\nSubjective condition ratings: Visual assessment of tree condition is inherently subjective and may vary between surveyors.\nSeasonal constraints: Conducting the study in December (with snow cover and no leaves) may have reduced the ability to observe certain tree features, such as canopy density and foliage-related stress indicators.\nIncomplete coverage: Not all trees in each site may have been recorded, especially in dense or inaccessible areas.\nInaccessible areas: Some inventoried trees were difficult to access safely (e.g., due to fences, thorns, dense vegetation, or wet/soft ground), which may have reduced measurement precision and required occasional estimation.\nTemporal factors: Tree condition may change over time; the inventory represents conditions only at the time of measurement.\n\nThese limitations should be considered when interpreting patterns in tree health, density, and distribution.",
-    "crumbs": [
-      "Method"
-    ]
-  },
-  {
     "objectID": "method.html#field-conditions",
     "href": "method.html#field-conditions",
     "title": "Method",
@@ -310,53 +290,13 @@
     ]
   },
   {
-    "objectID": "summary.html#key-findings",
-    "href": "summary.html#key-findings",
-    "title": "Executive Summary",
-    "section": "",
-    "text": "The 2025 inventory of the James F. Hall Trail and associated parks reveals a predominantly healthy, mature urban forest, though specific zones require immediate attention.\n\n\n\n\n\n\nImportantCritical Insight\n\n\n\nJH-W (Trail Section) represents the highest priority for risk management due to the concentration of poor-condition trees, while Kells Park requires long-term structural monitoring due to the size and multi-branch nature of its population.\n\n\n\n\n\nMaturity: The population is heavily skewed toward large mature trees (72.15%), providing significant canopy cover but requiring risk management for aging wood.\nRegeneration: Recent planting efforts are evident, with 22.8% of the inventory consisting of newly planted trees, primarily clustered in JH-P.\n\n\n\n\n\nOverall Health: The majority of the trees is in Good Condition (81.6%).\nVulnerability: Trail-side trees show higher rates of decline compared to park trees.\nPathology: The primary indicators of decline are visible rot and structural damage, rather than pest infestation, though some mushrooms are present.",
-    "crumbs": [
-      "Summary"
-    ]
-  },
-  {
-    "objectID": "summary.html#maintenance-recommendations",
-    "href": "summary.html#maintenance-recommendations",
-    "title": "Executive Summary",
-    "section": "Maintenance Recommendations",
-    "text": "Maintenance Recommendations\nBased on the inventory data, the following maintenance actions are recommended:\n\n\n\n\n\n\n\n\n\nPriority\nLocation\nIssue\nRecommended Action\n\n\n\n\nHigh\nJH-W\nConcentration of “Poor” condition trees\nConduct individual risk assessments (Level 2) to determine removal or mitigation needs.\n\n\nMedium\nKell Park\nHigh volume of large, multi-branch trees\nSchedule structural pruning to reduce failure risk over park amenities.\n\n\nLow\nJH-P\nHigh density of newly planted trees\nEnsure watering schedule and check stakes/ties for girdling risk in 12-24 months.",
-    "crumbs": [
-      "Summary"
-    ]
-  },
-  {
-    "objectID": "inventoryInsights.html#tree-map",
-    "href": "inventoryInsights.html#tree-map",
-    "title": "Inventory Insights",
-    "section": "Tree Map",
-    "text": "Tree Map\n\n\n                            \n                                            \n\n\n Figure 2: Tree inventory map. Each point is an inventoried tree with its size relative to its DBH.",
-    "crumbs": [
-      "Insights"
-    ]
-  },
-  {
-    "objectID": "method.html#measurement-of-multi-branch-trees",
-    "href": "method.html#measurement-of-multi-branch-trees",
+    "objectID": "method.html#limitations-and-threats-to-validity",
+    "href": "method.html#limitations-and-threats-to-validity",
     "title": "Method",
-    "section": "Measurement of Multi-branch Trees",
-    "text": "Measurement of Multi-branch Trees\nSome trees encountered during the survey exhibited a multi-branch structure, meaning that the main trunk split into two or more major branches at or near breast height (approximately 4.5 feet above ground level). These branches function as co-dominant stems rather than a single central trunk, which makes standard diameter and spread measurements less straightforward.\nTo ensure consistency, multi-branch trees were measured using the same spread methodology applied to single-trunk trees, with careful attention to capturing the full canopy extent. Specifically, the canopy spread was measured in two perpendicular directions:\n\nFirst, the horizontal distance was measured between the outermost tips of the canopy from the leftmost branch tip to the rightmost branch tip, using the outermost visible branch extensions regardless of which trunk they originated from.\nSecond, a perpendicular measurement was taken from the furthest branch tip in the front of the tree to the furthest branch tip behind the tree.\n\nThese two measurements capture the full canopy width across both major axes, ensuring that all major branches contributing to the canopy are included.\nFor trees with multiple co-dominant trunks, measurements were taken based on the overall tree structure rather than individual branches. The goal was to represent the total canopy size and spatial footprint of the tree as a single ecological unit.\nThis method ensures consistency across all trees and allows fair comparison between single-trunk and multi-branch trees.",
+    "section": "Limitations and Threats to Validity",
+    "text": "Limitations and Threats to Validity\nAlthough the inventory followed standardized procedures, several limitations may affect the validity of results:\n\nMeasurement error: Height and spread measurements may vary due to instrument limitations, uneven terrain, and observer judgment.\nGPS accuracy: GPS readings can be affected by canopy cover, weather conditions, and nearby structures, which may introduce spatial error.\nSubjective condition ratings: Visual assessment of tree condition is inherently subjective and may vary between surveyors.\nSeasonal constraints: Conducting the study in December (with snow cover and no leaves) may have reduced the ability to observe certain tree features, such as canopy density and foliage-related stress indicators.\nIncomplete coverage: Not all trees in each site may have been recorded, especially in dense or inaccessible areas.\nInaccessible areas: Some inventoried trees were difficult to access safely (e.g., due to fences, thorns, dense vegetation, or wet/soft ground), which may have reduced measurement precision and required occasional estimation.\nTemporal factors: Tree condition may change over time; the inventory represents conditions only at the time of measurement.\n\nThese limitations should be considered when interpreting patterns in tree health, density, and distribution.",
     "crumbs": [
       "Method"
-    ]
-  },
-  {
-    "objectID": "inventoryInsights.html#tree-inventory-map",
-    "href": "inventoryInsights.html#tree-inventory-map",
-    "title": "Inventory Insights",
-    "section": "Tree Inventory Map",
-    "text": "Tree Inventory Map\n\n\n                            \n                                            \n\n\n Figure 2: Tree inventory map. Each point is an inventoried tree with its size relative to its DBH.",
-    "crumbs": [
-      "Insights"
     ]
   }
 ]

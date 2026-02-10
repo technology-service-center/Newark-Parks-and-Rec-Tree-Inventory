@@ -7,20 +7,20 @@ title: "Method"
 Data for the 2025 Significant Tree Inventory project were collected using the **EpicCollect5** mobile app. Field surveyors recorded the following information for each tree during inventory:
 
 - **Surveyor Name:** Individual(s) who collected the data.  
-- **Location:** GPS coordinates (latitude and longitude) for mapping and spatial analysis (Figure 10A; Figure [2](inventoryInsights.html#tree-density)).  
-- **Site Name & Tree ID:** Unique identifiers assigned to each tree to enable tracking across sites (Figure 10B).  
-- **Diameter at Breast Height (DBH):** Measured 4 ft 4 in above ground using a diameter tape. Circumference was recorded in inches (Figure 10C).  
-- **Tree Height:** Measured using a tangent height gauge and measuring wheel (Figure 10D).  
-- **Two-Point Crown Spread:** Two perpendicular measurements across the widest points of the canopy, recorded with a measuring wheel (Figure 10E).  
-- **Condition:** Visual rating of tree health as **Good**, **Fair**, or **Poor** (Figure 10F; Table 2).  
-- **Photo Documentation:** A photograph of each tree was taken for verification and record-keeping (Figure 10G).  
-- **Notes:** Additional observations and any unusual features were recorded as needed (Figure 10H).
+- **Location:** GPS coordinates (latitude and longitude) for mapping and spatial analysis (Figure 2A; Figure [4](inventoryInsights.html#tree-density)).  
+- **Site Name & Tree ID:** Unique identifiers assigned to each tree to enable tracking across sites (Figure 2B).  
+- **Diameter at Breast Height (DBH):** Measured 4 ft 4 in above ground using a diameter tape. Circumference was recorded in inches (Figure 2C).  
+- **Tree Height:** Measured using a tangent height gauge and measuring wheel (Figure 2D).  
+- **Two-Point Crown Spread:** Two perpendicular measurements across the widest points of the canopy, recorded with a measuring wheel (Figure 2E).  
+- **Condition:** Visual rating of tree health as **Good**, **Fair**, or **Poor** (Figure 2F; Table 1).  
+- **Photo Documentation:** A photograph of each tree was taken for verification and record-keeping (Figure 2G).  
+- **Notes:** Additional observations and any unusual features were recorded as needed (Figure 2H).
 
 <div style="text-align: center;">
   <img src="/assets/EpicCollect5.png" width="600">
 </div>
 
-**Figure 10**: Screenshots of EpicCollect5 survey questions.
+**Figure 2.** Screenshots of EpicCollect5 survey questions.
 
 --- 
 
@@ -51,7 +51,7 @@ Tree condition was assessed visually using the following criteria:
 | **Fair**  | Minor damage present (e.g., small holes, minor bark issues, leaking sap, or competing vegetation). |
 | **Poor**  | Significant damage or decay, including fungal growth, hollowed trunk or branches, or noticeable leaning. |
 
-**Table 2**: Visual indicators used to assess tree condition.
+**Table 1.** Visual indicators used to assess tree condition.
 
 <br/>
 
