@@ -1,204 +1,204 @@
 Latitude,Longitude,Site,Tree ID,DBH,Tree Height,Spread 1,Spread 2,Tree Condition,Notes,Type of Significant Trees,Multi-branch?,Average Spread
-39.66886,-75.7611,JH-W,8,30.0,80.0,50.0,50.0,Good,Spread are estimated,Large mature tree,No,50.0
-39.66894,-75.7611,JH-W,30,36.0,70.0,35.0,35.0,Poor,"Possible rot, multi branch, estimate on spread",Large mature tree,Yes,35.0
-39.66928,-75.7611,JH-W,29,30.5,80.0,50.0,50.0,Poor,"Mold growing, multi branch, spread are estimate",Large mature tree,Yes,50.0
-39.66919,-75.7611,JH-W,28,25.0,61.0,30.0,30.0,Fair,"Vines , spread 2 estimate",Large mature tree,No,30.0
-39.66908,-75.761,JH-W,27,26.0,55.0,41.0,39.0,Fair,Fallen branches from top,Large mature tree,No,40.0
-39.66909,-75.7611,JH-W,7,33.0,86.0,60.0,60.0,Fair,"Spread 2 estimate,",Large mature tree,No,60.0
-39.66913,-75.7608,JH-W,26,29.0,60.0,47.0,47.0,Fair,Spread 2 is estimate,Large mature tree,No,47.0
-39.66926,-75.7614,JH-W,25,33.0,52.0,42.0,29.0,Poor,"Rotting, split trunk",Large mature tree,No,35.5
-39.66946,-75.7614,JH-W,24,51.0,108.0,96.0,96.0,Good,Estimate spread 2,Large mature tree,No,96.0
-39.66907,-75.7602,JH-W,23,20.0,28.0,8.0,7.0,Poor,Mushrooms,Large mature tree,No,7.5
-39.66867,-75.7593,JH-W,22,0.2,5.0,2.0,2.0,Good,Caged young,Newly planted tree,No,2.0
-39.6687,-75.7593,JH-W,21,0.1,5.5,3.0,2.5,Good,Caged young,Newly planted tree,No,2.75
-39.6686,-75.7593,JH-W,20,0.1,5.0,2.0,2.2,Good,Caged young,Newly planted tree,No,2.1
-39.66867,-75.7592,JH-W,19,0.1,5.5,1.0,2.0,Good,Caged young,Newly planted tree,No,1.5
-39.66872,-75.7591,JH-W,18,0.1,5.0,1.1,1.0,Good,Cage young,Newly planted tree,No,1.05
-39.66877,-75.7594,JH-W,17,0.2,6.2,2.5,2.75,Good,Young (Edit: Newly planted tree),Newly planted tree,No,2.625
-39.66883,-75.7592,JH-W,16,0.4,8.0,3.0,2.5,Good,Young (Edit: Newly planted tree),Newly planted tree,No,2.75
-39.66892,-75.7592,JH-W,15,0.2,4.5,0.5,0.4,Good,Young (Edit: Newly planted tree),Newly planted tree,No,0.45
-39.669,-75.759,JH-W,14,0.5,7.5,6.0,4.5,Good,Young (Edit: Newly planted tree),Newly planted tree,No,5.25
-39.66872,-75.7592,JH-W,13,20.0,37.5,28.0,29.0,Poor,Hollow,Large mature tree,No,28.5
-39.66861,-75.7593,JH-W,12,22.5,54.0,29.0,30.0,Good,,Large mature tree,No,29.5
-39.66878,-75.7593,JH-W,11,25.0,45.5,35.0,42.0,Poor,Multi branch and rotting in betweensplit,Large mature tree,Yes,38.5
-39.66907,-75.759,JH-W,10,28.0,64.0,56.0,37.0,Poor,Extremely slanted,Large mature tree,No,46.5
-39.66885,-75.759,JH-W,9,29.5,72.0,57.0,43.0,Fair,"Multi branch, moss on bottom",Large mature tree,Yes,50.0
-39.66869,-75.759,JH-W,5,25.5,86.0,52.0,55.0,Good,,Large mature tree,No,53.5
-39.66867,-75.7593,JH-W,4,30.6,81.0,62.0,57.0,Good,Spread 2 estimate,Large mature tree,No,59.5
-39.6689,-75.7593,JH-W,3,41.0,47.5,40.0,54.0,Poor,Mushrooms,Large mature tree,No,47.0
-39.669,-75.7592,JH-W,2,31.5,63.0,48.3,53.0,Poor,Decay at bottom,Large mature tree,No,50.65
-39.66892,-75.759,JH-W,1,26.0,61.2,48.0,31.0,Poor,Competes with other trees,Large mature tree,No,39.5
-39.676152,-75.73545,JH-E,1,34.38,66.0,46.0,46.0,Good,Height and Spread 2 may be inaccurate due to heavy thornssurrounding tree making data collection dangerous,Large mature tree,No,46.0
-39.678487,-75.735337,JH-E,2,21.33,56.0,58.0,46.0,Good,,Large mature tree,No,52.0
-39.678584,-75.735058,JH-E,3,20.19,57.0,46.0,43.0,Good,Many branches beginning to fall,Large mature tree,No,44.5
-39.67502,-75.738501,JH-UD,6,20.99,66.0,34.0,53.0,Fair,Tree has a hole that is darkening and growing moss,Large mature tree,No,43.5
-39.67482,-75.738926,JH-UD,5,21.77,65.0,10.0,10.0,Poor,"Tree seems to be rotting and is heavily leaning against another 
+39.66886,-75.7611,JH-W,8,30,80,50,50,Good,Spread are estimated,Large mature tree,No,50.0
+39.66894,-75.7611,JH-W,30,36,70,35,35,Poor,"Possible rot, multi branch, estimate on spread",Large mature tree,Yes,35.0
+39.66928,-75.7611,JH-W,29,31,80,50,50,Poor,"Mold growing, multi branch, spread are estimate",Large mature tree,Yes,50.0
+39.66919,-75.7611,JH-W,28,25,61,30,30,Fair,"Vines , spread 2 estimate",Large mature tree,No,30.0
+39.66908,-75.761,JH-W,27,26,55,41,39,Fair,Fallen branches from top,Large mature tree,No,40.0
+39.66909,-75.7611,JH-W,7,33,86,60,60,Fair,"Spread 2 estimate,",Large mature tree,No,60.0
+39.66913,-75.7608,JH-W,26,29,60,47,47,Fair,Spread 2 is estimate,Large mature tree,No,47.0
+39.66926,-75.7614,JH-W,25,33,52,42,29,Poor,"Rotting, split trunk",Large mature tree,No,35.5
+39.66946,-75.7614,JH-W,24,51,108,96,96,Good,Estimate spread 2,Large mature tree,No,96.0
+39.66907,-75.7602,JH-W,23,20,28,8,7,Poor,Mushrooms,Large mature tree,No,7.5
+39.66867,-75.7593,JH-W,22,1,5,2,2,Good,Caged young,Newly planted tree,No,2.0
+39.6687,-75.7593,JH-W,21,1,6,3,3,Good,Caged young,Newly planted tree,No,3.0
+39.6686,-75.7593,JH-W,20,1,5,2,3,Good,Caged young,Newly planted tree,No,2.5
+39.66867,-75.7592,JH-W,19,1,6,1,2,Good,Caged young,Newly planted tree,No,1.5
+39.66872,-75.7591,JH-W,18,1,5,2,1,Good,Cage young,Newly planted tree,No,1.5
+39.66877,-75.7594,JH-W,17,1,7,3,3,Good,Young (Edit: Newly planted tree),Newly planted tree,No,3.0
+39.66883,-75.7592,JH-W,16,1,8,3,3,Good,Young (Edit: Newly planted tree),Newly planted tree,No,3.0
+39.66892,-75.7592,JH-W,15,1,5,1,1,Good,Young (Edit: Newly planted tree),Newly planted tree,No,1.0
+39.669,-75.759,JH-W,14,1,8,6,5,Good,Young (Edit: Newly planted tree),Newly planted tree,No,5.5
+39.66872,-75.7592,JH-W,13,20,38,28,29,Poor,Hollow,Large mature tree,No,28.5
+39.66861,-75.7593,JH-W,12,23,54,29,30,Good,,Large mature tree,No,29.5
+39.66878,-75.7593,JH-W,11,25,46,35,42,Poor,Multi branch and rotting in betweensplit,Large mature tree,Yes,38.5
+39.66907,-75.759,JH-W,10,28,64,56,37,Poor,Extremely slanted,Large mature tree,No,46.5
+39.66885,-75.759,JH-W,9,30,72,57,43,Fair,"Multi branch, moss on bottom",Large mature tree,Yes,50.0
+39.66869,-75.759,JH-W,5,26,86,52,55,Good,,Large mature tree,No,53.5
+39.66867,-75.7593,JH-W,4,31,81,62,57,Good,Spread 2 estimate,Large mature tree,No,59.5
+39.6689,-75.7593,JH-W,3,41,48,40,54,Poor,Mushrooms,Large mature tree,No,47.0
+39.669,-75.7592,JH-W,2,32,63,49,53,Poor,Decay at bottom,Large mature tree,No,51.0
+39.66892,-75.759,JH-W,1,26,62,48,31,Poor,Competes with other trees,Large mature tree,No,39.5
+39.676152,-75.73545,JH-E,1,35,66,46,46,Good,Height and Spread 2 may be inaccurate due to heavy thornssurrounding tree making data collection dangerous,Large mature tree,No,46.0
+39.678487,-75.735337,JH-E,2,22,56,58,46,Good,,Large mature tree,No,52.0
+39.678584,-75.735058,JH-E,3,21,57,46,43,Good,Many branches beginning to fall,Large mature tree,No,44.5
+39.67502,-75.738501,JH-UD,6,21,66,34,53,Fair,Tree has a hole that is darkening and growing moss,Large mature tree,No,43.5
+39.67482,-75.738926,JH-UD,5,22,65,10,10,Poor,"Tree seems to be rotting and is heavily leaning against another 
 Bark is missing in many places 
 Very damaged",Large mature tree,No,10.0
-39.674832,-75.738831,JH-UD,4,20.95,72.0,27.0,27.0,Good,Spread 2 may be inaccurate due to dangerous conditions behind the tree,Large mature tree,No,27.0
-39.674779,-75.738983,JH-UD,3,25.61,88.0,42.0,42.0,Good,Spread 2 may be inaccurate due to dangerous conditions to measurebehind tree,Large mature tree,No,42.0
-39.674661,-75.739382,JH-UD,2,30.2,87.0,43.0,36.0,Good,,Large mature tree,No,39.5
-39.67466,-75.7397,JH-UD,1,39.58,69.0,54.0,54.0,Good,Spread 2 may be inaccurate due to dangerous conditions behind the tree,Large mature tree,No,54.0
-39.674341,-75.74169,JH-R,4,28.54,60.0,60.0,40.0,Good,Spread 2 may be inaccurate because of thorns surrounding this tree,Large mature tree,No,50.0
-39.674032,-75.742142,JH-R,3,20.15,53.0,32.0,32.0,Good,Spread 2 may be inaccurate as it goes over a fence,Large mature tree,No,32.0
-39.673674,-75.742759,JH-R,2,29.01,55.0,46.0,59.0,Good,,Large mature tree,No,52.5
-39.673626,-75.742735,JH-R,1,22.28,49.0,51.0,62.0,Good,Leans to the right at and angle,Large mature tree,No,56.5
-39.673252,-75.744719,KELL,30,1.02,9.0,6.0,3.0,Good,Newly planted tree Support is 83 inches tall,Newly planted tree,No,4.5
-39.673222,-75.74462,KELL,29,0.82,8.0,3.0,3.0,Good,Newly planted tree Support is 85 inches tall,Newly planted tree,No,3.0
-39.673315,-75.744466,KELL,28,1.04,4.5,4.0,3.0,Good,Newly planted tree starting to diverge,Newly planted tree,Yes,3.5
-39.673241,-75.744524,KELL,27,0.99,6.0,2.0,3.0,Fair,"Newly planted tree Support is inches tall 
+39.674832,-75.738831,JH-UD,4,21,72,27,27,Good,Spread 2 may be inaccurate due to dangerous conditions behind the tree,Large mature tree,No,27.0
+39.674779,-75.738983,JH-UD,3,26,88,42,42,Good,Spread 2 may be inaccurate due to dangerous conditions to measurebehind tree,Large mature tree,No,42.0
+39.674661,-75.739382,JH-UD,2,31,87,43,36,Good,,Large mature tree,No,39.5
+39.67466,-75.7397,JH-UD,1,40,69,54,54,Good,Spread 2 may be inaccurate due to dangerous conditions behind the tree,Large mature tree,No,54.0
+39.674341,-75.74169,JH-R,4,29,60,60,40,Good,Spread 2 may be inaccurate because of thorns surrounding this tree,Large mature tree,No,50.0
+39.674032,-75.742142,JH-R,3,21,53,32,32,Good,Spread 2 may be inaccurate as it goes over a fence,Large mature tree,No,32.0
+39.673674,-75.742759,JH-R,2,30,55,46,59,Good,,Large mature tree,No,52.5
+39.673626,-75.742735,JH-R,1,23,49,51,62,Good,Leans to the right at and angle,Large mature tree,No,56.5
+39.673252,-75.744719,KELL,30,2,9,6,3,Good,Newly planted tree Support is 83 inches tall,Newly planted tree,No,4.5
+39.673222,-75.74462,KELL,29,1,8,3,3,Good,Newly planted tree Support is 85 inches tall,Newly planted tree,No,3.0
+39.673315,-75.744466,KELL,28,2,5,4,3,Good,Newly planted tree starting to diverge,Newly planted tree,Yes,3.5
+39.673241,-75.744524,KELL,27,1,6,2,3,Fair,"Newly planted tree Support is inches tall 
 Newly planted thorny tree is growing right next to this one",Newly planted tree,No,2.5
-39.673108,-75.744538,KELL,26,0.64,7.0,3.0,3.0,Good,Newly planted tree Support is 81 inches tall,Newly planted tree,No,3.0
-39.673113,-75.744401,KELL,25,41.81,57.0,85.0,72.0,Good,Diverges above breast height,Large mature tree,Yes,78.5
-39.672969,-75.744544,KELL,24,22.72,66.0,64.0,65.0,Good,,Large mature tree,No,64.5
-39.673029,-75.744958,KELL,21,24.18,34.0,21.0,24.0,Good,Diverges above trunk,Large mature tree,Yes,22.5
-39.672925,-75.744921,KELL,23,21.0,33.0,21.0,20.0,Good,Diverges above trunk,Large mature tree,Yes,20.5
-39.672892,-75.744934,KELL,22,20.48,35.0,19.0,16.0,Good,Diverges above trunk,Large mature tree,Yes,17.5
-39.67292,-75.745031,KELL,20,42.5,76.0,77.0,70.0,Good,,Large mature tree,No,73.5
-39.673074,-75.744724,KELL,19,42.05,96.0,80.0,75.0,Good,,Large mature tree,No,77.5
-39.673244,-75.744848,KELL,18,29.22,92.0,71.0,60.0,Good,,Large mature tree,No,65.5
-39.673209,-75.744693,KELL,17,32.68,120.0,53.0,42.0,Good,,Large mature tree,No,47.5
-39.67322,-75.74487,KELL,16,32.6,78.0,60.0,73.0,Good,,Large mature tree,No,66.5
-39.673237,-75.745009,KELL,15,26.67,61.0,54.0,44.0,Good,"Diverges at breast height
+39.673108,-75.744538,KELL,26,1,7,3,3,Good,Newly planted tree Support is 81 inches tall,Newly planted tree,No,3.0
+39.673113,-75.744401,KELL,25,42,57,85,72,Good,Diverges above breast height,Large mature tree,Yes,78.5
+39.672969,-75.744544,KELL,24,23,66,64,65,Good,,Large mature tree,No,64.5
+39.673029,-75.744958,KELL,21,25,34,21,24,Good,Diverges above trunk,Large mature tree,Yes,22.5
+39.672925,-75.744921,KELL,23,21,33,21,20,Good,Diverges above trunk,Large mature tree,Yes,20.5
+39.672892,-75.744934,KELL,22,21,35,19,16,Good,Diverges above trunk,Large mature tree,Yes,17.5
+39.67292,-75.745031,KELL,20,43,76,77,70,Good,,Large mature tree,No,73.5
+39.673074,-75.744724,KELL,19,43,96,80,75,Good,,Large mature tree,No,77.5
+39.673244,-75.744848,KELL,18,30,92,71,60,Good,,Large mature tree,No,65.5
+39.673209,-75.744693,KELL,17,33,120,53,42,Good,,Large mature tree,No,47.5
+39.67322,-75.74487,KELL,16,33,78,60,73,Good,,Large mature tree,No,66.5
+39.673237,-75.745009,KELL,15,27,61,54,44,Good,"Diverges at breast height
 Branches are growing over a power line",Large mature tree,Yes,49.0
-39.673231,-75.745029,KELL,14,23.84,48.0,38.0,52.0,Good,Diverges at breast height,Large mature tree,Yes,45.0
-39.673265,-75.745284,KELL,13,26.21,80.0,55.0,52.0,Good,,Large mature tree,No,53.5
-39.672983,-75.74524,KELL,12,26.5,74.0,54.0,54.0,Good,,Large mature tree,No,54.0
-39.672931,-75.745392,KELL,11,24.15,84.0,47.0,40.0,Good,,Large mature tree,No,43.5
-39.672579,-75.745604,KELL,10,34.55,81.0,46.0,48.0,Good,,Large mature tree,No,47.0
-39.672971,-75.745416,KELL,9,37.1,85.0,57.0,46.0,Good,,Large mature tree,No,51.5
-39.672726,-75.745694,KELL,8,38.94,73.0,51.0,62.0,Good,,Large mature tree,No,56.5
-39.67273,-75.745751,KELL,7,24.27,66.0,44.0,50.0,Good,,Large mature tree,No,47.0
-39.672746,-75.745929,KELL,6,20.79,78.0,39.0,38.0,Good,,Large mature tree,No,38.5
-39.673259,-75.745458,KELL,5,20.72,57.0,43.0,42.0,Good,,Large mature tree,No,42.5
-39.673246,-75.745843,KELL,4,21.3,54.0,47.0,42.0,Good,,Large mature tree,No,44.5
-39.673235,-75.745967,KELL,3,25.55,65.0,42.0,42.0,Good,,Large mature tree,No,42.0
-39.673297,-75.746207,KELL,2,42.9,57.0,44.0,32.0,Fair,"Tree seems to have chunks of bark missing
+39.673231,-75.745029,KELL,14,24,48,38,52,Good,Diverges at breast height,Large mature tree,Yes,45.0
+39.673265,-75.745284,KELL,13,27,80,55,52,Good,,Large mature tree,No,53.5
+39.672983,-75.74524,KELL,12,27,74,54,54,Good,,Large mature tree,No,54.0
+39.672931,-75.745392,KELL,11,25,84,47,40,Good,,Large mature tree,No,43.5
+39.672579,-75.745604,KELL,10,35,81,46,48,Good,,Large mature tree,No,47.0
+39.672971,-75.745416,KELL,9,38,85,57,46,Good,,Large mature tree,No,51.5
+39.672726,-75.745694,KELL,8,39,73,51,62,Good,,Large mature tree,No,56.5
+39.67273,-75.745751,KELL,7,25,66,44,50,Good,,Large mature tree,No,47.0
+39.672746,-75.745929,KELL,6,21,78,39,38,Good,,Large mature tree,No,38.5
+39.673259,-75.745458,KELL,5,21,57,43,42,Good,,Large mature tree,No,42.5
+39.673246,-75.745843,KELL,4,22,54,47,42,Good,,Large mature tree,No,44.5
+39.673235,-75.745967,KELL,3,26,65,42,42,Good,,Large mature tree,No,42.0
+39.673297,-75.746207,KELL,2,43,57,44,32,Fair,"Tree seems to have chunks of bark missing
 Diverges above trunk",Large mature tree,Yes,38.0
-39.67327,-75.747163,KELL,1,36.36,63.0,41.0,43.0,Good,"Diverges at breast height 
+39.67327,-75.747163,KELL,1,37,63,41,43,Good,"Diverges at breast height 
 Sap dripping from tree",Large mature tree,Yes,42.0
-39.672838,-75.74531,JH-K,8,27.1,79.0,48.0,38.0,Good,,Large mature tree,No,43.0
-39.672743,-75.745517,JH-K,7,29.87,77.0,55.0,48.0,Good,,Large mature tree,No,51.5
-39.672598,-75.745863,JH-K,6,24.76,72.0,49.0,50.0,Good,,Large mature tree,No,49.5
-39.672353,-75.746497,JH-K,5,23.16,74.0,74.0,38.0,Good,,Large mature tree,No,56.0
-39.67228,-75.746715,JH-K,4,20.35,69.0,31.0,32.0,Good,,Large mature tree,No,31.5
-39.672267,-75.746802,JH-K,3,23.2,67.0,31.0,40.0,Good,,Large mature tree,No,35.5
-39.672213,-75.74697,JH-K,2,22.39,76.0,26.0,38.0,Good,,Large mature tree,No,32.0
-39.672179,-75.747002,JH-K,1,23.04,62.0,44.0,52.0,Good,,Large mature tree,No,48.0
-39.672201,-75.748911,LEW,21,26.3,75.0,50.0,50.0,Good,"Tree near river bed, so spread measurements may be inaccurate.",Large mature tree,No,50.0
-39.67195,-75.74901,LEW,20,38.11,79.0,51.0,55.0,Good,,Large mature tree,No,53.0
-39.671939,-75.749349,LEW,19,27.17,61.0,63.0,62.0,Good,,Large mature tree,No,62.5
-39.671778,-75.749408,LEW,18,21.3,31.0,35.0,33.0,Good,Diverges above trunk,Large mature tree,Yes,34.0
-39.672218,-75.750019,LEW,17,22.4,48.0,46.0,23.0,Good,,Large mature tree,No,34.5
-39.672147,-75.749878,LEW,16,23.64,46.0,32.0,33.0,Good,,Large mature tree,No,32.5
-39.672158,-75.749668,LEW,15,31.1,56.0,54.0,52.0,Good,,Large mature tree,No,53.0
-39.67197,-75.749619,LEW,14,41.81,40.0,54.0,46.0,Poor,Diverges drastically and leans,Large mature tree,Yes,50.0
-39.671971,-75.749626,LEW,13,26.02,27.0,49.0,45.0,Good,"Diverges at trunk into 2
+39.672838,-75.74531,JH-K,8,28,79,48,38,Good,,Large mature tree,No,43.0
+39.672743,-75.745517,JH-K,7,30,77,55,48,Good,,Large mature tree,No,51.5
+39.672598,-75.745863,JH-K,6,25,72,49,50,Good,,Large mature tree,No,49.5
+39.672353,-75.746497,JH-K,5,24,74,74,38,Good,,Large mature tree,No,56.0
+39.67228,-75.746715,JH-K,4,21,69,31,32,Good,,Large mature tree,No,31.5
+39.672267,-75.746802,JH-K,3,24,67,31,40,Good,,Large mature tree,No,35.5
+39.672213,-75.74697,JH-K,2,23,76,26,38,Good,,Large mature tree,No,32.0
+39.672179,-75.747002,JH-K,1,24,62,44,52,Good,,Large mature tree,No,48.0
+39.672201,-75.748911,LEW,21,27,75,50,50,Good,"Tree near river bed, so spread measurements may be inaccurate.",Large mature tree,No,50.0
+39.67195,-75.74901,LEW,20,39,79,51,55,Good,,Large mature tree,No,53.0
+39.671939,-75.749349,LEW,19,28,61,63,62,Good,,Large mature tree,No,62.5
+39.671778,-75.749408,LEW,18,22,31,35,33,Good,Diverges above trunk,Large mature tree,Yes,34.0
+39.672218,-75.750019,LEW,17,23,48,46,23,Good,,Large mature tree,No,34.5
+39.672147,-75.749878,LEW,16,24,46,32,33,Good,,Large mature tree,No,32.5
+39.672158,-75.749668,LEW,15,32,56,54,52,Good,,Large mature tree,No,53.0
+39.67197,-75.749619,LEW,14,42,40,54,46,Poor,Diverges drastically and leans,Large mature tree,Yes,50.0
+39.671971,-75.749626,LEW,13,27,27,49,45,Good,"Diverges at trunk into 2
 Diverged part leans heavily",Large mature tree,Yes,47.0
-39.67187,-75.749542,LEW,12,38.38,80.0,75.0,54.0,Good,,Large mature tree,No,64.5
-39.671348,-75.750443,LEW,11,31.39,68.0,40.0,58.0,Fair,Tree seems to be sprouting many small branches in the back,Large mature tree,No,49.0
-39.671317,-75.750589,LEW,10,20.0,74.0,33.0,33.0,Good,"Fence behind tree, so only one spread was collected.
+39.67187,-75.749542,LEW,12,39,80,75,54,Good,,Large mature tree,No,64.5
+39.671348,-75.750443,LEW,11,32,68,40,58,Fair,Tree seems to be sprouting many small branches in the back,Large mature tree,No,49.0
+39.671317,-75.750589,LEW,10,20,74,33,33,Good,"Fence behind tree, so only one spread was collected.
 Fence behind treeso diameter is an estimate.
 Tree has many smaller sticks poking out.",Large mature tree,No,33.0
-39.671381,-75.750349,LEW,9,27.97,83.0,32.0,32.0,Good,Diverges at trunk,Large mature tree,Yes,32.0
-39.671444,-75.75041,LEW,8,26.0,53.0,17.0,17.0,Fair,"Half of the tree has been cut above the trunk
+39.671381,-75.750349,LEW,9,28,83,32,32,Good,Diverges at trunk,Large mature tree,Yes,32.0
+39.671444,-75.75041,LEW,8,26,53,17,17,Fair,"Half of the tree has been cut above the trunk
 Fence behind this tree makes the diameter an estimate
 Spread may be inaccurate due to fence being behind the tree",Large mature tree,No,17.0
-39.671877,-75.750084,LEW,7,25.93,47.0,29.0,36.0,Good,,Large mature tree,No,32.5
-39.671996,-75.75031,LEW,6,31.48,46.0,41.0,43.0,Good,Diverges above trunk,Large mature tree,Yes,42.0
-39.671798,-75.750243,LEW,5,31.01,62.0,32.0,36.0,Good,,Large mature tree,No,34.0
-39.671869,-75.750374,LEW,4,24.7,55.0,41.0,47.0,Good,"Has moss 
+39.671877,-75.750084,LEW,7,26,47,29,36,Good,,Large mature tree,No,32.5
+39.671996,-75.75031,LEW,6,32,46,41,43,Good,Diverges above trunk,Large mature tree,Yes,42.0
+39.671798,-75.750243,LEW,5,32,62,32,36,Good,,Large mature tree,No,34.0
+39.671869,-75.750374,LEW,4,25,55,41,47,Good,"Has moss 
 Diverges above breast height 
 Spread may be inaccurate due to elevation",Large mature tree,Yes,44.0
-39.672229,-75.750427,LEW,3,24.67,66.0,31.0,53.0,Good,Spread measurements may be inaccurate due to elevation,Large mature tree,No,42.0
-39.672038,-75.750001,LEW,2,24.79,63.0,35.0,40.0,Good,,Large mature tree,No,37.5
-39.672357,-75.750193,LEW,1,30.31,79.0,72.0,70.0,Good,,Large mature tree,No,71.0
-39.672291,-75.747629,JH-L,5,20.07,45.0,28.0,28.0,Fair,Fuzzy roots,Large mature tree,No,28.0
-39.67229,-75.747649,JH-L,4,27.0,74.0,38.0,38.0,Fair,Fuzzy roots,Large mature tree,No,38.0
-39.672289,-75.747901,JH-L,3,45.31,77.0,58.0,58.0,Fair,Tree has fuzzy roots,Large mature tree,No,58.0
-39.672184,-75.748562,JH-L,2,35.0,58.0,59.0,59.0,Poor,Fuzz and fungus shown on tree. Part of the bark is missing and measurements may be inaccurate due to dangerous conditions to measure it. ( Pond behind tree tree surrounded by thorns),Large mature tree,No,59.0
-39.671529,-75.749519,JH-L,1,24.63,72.0,44.0,44.0,Good,,Large mature tree,No,44.0
-39.67144,-75.749769,JH-A,13,43.15,63.0,62.0,62.0,Good,,Large mature tree,No,62.0
-39.671328,-75.749814,JH-A,12,39.09,80.0,37.0,37.0,Good,Diverges at trunk,Large mature tree,Yes,37.0
-39.67111,-75.750456,JH-A,11,51.0,80.0,48.0,35.0,Good,,Large mature tree,No,41.5
-39.670839,-75.751329,JH-A,10,40.31,55.0,32.0,32.0,Good,"Diverges at trunk splitting into two looks like someone took the bark off 
+39.672229,-75.750427,LEW,3,25,66,31,53,Good,Spread measurements may be inaccurate due to elevation,Large mature tree,No,42.0
+39.672038,-75.750001,LEW,2,25,63,35,40,Good,,Large mature tree,No,37.5
+39.672357,-75.750193,LEW,1,31,79,72,70,Good,,Large mature tree,No,71.0
+39.672291,-75.747629,JH-L,5,21,45,28,28,Fair,Fuzzy roots,Large mature tree,No,28.0
+39.67229,-75.747649,JH-L,4,27,74,38,38,Fair,Fuzzy roots,Large mature tree,No,38.0
+39.672289,-75.747901,JH-L,3,46,77,58,58,Fair,Tree has fuzzy roots,Large mature tree,No,58.0
+39.672184,-75.748562,JH-L,2,35,58,59,59,Poor,Fuzz and fungus shown on tree. Part of the bark is missing and measurements may be inaccurate due to dangerous conditions to measure it. ( Pond behind tree tree surrounded by thorns),Large mature tree,No,59.0
+39.671529,-75.749519,JH-L,1,25,72,44,44,Good,,Large mature tree,No,44.0
+39.67144,-75.749769,JH-A,13,44,63,62,62,Good,,Large mature tree,No,62.0
+39.671328,-75.749814,JH-A,12,40,80,37,37,Good,Diverges at trunk,Large mature tree,Yes,37.0
+39.67111,-75.750456,JH-A,11,51,80,48,35,Good,,Large mature tree,No,41.5
+39.670839,-75.751329,JH-A,10,41,55,32,32,Good,"Diverges at trunk splitting into two looks like someone took the bark off 
 Surrounded by a lot of thorns",Large mature tree,Yes,32.0
-39.670887,-75.751547,JH-A,9,23.41,53.0,38.0,32.0,Good,,Large mature tree,No,35.0
-39.670791,-75.751676,JH-A,8,22.19,83.0,43.0,50.0,Good,,Large mature tree,No,46.5
-39.670785,-75.751767,JH-A,7,32.8,53.0,25.0,54.0,Poor,This tree leans very heavily to the left and some of the branches point downward,Large mature tree,No,39.5
-39.670587,-75.752204,JH-A,6,24.2,77.0,35.0,35.0,Good,,Large mature tree,No,35.0
-39.670651,-75.751709,JH-A,5,24.83,69.0,38.0,38.0,Good,,Large mature tree,No,38.0
-39.670687,-75.751808,JH-A,4,28.45,68.0,38.0,38.0,Good,,Large mature tree,No,38.0
-39.670479,-75.7524,JH-A,3,24.85,54.0,44.0,54.0,Fair,Seems bark has been peeled off of this tree,Large mature tree,No,49.0
-39.670579,-75.752405,JH-A,2,23.48,58.0,31.0,31.0,Good,Grown moss,Large mature tree,No,31.0
-39.67052,-75.752443,JH-A,1,28.89,56.0,44.0,44.0,Good,Growing green moss,Large mature tree,No,44.0
-39.670026,-75.75436,JH-P,18,1.29,9.0,7.0,5.0,Good,"Newly planted tree 
+39.670887,-75.751547,JH-A,9,24,53,38,32,Good,,Large mature tree,No,35.0
+39.670791,-75.751676,JH-A,8,23,83,43,50,Good,,Large mature tree,No,46.5
+39.670785,-75.751767,JH-A,7,33,53,25,54,Poor,This tree leans very heavily to the left and some of the branches point downward,Large mature tree,No,39.5
+39.670587,-75.752204,JH-A,6,25,77,35,35,Good,,Large mature tree,No,35.0
+39.670651,-75.751709,JH-A,5,25,69,38,38,Good,,Large mature tree,No,38.0
+39.670687,-75.751808,JH-A,4,29,68,38,38,Good,,Large mature tree,No,38.0
+39.670479,-75.7524,JH-A,3,25,54,44,54,Fair,Seems bark has been peeled off of this tree,Large mature tree,No,49.0
+39.670579,-75.752405,JH-A,2,24,58,31,31,Good,Grown moss,Large mature tree,No,31.0
+39.67052,-75.752443,JH-A,1,29,56,44,44,Good,Growing green moss,Large mature tree,No,44.0
+39.670026,-75.75436,JH-P,18,2,9,7,5,Good,"Newly planted tree 
 Support is 84.5 inches tall
 Diverges above breast height",Newly planted tree,Yes,6.0
-39.669927,-75.754528,JH-P,17,0.86,9.0,5.0,6.0,Good,"Newly planted tree 
+39.669927,-75.754528,JH-P,17,1,9,5,6,Good,"Newly planted tree 
 Support is 85.5 inches tall
 Diverges above breast height",Newly planted tree,Yes,5.5
-39.669862,-75.754798,JH-P,16,0.8,9.0,6.0,5.0,Good,"Newly planted tree 
+39.669862,-75.754798,JH-P,16,1,9,6,5,Good,"Newly planted tree 
 Support is 82.5 inches tall",Newly planted tree,No,5.5
-39.669838,-75.754847,JH-P,15,1.75,8.0,9.0,7.0,Good,Young Tree,Young tree,No,8.0
-39.669833,-75.754915,JH-P,14,0.97,13.0,5.0,6.0,Good,"Newly planted tree 
+39.669838,-75.754847,JH-P,15,2,8,9,7,Good,Young Tree,Young tree,No,8.0
+39.669833,-75.754915,JH-P,14,1,13,5,6,Good,"Newly planted tree 
 Support is 83.2 inches tall",Newly planted tree,No,5.5
-39.66967,-75.755184,JH-P,13,0.83,9.0,5.0,6.0,Good,"Newly planted tree 
+39.66967,-75.755184,JH-P,13,1,9,5,6,Good,"Newly planted tree 
 Support is 83.2 inches tall",Newly planted tree,No,5.5
-39.669658,-75.755346,JH-P,12,0.85,10.0,5.0,4.0,Good,"Newly planted tree 
+39.669658,-75.755346,JH-P,12,1,10,5,4,Good,"Newly planted tree 
 Support is inches 83 inches tall",Newly planted tree,No,4.5
-39.669541,-75.755608,JH-P,11,0.86,10.0,6.0,5.0,Good,"Newly planted tree 
+39.669541,-75.755608,JH-P,11,1,10,6,5,Good,"Newly planted tree 
 Support is 74 inches tall",Newly planted tree,No,5.5
-39.669529,-75.755663,JH-P,10,1.96,4.0,9.0,7.0,Good,Young Tree,Young tree,No,8.0
-39.669485,-75.755738,JH-P,9,0.78,9.0,4.0,4.0,Good,"New planted Tree 
+39.669529,-75.755663,JH-P,10,2,4,9,7,Good,Young Tree,Young tree,No,8.0
+39.669485,-75.755738,JH-P,9,1,9,4,4,Good,"New planted Tree 
 Support is 80 inches tall",Newly planted tree,No,4.0
-39.669462,-75.755997,JH-P,8,0.91,9.0,4.0,5.0,Good,"Newly planted tree 
+39.669462,-75.755997,JH-P,8,1,9,4,5,Good,"Newly planted tree 
 Support is 61 inches tall",Newly planted tree,No,4.5
-39.669438,-75.756024,JH-P,7,1.85,10.0,8.0,6.0,Good,Young Tree,Young tree,No,7.0
-39.669464,-75.756038,JH-P,6,0.9,10.0,5.0,4.0,Good,"Newly planted tree 
+39.669438,-75.756024,JH-P,7,2,10,8,6,Good,Young Tree,Young tree,No,7.0
+39.669464,-75.756038,JH-P,6,1,10,5,4,Good,"Newly planted tree 
 Support is 60 inches tall",Newly planted tree,No,4.5
-39.669362,-75.756378,JH-P,5,1.39,5.0,10.0,9.0,Good,Young Tree,Young tree,No,9.5
-39.669292,-75.756361,JH-P,4,1.0,12.0,4.0,5.0,Good,"Newly planted tree 
+39.669362,-75.756378,JH-P,5,2,5,10,9,Good,Young Tree,Young tree,No,9.5
+39.669292,-75.756361,JH-P,4,1,12,4,5,Good,"Newly planted tree 
 Support is 85 inches tall",Newly planted tree,No,4.5
-39.669322,-75.75662,JH-P,3,0.81,11.0,6.0,3.0,Good,"Newly planted tree 
+39.669322,-75.75662,JH-P,3,1,11,6,3,Good,"Newly planted tree 
 Support is 79.7 inches tall",Newly planted tree,No,4.5
-39.669151,-75.756842,JH-P,2,0.83,10.0,6.0,6.0,Good,"Newly planted tree 
+39.669151,-75.756842,JH-P,2,1,10,6,6,Good,"Newly planted tree 
 Support is 80 inches tall 
 Support is leaning",Newly planted tree,No,6.0
-39.669188,-75.756908,JH-P,1,0.92,10.0,5.0,4.0,Good,"Newly planted tree 
+39.669188,-75.756908,JH-P,1,1,10,5,4,Good,"Newly planted tree 
 Support is 76.5 inches tall
 Support is leaning and isn't straight",Newly planted tree,No,4.5
-39.670331,-75.756007,PHIL,21,22.45,95.0,27.0,27.0,Good,2nd spread is estimated,Large mature tree,No,27.0
-39.670284,-75.756229,PHIL,20,21.0,101.0,30.0,30.0,Good,2nd spread is estimated,Large mature tree,No,30.0
-39.670287,-75.75632,PHIL,19,20.5,100.0,32.0,32.0,Poor,Bark is damaged with sap seeping out.,Large mature tree,No,32.0
-39.670375,-75.756634,PHIL,18,22.35,138.0,35.0,35.0,Good,2nd spread is estimated ,Large mature tree,No,35.0
-39.670323,-75.75736,PHIL,17,27.7,106.0,56.0,44.0,Good,,Large mature tree,No,50.0
-39.670365,-75.758208,PHIL,16,32.85,98.0,50.0,50.0,Good,"Data may vary (Measured from elevated ground to lower grounds; tree is located on lower grounds). Next to a shed. Multi-branch, measured from before the branches diverges.",Large mature tree,Yes,50.0
-39.670298,-75.758079,PHIL,15,3.55,41.0,6.0,8.0,Good,"Young Tree
+39.670331,-75.756007,PHIL,21,23,95,27,27,Good,2nd spread is estimated,Large mature tree,No,27.0
+39.670284,-75.756229,PHIL,20,21,101,30,30,Good,2nd spread is estimated,Large mature tree,No,30.0
+39.670287,-75.75632,PHIL,19,21,100,32,32,Poor,Bark is damaged with sap seeping out.,Large mature tree,No,32.0
+39.670375,-75.756634,PHIL,18,23,138,35,35,Good,2nd spread is estimated ,Large mature tree,No,35.0
+39.670323,-75.75736,PHIL,17,28,106,56,44,Good,,Large mature tree,No,50.0
+39.670365,-75.758208,PHIL,16,33,98,50,50,Good,"Data may vary (Measured from elevated ground to lower grounds; tree is located on lower grounds). Next to a shed. Multi-branch, measured from before the branches diverges.",Large mature tree,Yes,50.0
+39.670298,-75.758079,PHIL,15,4,41,6,8,Good,"Young Tree
 No support",Young tree,No,7.0
-39.670046,-75.757654,PHIL,14,2.7,16.0,6.0,8.0,Good,"Young Tree
+39.670046,-75.757654,PHIL,14,3,16,6,8,Good,"Young Tree
 No support
 Diverges above breast height",Young tree,Yes,7.0
-39.670017,-75.757987,PHIL,13,3.94,30.0,8.0,6.0,Good,"Young Tree
+39.670017,-75.757987,PHIL,13,4,30,8,6,Good,"Young Tree
 Diverges above breast height
 No support",Young tree,Yes,7.0
-39.669969,-75.758015,PHIL,12,0.82,6.6,1.0,1.0,Good,"Newly planted tree 
+39.669969,-75.758015,PHIL,12,1,7,1,1,Good,"Newly planted tree 
 Support is 85 iinches",Newly planted tree,No,1.0
-39.669055,-75.757489,PHIL,11,0.93,12.0,4.0,5.0,Good,"Newly planted tree 
+39.669055,-75.757489,PHIL,11,1,12,4,5,Good,"Newly planted tree 
 Support is 80 inches",Newly planted tree,No,4.5
-39.669127,-75.757656,PHIL,10,1.6,12.0,6.0,7.0,Good,Young Tree,Young tree,No,6.5
-39.668814,-75.75856,PHIL,9,23.7,76.0,32.0,38.0,Good,,Large mature tree,No,35.0
-39.669391,-75.75837,PHIL,8,22.85,86.0,48.0,42.0,Good,,Large mature tree,No,45.0
-39.669408,-75.758122,PHIL,7,22.45,70.0,37.0,40.0,Good,,Large mature tree,No,38.5
-39.668918,-75.758482,PHIL,5,0.92,13.0,4.0,5.0,Good,"Newly planted tree 
+39.669127,-75.757656,PHIL,10,2,12,6,7,Good,Young Tree,Young tree,No,6.5
+39.668814,-75.75856,PHIL,9,24,76,32,38,Good,,Large mature tree,No,35.0
+39.669391,-75.75837,PHIL,8,23,86,48,42,Good,,Large mature tree,No,45.0
+39.669408,-75.758122,PHIL,7,23,70,37,40,Good,,Large mature tree,No,38.5
+39.668918,-75.758482,PHIL,5,1,13,4,5,Good,"Newly planted tree 
 Support is 83 inches tall",Newly planted tree,No,4.5
-39.668986,-75.758563,PHIL,6,0.98,12.0,2.0,2.0,Good,"Newly planted tree 
+39.668986,-75.758563,PHIL,6,1,12,2,2,Good,"Newly planted tree 
 Support of 81 inches",Newly planted tree,No,2.0
-39.668958,-75.758443,PHIL,4,1.57,12.0,3.0,4.0,Good,"Newly planted tree 
+39.668958,-75.758443,PHIL,4,2,12,3,4,Good,"Newly planted tree 
 Support is 78
 Diverges above breast height",Newly planted tree,Yes,3.5
-39.668942,-75.758181,PHIL,3,0.99,14.0,3.0,3.0,Good,"Newly planted tree 
+39.668942,-75.758181,PHIL,3,1,14,3,3,Good,"Newly planted tree 
 Has a support that is 77.5 inches",Newly planted tree,No,3.0
-39.66896,-75.758135,PHIL,2,0.79,13.0,5.0,3.0,Good,"Newly planted tree
+39.66896,-75.758135,PHIL,2,1,13,5,3,Good,"Newly planted tree
 This tree has a support that is 74 inches tall",Newly planted tree,No,4.0
-39.668976,-75.757992,PHIL,1,0.71,5.0,5.0,3.0,Good,Newly planted tree,Newly planted tree,No,4.0
+39.668976,-75.757992,PHIL,1,1,5,5,3,Good,Newly planted tree,Newly planted tree,No,4.0

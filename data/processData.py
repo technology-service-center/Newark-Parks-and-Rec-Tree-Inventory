@@ -1,10 +1,6 @@
 import pandas as pd
 
-sheet_id = "1CrADExohsLWq7vGZhaonv0nHoEUQfKkVnnjnETOM3Os"
-url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv"
-
-# Raw data
-trees = pd.read_csv(url)
+trees = pd.read_csv("roundUpData.csv")
 
 # Dropping unnecessary columns
 trees = trees.drop(columns=[
@@ -17,7 +13,8 @@ trees = trees.drop(columns=[
     "5_Photo",
     "UTM_Northing_2_Location",
     "UTM_Easting_2_Location",
-    "UTM_Zone_2_Location"
+    "UTM_Zone_2_Location", 
+    "Species"
 ])
 
 # Renaming columns so that it is easier to read/work with
