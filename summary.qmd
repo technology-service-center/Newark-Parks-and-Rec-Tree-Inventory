@@ -39,6 +39,7 @@ Based on the inventory data, the following maintenance actions are recommended:
 
 ### Technological Integration
 We propose developing a **computer vision–based workflow** to assist in future tree screenings. By training models on images of visible rot and structural defects collected during this inventory, we can:
+
 1.  Automate preliminary condition assessments.
 2.  Reduce field workload for certified arborists.
 3.  Create a "triage" system to prioritize trees for manual inspection.
