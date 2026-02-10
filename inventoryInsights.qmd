@@ -4,6 +4,81 @@ title: "Inventory Insights"
 
 The tree inventory reveals distinct patterns in tree age and distribution across the study area. Large mature trees are primarily concentrated within Kells Park, indicating a long-established canopy in that location. In contrast, newly planted trees are most common in JH-P, reflecting recent restoration or expansion efforts. The following figures summarize key insights into tree density, size, and condition, highlighting both the spatial distribution of significant trees and the health trends across different sites.
 
+## Tree Inventory Map 
+
+```{python}
+#| echo: false
+import plotly.graph_objects as go
+import plotly.express as px
+
+import pandas as pd
+
+trees = pd.read_csv("data/processedTreeData.csv")
+
+fig = go.Figure()
+
+# Color set
+colors = (
+    px.colors.qualitative.Plotly +
+    px.colors.qualitative.Pastel
+)
+
+sites = ["JH-W", "JH-P", "JH-A", "JH-L", "JH-K", "JH-R", "JH-UD", "JH-E", "PHIL", "LEW", "KELL"]
+
+for i, site in enumerate(sites):
+    site_trees = trees[trees["Site"] == site]
+
+    fig.add_trace(
+        go.Scattermap(
+            lat=site_trees["Latitude"],
+            lon=site_trees["Longitude"],
+            mode="markers",
+            name=site, # Toggleable legend entry
+            marker=dict(
+                size=site_trees["DBH"]*2,     # Size varies by DBH
+                sizemode="area",                        # Area proportional to value
+                opacity=0.8,
+                color=colors[i % len(colors)]
+            ),
+            text=(site_trees["Site"].astype(str) + "-" + site_trees["Tree ID"].astype(str).str.zfill(3)),
+            customdata=site_trees[[
+                "DBH",
+                "Tree Height",
+                "Tree Condition"
+            ]],
+            hovertemplate=
+                "<b>%{text}</b><br>" +
+                "Diameter at Breast Height (dbh): %{customdata[0]}<br>" +
+                "Height: %{customdata[1]}<br>" +
+                "Condition: %{customdata[2]}<br>" +
+                "<extra></extra>"
+        )
+    )
+
+fig.update_layout(
+    title=dict(
+        x=0.5,
+        xanchor='center',
+        font=dict(size=15)
+    ),
+    map=dict(
+        style="carto-positron",
+        zoom=14,
+        center=dict(
+            lat=trees["Latitude"].mean(),
+            lon=trees["Longitude"].mean()
+        )
+    ),
+    margin=dict(r=0, t=30, l=0, b=0),
+    height=600
+)
+
+fig
+
+```
+<br/>
+**Figure 2**: Tree inventory map. Each point is an inventoried tree with its size relative to its DBH. 
+
 ## Tree Density
 
 
@@ -14,9 +89,6 @@ warnings.filterwarnings("ignore", category=DeprecationWarning)
 warnings.filterwarnings("ignore", category=FutureWarning)
 
 import plotly.express as px
-import pandas as pd
-
-trees = pd.read_csv("data/processedTreeData.csv")
 
 # Map center
 center_lat = trees["Latitude"].mean()
@@ -332,6 +404,7 @@ fig.show()
 | KELL | 8 | 0 | 1 |
 
 <br/>
+
 **Table 1**: Count of multi-branch trees by site and significant tree type, excluding sites with no inventoried multi-branch trees.
 
 Multi-branch trees provide greater canopy coverage, as multiple branches contribute to foliage and shade. Among the inventoried multi-branch trees, some may be codominant stems, where two or more large stems grow from the same point, forming a narrow “V”-shaped crotch. These stems can be structurally weaker as the tree matures and are most effectively managed through pruning while the trees are young ([Mitchell 2017](inventoryInsights.html#references)).

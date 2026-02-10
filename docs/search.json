@@ -244,7 +244,7 @@
     "href": "inventoryInsights.html#multi-branch-trees-across-sites",
     "title": "Inventory Insights",
     "section": "Multi-Branch Trees Across Sites",
-    "text": "Multi-Branch Trees Across Sites\n\n\n                            \n                                            \n\n\n Figure 5: Overall number of multi-branch trees by site.\n\n\n\n\nSite\nLarge mature tree\nYoung tree\nNewly planted tree\n\n\n\n\nJH-W\n4\n0\n0\n\n\nJH-P\n2\n0\n2\n\n\nJH-A\n0\n0\n0\n\n\nPHIL\n1\n2\n1\n\n\nLEW\n6\n0\n0\n\n\nKELL\n8\n0\n1\n\n\n\n Table 1: Count of multi-branch trees by site and significant tree type, excluding sites with no inventoried multi-branch trees.\nMulti-branch trees provide greater canopy coverage, as multiple branches contribute to foliage and shade. Among the inventoried multi-branch trees, some may be codominant stems, where two or more large stems grow from the same point, forming a narrow “V”-shaped crotch. These stems can be structurally weaker as the tree matures and are most effectively managed through pruning while the trees are young (Mitchell 2017).\nAs shown in Figure 5, Kells Park contains the highest number of multi-branch trees (9). Of these, eight are classified as large mature trees (Table 1), suggesting that this site would benefit from focused monitoring over time.\nIn addition, multi-branch young and newly planted trees were identified in JH-P, Philips Park, and Kells Park, where early pruning may help guide branch development and reduce future maintenance needs.",
+    "text": "Multi-Branch Trees Across Sites\n\n\n                            \n                                            \n\n\n Figure 5: Overall number of multi-branch trees by site.\n\n\n\n\nSite\nLarge mature tree\nYoung tree\nNewly planted tree\n\n\n\n\nJH-W\n4\n0\n0\n\n\nJH-P\n2\n0\n2\n\n\nJH-A\n0\n0\n0\n\n\nPHIL\n1\n2\n1\n\n\nLEW\n6\n0\n0\n\n\nKELL\n8\n0\n1\n\n\n\n\nTable 1: Count of multi-branch trees by site and significant tree type, excluding sites with no inventoried multi-branch trees.\nMulti-branch trees provide greater canopy coverage, as multiple branches contribute to foliage and shade. Among the inventoried multi-branch trees, some may be codominant stems, where two or more large stems grow from the same point, forming a narrow “V”-shaped crotch. These stems can be structurally weaker as the tree matures and are most effectively managed through pruning while the trees are young (Mitchell 2017).\nAs shown in Figure 5, Kells Park contains the highest number of multi-branch trees (9). Of these, eight are classified as large mature trees (Table 1), suggesting that this site would benefit from focused monitoring over time.\nIn addition, multi-branch young and newly planted trees were identified in JH-P, Philips Park, and Kells Park, where early pruning may help guide branch development and reduce future maintenance needs.",
     "crumbs": [
       "Insights"
     ]
@@ -284,7 +284,7 @@
     "href": "method.html#training-and-quality-control",
     "title": "Method",
     "section": "Training and Quality Control",
-    "text": "Training and Quality Control\nField surveyors received standardized training on data collection procedures prior to inventory. Training included:\n\nProper use of the EpicCollect5 app and consistent entry of metadata.\nCorrect measurement techniques for DBH, height, and crown spread.\nStandardized criteria for condition ratings (Good, Fair, Poor).\nPractice measurements conducted on sample trees to calibrate methods and reduce inter-rater variability.\n\nEach surveyor was provided with a standard equipment kit, which included:\n\nMeasuring wheel\nDiameter tape\nTangent height gauge\nGPS-enabled smartphone with EpicCollect5 installed and camera\nHammer\nTree tag\n\nTo ensure data quality, the following checks were implemented: - Periodic spot checks of tree measurements and photos. - Verification of GPS accuracy by comparing recorded coordinates to known site landmarks. - Removal of duplicate entries and correction of obvious data entry errors during data cleaning.",
+    "text": "Training and Quality Control\nField surveyors received standardized training on data collection procedures prior to inventory. Training included:\n\nProper use of the EpicCollect5 app and consistent entry of metadata.\nCorrect measurement techniques for DBH, height, and crown spread.\nStandardized criteria for condition ratings (Good, Fair, Poor).\nPractice measurements conducted on sample trees to calibrate methods and reduce inter-rater variability.\n\nEach surveyor was provided with a standard equipment kit, which included:\n\nMeasuring wheel\nDiameter tape\nTangent height gauge\nGPS-enabled smartphone with EpicCollect5 installed and camera\nHammer\nTree tag\n\nTo ensure data quality, the following checks were implemented:\n\nPeriodic spot checks of tree measurements and photos.\nVerification of GPS accuracy by comparing recorded coordinates to known site landmarks.\nRemoval of duplicate entries and correction of obvious data entry errors during data cleaning.",
     "crumbs": [
       "Method"
     ]
@@ -327,6 +327,36 @@
     "text": "Maintenance Recommendations\nBased on the inventory data, the following maintenance actions are recommended:\n\n\n\n\n\n\n\n\n\nPriority\nLocation\nIssue\nRecommended Action\n\n\n\n\nHigh\nJH-W\nConcentration of “Poor” condition trees\nConduct individual risk assessments (Level 2) to determine removal or mitigation needs.\n\n\nMedium\nKell Park\nHigh volume of large, multi-branch trees\nSchedule structural pruning to reduce failure risk over park amenities.\n\n\nLow\nJH-P\nHigh density of newly planted trees\nEnsure watering schedule and check stakes/ties for girdling risk in 12-24 months.",
     "crumbs": [
       "Summary"
+    ]
+  },
+  {
+    "objectID": "inventoryInsights.html#tree-map",
+    "href": "inventoryInsights.html#tree-map",
+    "title": "Inventory Insights",
+    "section": "Tree Map",
+    "text": "Tree Map\n\n\n                            \n                                            \n\n\n Figure 2: Tree inventory map. Each point is an inventoried tree with its size relative to its DBH.",
+    "crumbs": [
+      "Insights"
+    ]
+  },
+  {
+    "objectID": "method.html#measurement-of-multi-branch-trees",
+    "href": "method.html#measurement-of-multi-branch-trees",
+    "title": "Method",
+    "section": "Measurement of Multi-branch Trees",
+    "text": "Measurement of Multi-branch Trees\nSome trees encountered during the survey exhibited a multi-branch structure, meaning that the main trunk split into two or more major branches at or near breast height (approximately 4.5 feet above ground level). These branches function as co-dominant stems rather than a single central trunk, which makes standard diameter and spread measurements less straightforward.\nTo ensure consistency, multi-branch trees were measured using the same spread methodology applied to single-trunk trees, with careful attention to capturing the full canopy extent. Specifically, the canopy spread was measured in two perpendicular directions:\n\nFirst, the horizontal distance was measured between the outermost tips of the canopy from the leftmost branch tip to the rightmost branch tip, using the outermost visible branch extensions regardless of which trunk they originated from.\nSecond, a perpendicular measurement was taken from the furthest branch tip in the front of the tree to the furthest branch tip behind the tree.\n\nThese two measurements capture the full canopy width across both major axes, ensuring that all major branches contributing to the canopy are included.\nFor trees with multiple co-dominant trunks, measurements were taken based on the overall tree structure rather than individual branches. The goal was to represent the total canopy size and spatial footprint of the tree as a single ecological unit.\nThis method ensures consistency across all trees and allows fair comparison between single-trunk and multi-branch trees.",
+    "crumbs": [
+      "Method"
+    ]
+  },
+  {
+    "objectID": "inventoryInsights.html#tree-inventory-map",
+    "href": "inventoryInsights.html#tree-inventory-map",
+    "title": "Inventory Insights",
+    "section": "Tree Inventory Map",
+    "text": "Tree Inventory Map\n\n\n                            \n                                            \n\n\n Figure 2: Tree inventory map. Each point is an inventoried tree with its size relative to its DBH.",
+    "crumbs": [
+      "Insights"
     ]
   }
 ]
