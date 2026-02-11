@@ -26,7 +26,7 @@ Data for the 2025 Significant Tree Inventory project were collected using the **
 
 ## Measurement of Multi-branch Trees
 
-Some trees encountered during the survey exhibited a multi-branch structure, meaning that the main trunk split into two or more major branches at or near breast height (approximately 4.5 feet above ground level). These branches function as co-dominant stems rather than a single central trunk, which makes standard diameter and spread measurements less straightforward.
+Some trees encountered during the survey exhibited a multi-branch structure, meaning that the main trunk split into two or more major branches at or below breast height. These branches function as co-dominant stems rather than a single central trunk, which makes standard diameter and spread measurements less straightforward.
 
 To ensure consistency, multi-branch trees were measured using the same spread methodology applied to single-trunk trees, with careful attention to capturing the full canopy extent. Specifically, the canopy spread was measured in two perpendicular directions:
 
