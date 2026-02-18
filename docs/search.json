@@ -54,7 +54,7 @@
     "href": "inventoryInsights.html#tree-inventory-map",
     "title": "Inventory Insights",
     "section": "Tree Inventory Map",
-    "text": "Tree Inventory Map\n\n\n                            \n                                            \n\n\n Figure 3. Tree inventory map. Each point is an inventoried tree with its size relative to its DBH.",
+    "text": "Tree Inventory Map\n\n\n                            \n                                            \n\n\n Figure 3. Tree inventory map. Each point is an inventoried tree with its size proportional to its DBH. For the sake of visualization, large mature trees are scaled by 0.5 , while young and newly planted trees are scaled by 3.",
     "crumbs": [
       "Insights"
     ]

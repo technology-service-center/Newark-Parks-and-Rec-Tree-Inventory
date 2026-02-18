@@ -27,36 +27,83 @@ sites = ["JH-W", "JH-P", "JH-A", "JH-L", "JH-K", "JH-R", "JH-UD", "JH-E", "PHIL"
 
 for i, site in enumerate(sites):
     site_trees = trees[trees["Site"] == site]
+    legend_added = False   # Track legend per site
 
-    fig.add_trace(
-        go.Scattermap(
-            lat=site_trees["Latitude"],
-            lon=site_trees["Longitude"],
-            mode="markers",
-            name=site, # Toggleable legend entry
-            marker=dict(
-                size=site_trees["DBH"]*2,     # Size varies by DBH
-                sizemode="area",                        # Area proportional to value
-                opacity=0.8,
-                color=colors[i % len(colors)]
-            ),
-            text=(site_trees["Site"].astype(str) + "-" + site_trees["Tree ID"].astype(str).str.zfill(3)),
-            customdata=site_trees[[
-                "DBH",
-                "Tree Height",
-                "Tree Condition"
-            ]],
-            hovertemplate=
-                "<b>%{text}</b><br>" +
-                "Diameter at Breast Height (dbh): %{customdata[0]}<br>" +
-                "Height: %{customdata[1]}<br>" +
-                "Condition: %{customdata[2]}<br>" +
-                "<extra></extra>"
+    # Large mature trees
+    large_trees = site_trees[
+        site_trees["Type of Significant Trees"] == "Large mature tree"
+    ]
+
+    if not large_trees.empty:
+        fig.add_trace(
+            go.Scattermap(
+                lat=large_trees["Latitude"],
+                lon=large_trees["Longitude"],
+                mode="markers",
+                name=site,
+                legendgroup=site,
+                showlegend=not legend_added,
+                marker=dict(
+                    size=large_trees["DBH"]*.5,
+                    opacity=0.8,
+                    color=colors[i % len(colors)]
+                ),
+                text=(large_trees["Site"].astype(str) + "-" +
+                      large_trees["Tree ID"].astype(str).str.zfill(3)),
+                customdata=large_trees[[
+                    "DBH", "Tree Height", "Tree Condition"
+                ]],
+                hovertemplate=
+                    "<b>%{text}</b><br>" +
+                    "Diameter at Breast Height (dbh): %{customdata[0]}<br>" +
+                    "Height: %{customdata[1]}<br>" +
+                    "Condition: %{customdata[2]}<br>" +
+                    "<extra></extra>"
+            )
         )
-    )
+        legend_added = True
+
+    # Small trees
+    small_trees = site_trees[
+        site_trees["Type of Significant Trees"].isin(
+            ["Young tree", "Newly planted tree"]
+        )
+    ]
+
+    if not small_trees.empty:
+        fig.add_trace(
+            go.Scattermap(
+                lat=small_trees["Latitude"],
+                lon=small_trees["Longitude"],
+                mode="markers",
+                name=site,
+                legendgroup=site,
+                showlegend=not legend_added,   # Only if legend not yet created
+                marker=dict(
+                    size=small_trees["DBH"]*3,
+                    opacity=0.8,
+                    color=colors[i % len(colors)]
+                ),
+                text=(small_trees["Site"].astype(str) + "-" +
+                      small_trees["Tree ID"].astype(str).str.zfill(3)),
+                customdata=small_trees[[
+                    "DBH", "Tree Height", "Tree Condition"
+                ]],
+                hovertemplate=
+                    "<b>%{text}</b><br>" +
+                    "Diameter at Breast Height (dbh): %{customdata[0]}<br>" +
+                    "Height: %{customdata[1]}<br>" +
+                    "Condition: %{customdata[2]}<br>" +
+                    "<extra></extra>"
+            )
+        )
+        legend_added = True
+
+
 
 fig.update_layout(
     title=dict(
+        text="Tree Inventory Map",
         x=0.5,
         xanchor='center',
         font=dict(size=15)
@@ -77,7 +124,7 @@ fig
 
 ```
 <br/>
-**Figure 3.** Tree inventory map. Each point is an inventoried tree with its size relative to its DBH. 
+**Figure 3.** Tree inventory map. Each point is an inventoried tree with its size proportional to its DBH. For the sake of visualization, large mature trees are scaled by 0.5 , while young and newly planted trees are scaled by 3.  
 
 ## Tree Density
 
